@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".FilterClasses.JobRequirementFilter">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"/>
+
+    <ScrollView
+        android:id="@+id/scrolllayout"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/form"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/jobId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/rupee"
+                    android:fontFamily="@font/gothic"
+                    android:hint="Job Id"
+                    android:maxEms="10"
+                    android:singleLine="true"
+                    android:digits="0123456789qwertyuiopasdfghjklzxcvbnmASDFGHJKLPOIUYTREWQZXCVBNM"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+                <requestFocus />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/medicalProfile_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_medical_profile"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/medicalProfile_auto"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/SpealizationLayout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg1"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="@string/specialilty"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_below="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_multiSpeciality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+            <RelativeLayout
+                android:id="@+id/departmentAutoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg2"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/departmentListAuto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg2"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="Department"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/departmentListAuto"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_multiDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+            <RelativeLayout
+                android:id="@+id/titleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/title"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/Title_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/title"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="Title"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/Title_auto"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_multiTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+
+            <RelativeLayout
+                android:id="@+id/rel_lay_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+                <RelativeLayout
+                    android:id="@+id/rel_lay_country"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/countryImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/state"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/country_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/countryImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_country"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewcountry"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_country"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+                <RelativeLayout
+                    android:id="@+id/rel_lay_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewcountry">
+                    <ImageView
+                        android:id="@+id/stateImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/city"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/state_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/stateImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_state"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewOne"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_state"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+
+                <RelativeLayout
+                    android:id="@+id/rel_lay_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewOne">
+                    <ImageView
+                        android:id="@+id/cityImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/equipment_icon"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/city_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/cityImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_city"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+                <View
+                    android:id="@+id/viewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:layout_below="@+id/rel_lay_city"
+                    android:background="@color/view_color"/>
+
+            </RelativeLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_drawable_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/state"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/experience"
+                    android:inputType="number"
+                    android:maxLength="2"
+
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/salary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/rupee"
+                    android:fontFamily="@font/gothic"
+                    android:hint="Salary (INR)"
+                    android:inputType="number"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+
+        android:id="@+id/filterJobButtton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:background="@drawable/btnlogin"
+        android:fontFamily="@font/gothicb"
+        android:text="@string/search"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/btnTxt" />
+
+
+</LinearLayout>

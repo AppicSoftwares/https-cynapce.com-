@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcanzar.cynapse.activity.PrivacyPolicyActivity">
+    <include layout="@layout/header"
+        android:id="@+id/top"/>
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/recycleView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/top">-->
+    <!--</android.support.v7.widget.RecyclerView>-->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_8sdp">
+            <TextView
+                android:id="@+id/priv_pol_txt"
+                android:gravity="left"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/blue"
+
+                android:fontFamily="@font/gothic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""/>
+            <TextView
+                android:id="@+id/priv_pol_txt_second"
+                android:gravity="left"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/blue"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/gothic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

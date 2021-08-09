@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+    <include layout="@layout/header"
+        android:id="@+id/top"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_below="@id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/hello"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:textColor="@color/color_white"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/receive_msg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/two"
+            android:layout_below="@+id/one"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/how_can_i_help_you"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:textColor="@color/color_white"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/receive_msg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/three"
+            android:layout_below="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/hello_demo_user"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:textColor="@color/color_white"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/send_msg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/four"
+            android:layout_below="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tags"
+            android:layout_marginStart="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:textColor="@color/color_white"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/send_msg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_centerInParent="true"
+            android:text="@string/hello_demo_user"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:textColor="@color/color_white"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/receive_msg"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/msgText"
+            android:textColor="@color/light_black"
+            android:textColorHint="@color/colorgrey"
+            android:fontFamily="@font/gothicb"
+            android:textSize="@dimen/_10sdp"
+            android:inputType="text"
+            android:background="@drawable/msgbox"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/write_a_message"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_10sdp"/>
+        <Button
+            android:id="@+id/btnSend"
+            android:background="@drawable/send"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp" />
+    </RelativeLayout>
+</RelativeLayout>
+

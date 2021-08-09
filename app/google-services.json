@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "145735751483",
+    "firebase_url": "https://cynapse-android.firebaseio.com",
+    "project_id": "cynapse-android",
+    "storage_bucket": "cynapse-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145735751483:android:5d662d437a450f66",
+        "android_client_info": {
+          "package_name": "com.alcanzar.cynapse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145735751483-oh44poukvcr8vj7tq564h914e0tu4401.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alcanzar.cynapse",
+            "certificate_hash": "6d0636ce798f7725dabcdd45b64f6efe5dddcb1f"
+          }
+        },
+        {
+          "client_id": "145735751483-0f0u5o27v6anhli0st4455bsngkmctbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJtgX--ZVUqaSMlr4AUEVgbwWM0XfvY-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145735751483-bce0kvha0ch61akpql7q6svbmfk22tof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

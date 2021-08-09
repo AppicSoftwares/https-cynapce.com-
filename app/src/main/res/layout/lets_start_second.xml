@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <ImageView
+        android:id="@+id/topLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_second"/>
+    <TextView
+        android:id="@+id/topText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/topLogo"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Servicing Healthcare for more"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/gothicb"
+        android:textColor="@color/light_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+    android:id="@+id/secondText"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/topText"
+    android:text="Doctors, Nurses, Technical and Administrative staff, Healthcare providers, Dealers, Investors"
+    android:textSize="@dimen/_10sdp"
+    android:gravity="center"
+    android:paddingStart="@dimen/_5sdp"
+    android:paddingEnd="@dimen/_5sdp"
+    android:fontFamily="@font/gothicb"
+    android:textColor="@color/light_black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/secondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:id="@+id/linOne"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".3"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/market_place" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".7"
+                    android:gravity="start"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="Healthcare deals and classifieds"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin_two"
+            android:layout_below="@+id/linOne"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".31"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/case_stud_second" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".69"
+                    android:gravity="start"
+                    android:paddingStart="@dimen/_25sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="@string/case_studies"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin_three"
+            android:layout_below="@+id/lin_two"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".31"
+                    android:src="@drawable/find_jobs_second" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".69"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="start"
+
+                    android:text="@string/find_jobs"
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_four"
+            android:layout_below="@+id/lin_three"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".31"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/case_pub_second" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".69"
+                    android:gravity="start"
+
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="Publication Assistance/Medical writing"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lin_five"
+            android:layout_below="@+id/lin_four"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:layout_weight=".31"
+                    android:src="@drawable/community_forum_second" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_weight=".69"
+                    android:fontFamily="@font/gothicb"
+
+                    android:text="Healthcare Conference &amp; events"
+                    android:textColor="@color/color_violet"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin_six"
+            android:layout_below="@+id/lin_five"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".31"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/conferences" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".69"
+                    android:gravity="start"
+                    android:paddingStart="@dimen/_25sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="Conferences"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin_lay_sev"
+            android:layout_below="@+id/lin_six"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".31"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dealer_distributor" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".69"
+                    android:gravity="start"
+                    android:paddingStart="@dimen/_25sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothicb"
+                    android:text="Dealers &amp; Distributors"
+                    android:textColor="@color/lip_red"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:src="@drawable/case_studies"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothicb"
+                android:text="@string/case_studies"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_below="@id/linOne"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="@dimen/_5sdp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:weightSum="1">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:orientation="vertical">-->
+                <!--<ImageView-->
+                    <!--android:id="@+id/findJobs"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/_120sdp"-->
+                    <!--android:src="@drawable/find_jobs"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/findJobsText"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:fontFamily="@font/gothicb"-->
+                    <!--android:text="@string/find_jobs"-->
+                    <!--android:textColor="@color/yellow"-->
+                    <!--android:textSize="@dimen/_11sdp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:orientation="vertical">-->
+                <!--<ImageView-->
+                    <!--android:id="@+id/gettingPublished"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/_120sdp"-->
+                    <!--android:src="@drawable/get_published"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/gettingPublishedText"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:fontFamily="@font/gothicb"-->
+                    <!--android:text="@string/getting_published"-->
+                    <!--android:textColor="@color/colorgrey"-->
+                    <!--android:textSize="@dimen/_11sdp" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ThiredText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/_140sdp"
+        android:fontFamily="@font/gothicb"
+        android:gravity="center"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:text="More Services coming soon..."
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:layout_above="@id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:fontFamily="@font/gothicb"
+            android:gravity="center"
+            android:text="A product by NVM Healthcare Pvt.Ltd."
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnStart"
+        android:text="@string/let_s_start"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btnblue"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="@dimen/_40sdp"
+        android:textColor="@color/color_white"
+        android:fontFamily="@font/gothicb"
+        android:textSize="@dimen/_13sdp"/>
+</RelativeLayout>

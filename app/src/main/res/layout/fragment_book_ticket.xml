@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnr_day_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<TextView-->
+        <!--android:id="@+id/txt_available_date"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:textSize="@dimen/_16sdp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:visibility="gone"-->
+        <!--android:text="No Data Available !"/>-->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_day"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@+id/lnr_day_price"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@color/colorgrey"></View>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+
+        android:layout_below="@+id/view_day"
+        android:scrollbars="none">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnr_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="end"
+                    android:text="Total Price: "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/adapterTotalPrice"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:text="0"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_or"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_total_price"
+                android:fontFamily="@font/gothic"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="OR"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/lnr_allday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_or"
+                android:paddingLeft="5dp"
+                android:paddingTop="@dimen/_5sdp">
+
+                <RadioButton
+                    android:id="@+id/radioAny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:text="All Day"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="end|center_vertical"
+                    android:text="Total Price: "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/textTotalPrice1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:text="2156.0"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_consession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="7dp"
+                android:visibility="visible"
+                android:paddingTop="@dimen/_5sdp"
+                android:layout_below="@+id/lnr_allday"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:gravity="left"
+                    android:visibility="gone"
+                    android:text=""
+                    android:layout_weight=".010" />
+
+                <TextView
+                    android:id="@+id/txt_amnt_conces"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:layout_weight=".82" />
+
+                <TextView
+                    android:id="@+id/txt_amnt_rupe"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:visibility="gone"
+                    android:text="Rs."
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:layout_weight=".05" />
+
+                <TextView
+                    android:id="@+id/txt_aft_concess"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="left"
+
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:layout_weight=".13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_acc_chr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_consession"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="@dimen/_5sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:text="Do you want accommodation : "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+                <LinearLayout
+                    android:id="@+id/dataradio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end|center_vertical"
+                    android:paddingTop="@dimen/_5sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic"
+                        android:text=" Rs."
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <TextView
+                        android:id="@+id/accommodationPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:fontFamily="@font/gothic"
+                        android:text="100"
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:checkedButton="@id/rButton2"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothic"
+                            android:text="Yes"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="@dimen/_11sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothic"
+                            android:text="No"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_acc_chr"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="You are booking after "
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <TextView
+                        android:id="@+id/dateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic"
+                        android:text="02-08-2018"
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gothic"
+                        android:text=" , "
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_13sdp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chargeper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateLayout"
+                android:paddingLeft="@dimen/_8sdp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:text="so you will be charged"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/textPerPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:fontFamily="@font/gothic"
+                    android:text="3"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:text="% extra :"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+                <TextView
+                    android:id="@+id/charg_extra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnr_afer_promoprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chargeper"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:visibility="visible"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txt_promo_amnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".7"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:text="Amount to be paid "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:fontFamily="@font/gothic"
+                    android:text="Rs."
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/textTotalPriceFinal"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/promocode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_afer_promoprice"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/txt_promocode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:hint="Have Promocode?"
+                    android:textColorHint="@color/dark_grey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/txt_apply"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="center"
+                    android:text="Apply"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/promocode"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txt_tax"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".6"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:text="Promocode Percentage"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1" />
+
+                <TextView
+                    android:id="@+id/txt_taxamnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_afer_promoprice_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_41"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txt_promo_amnt_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".7"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:text="Amount after promocode  "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:fontFamily="@font/gothic"
+                    android:text="Rs."
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/textTotalPriceFinal_1"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_seat_bok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_afer_promoprice_1"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txt_seat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".8"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:text="No. Of booking seat "
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/txt_no_seat"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnr_seat_amt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnr_seat_bok"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txt_total_amnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".7"
+                    android:fontFamily="@font/gothicb"
+                    android:gravity="left"
+                    android:text="Total amount to be paid"
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+                <TextView
+                    android:id="@+id/txt_total_amount1"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".05"
+                    android:fontFamily="@font/gothic"
+                    android:text="Rs."
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/txt_total_amount"
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:fontFamily="@font/gothic"
+                    android:text=""
+                    android:textColor="@color/colorgrey"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_below="@+id/lnr_seat_amt"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btnlogin"
+                android:fontFamily="@font/gothicb"
+                android:text="PAY"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_11sdp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

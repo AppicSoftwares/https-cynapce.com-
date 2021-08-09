@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/dialog_white_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cross_btn"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/cancel_button"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/mPImg"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/medicalprofile" />
+
+            <Spinner
+                android:id="@+id/medicalProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/mPImg"
+                android:visibility="gone" />
+
+            <AutoCompleteTextView
+                android:id="@+id/medicalProfileauto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/mPImg"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/gothic"
+                android:gravity="center_vertical"
+                android:hint="@string/enter_medical_profile"
+                android:maxLength="30"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColorHint="@color/colorgrey"
+                android:textSize="@dimen/_12sdp">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+        </RelativeLayout>
+        <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<EditText-->
+        <!--android:id="@+id/medicalProfile"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:drawableEnd="@drawable/green_tick"-->
+        <!--android:fontFamily="@font/gothic"-->
+        <!--android:hint="@string/medical_profile"-->
+        <!--android:inputType="textCapSentences"-->
+        <!--android:maxLength="35"-->
+        <!--android:padding="@dimen/_5sdp"-->
+        <!--android:textColorHint="@color/colorPrimary"-->
+        <!--android:textSize="@dimen/editTxt" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color" />
+
+        <RelativeLayout
+            android:id="@+id/other_rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputothers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/edit_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/login"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/others_"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/inputothers"
+                android:background="@color/view_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Spl_rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/jSImg"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/specialization" />
+
+            <Spinner
+                android:id="@+id/jobSpecialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/jSImg"
+                android:visibility="gone" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Spealization_auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/jSImg"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="Enter Specialization"
+                android:dropDownHeight="@dimen/_110sdp"
+                android:maxLength="30"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColorHint="@color/colorgrey"
+                android:textSize="@dimen/_12sdp">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/spl_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color" />
+
+        <RelativeLayout
+            android:id="@+id/other_spl_rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputsplothers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/edit_spl_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/login"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/others_"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/inputsplothers"
+                android:background="@color/view_color" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/dept_rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:padding="@dimen/_5sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/deptImg"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/medicalprofile" />
+
+            <Spinner
+                android:id="@+id/dept_dd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/deptImg"
+                android:visibility="gone" />
+
+            <AutoCompleteTextView
+                android:id="@+id/dept_auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/deptImg"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="Enter Department"
+                android:maxLength="30"
+                android:dropDownHeight="@dimen/_110sdp"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColorHint="@color/colorgrey"
+                android:textSize="@dimen/_12sdp">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/dept_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/view_color"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/other_dept_rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputdeptothers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/edit_dept_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/login"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/others_"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/inputdeptothers"
+                android:background="@color/view_color" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_Submit"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/btnlogin"
+            android:fontFamily="@font/gothicb"
+            android:text="Update Profile"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/_60sdp"-->
+    <!--android:layout_height="@dimen/_60sdp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@drawable/right_tick"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+</LinearLayout>

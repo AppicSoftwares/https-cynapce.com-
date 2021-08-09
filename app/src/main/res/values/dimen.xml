@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="editTxt">@dimen/_13sdp</dimen>
+    <dimen name="btnTxt">@dimen/_13sdp</dimen>
+    <dimen name="navigationText">@dimen/_13sdp</dimen>
+</resources>

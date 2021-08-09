@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white">
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/top"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/rl"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingRight="@dimen/_12sdp">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/userNameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gothicb"
+            android:text="User Name"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/phoneNOTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gothicb"
+            android:text="Phone NO."
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/emailTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gothicb"
+            android:text="Emai-ID"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+

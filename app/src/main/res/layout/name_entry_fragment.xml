@@ -1,0 +1,107 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcanzar.cynapse.fragments.LoginFragment">
+    <LinearLayout
+        android:id="@+id/linOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/_25sdp">
+
+
+            <ImageView
+                android:tint="@color/color_black"
+                android:layout_gravity="center|bottom"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:src="@drawable/login"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:id="@+id/userName"
+                android:fontFamily="@font/gothic"
+                android:hint="Enter Your Name"
+                android:maxLength="35"
+                android:textColorHint="@color/colorgrey"
+                android:textColor="@color/light_black"
+                android:text=""
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/editTxt"
+                android:background="@color/transparent"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+                <EditText
+                    android:id="@+id/passWord"
+                    android:fontFamily="@font/gothic"
+                    android:textColor="@color/light_black"
+                    android:layout_width="match_parent"
+                    android:maxLength="25"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:text=""
+                    android:textSize="@dimen/editTxt"
+                    android:textColorHint="@color/colorgrey"
+                    android:background="@color/transparent"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:drawableStart="@drawable/key"
+                    android:drawablePadding="@dimen/_15sdp"/>
+            </android.support.design.widget.TextInputLayout>
+            <View
+                android:id="@+id/viewTwo"
+                android:background="@color/view_color"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/forgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/gothicb"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/_20sdp" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:id="@+id/viewOne"
+            android:background="@color/view_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_margin="@dimen/_25sdp"
+            android:background="@drawable/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/next"
+            android:fontFamily="@font/gothicb"
+            android:textSize="@dimen/btnTxt"
+            android:textColor="@color/color_white"/>
+
+
+    </LinearLayout>
+</ScrollView>

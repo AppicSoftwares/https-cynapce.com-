@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.alcanzar.cynapse.activity.MyCaseStudiesActivity">
+    <include layout="@layout/header"
+        android:id="@+id/header"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/no_record_txt"
+        android:text=""
+        android:layout_below="@id/cardOne"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/gothicb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/edit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:visibility="gone"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="@dimen/_5sdp"
+        app:fabSize="normal"/>
+</RelativeLayout>

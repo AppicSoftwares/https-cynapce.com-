@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/header"
+        android:id="@+id/header"/>
+    <TextView
+        android:id="@+id/txt_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:fontFamily="@font/gothicb"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_15sdp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/lnr_headbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_plan"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Basic"
+            android:layout_weight=".4" />
+
+        <Button
+            android:id="@+id/btn_prmium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Premium"
+            android:layout_weight=".4" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/lnr_headbutton">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txt_plan_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No Plans Found"/>
+
+</RelativeLayout>

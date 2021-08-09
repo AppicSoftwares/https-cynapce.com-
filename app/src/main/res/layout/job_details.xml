@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10sdp">
+    <include layout="@layout/header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_rel_lay"
+        android:layout_above="@id/btnApply">
+    <LinearLayout
+        android:id="@+id/top_lin_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--android:background="@drawable/recommend_job_drawable"-->
+        <LinearLayout
+            android:id="@+id/applicant_lin_lay"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_5sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/gothicb"
+                android:textColor="@color/color_black"
+                android:text="APPLICANT DETAILS"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp" />
+            <TextView
+                android:id="@+id/applicant_name"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/medical_profile"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/job_title"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/specialization"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sub_specialization"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/department"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/yearOfExp"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/location"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorgrey"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/currentctc"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_10sdp"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/expectedctc"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_10sdp"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/job_desc_txt"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/light_black"
+                android:text=""
+                android:layout_below="@+id/job_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+       <LinearLayout
+            android:id="@+id/job_det_lin_lay"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_5sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/gothicb"
+                android:textColor="@color/color_black"
+                android:text="JOB DETAILS"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp" />
+           <ImageView
+               android:id="@+id/share"
+               android:layout_width="@dimen/_20sdp"
+               android:layout_height="@dimen/_20sdp"
+               android:src="@drawable/share_icon"
+               android:layout_gravity="end"
+               android:padding="@dimen/_2sdp"
+
+               android:visibility="gone"
+               android:layout_marginEnd="@dimen/_5sdp"
+               android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/medical_profile_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/job_title_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/specialization_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sub_specialization_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/department_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/yearOfExp_job"
+                android:text=""
+                android:textColor="@color/light_black"
+                android:fontFamily="@font/gothic"
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/vacancy_job"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/light_black"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone"
+                android:fontFamily="@font/gothic"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/location_job"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorgrey"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ctc"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_10sdp"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/job_desc_det_txt"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/light_black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@drawable/btnlogin"
+        android:text="@string/apply"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/btnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp" />
+</RelativeLayout>

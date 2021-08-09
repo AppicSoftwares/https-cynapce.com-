@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_dash"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_2sdp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt_pack_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight=".75"
+            android:fontFamily="@font/gothicb"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/_4sdp"
+            android:text="Days"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_11sdp" />
+
+        <TextView
+            android:id="@+id/txt_pack_charg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight=".25"
+            android:fontFamily="@font/gothicb"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Package Charge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_9sdp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

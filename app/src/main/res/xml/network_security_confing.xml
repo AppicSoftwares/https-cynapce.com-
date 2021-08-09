@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <domain-config cleartextTrafficPermitted="true"
+        tools:ignore="NetworkSecurityConfig">
+        <domain includeSubdomains="true">cynapce.com</domain>
+        <domain includeSubdomains="true">secure.ccavenue.com</domain>
+        <domain includeSubdomains="true">162.243.205.148</domain>
+    </domain-config>
+</network-security-config>

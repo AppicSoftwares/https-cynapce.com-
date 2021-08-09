@@ -1,0 +1,717 @@
+<!--<resources>
+    <string name="TargetAudience">Target Audience</string>
+    <string name="place_date_from">DD-MM-YYYY</string>
+    <string name="place_date_to">DD-MM-YYYY</string>
+    <string name="place_time_from">HH:MM</string>
+    <string name="place_time_to">HH:MM</string>
+    <string name="gst">GST(%)</string>
+
+    <string name="googleAdsAppID">ca-app-pub-9730536466726178~7351210983</string>
+    <string name="googleAdsAdUnitId">ca-app-pub-9730536466726178/2744715120</string>
+
+    <string name="googleAdsInterstitialAdId">ca-app-pub-9730536466726178/7059902023</string>
+    <string name="app_name">Cynapce</string>
+    <string name="find_jobs">Targeted Healthcare Jobs</string>
+    <string name="got_it">GOT IT</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forgot_passwords">Forgot Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="not_register_yet">Not Registered Yet !</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="name">Name*</string>
+    <string name="name_n">Name</string>
+    <string name="specializations">Specializations</string>
+    <string name="address">Address</string>
+    <string name="email">Email*</string>
+    <string name="email_n">Email</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="phone_number_n">Phone Number</string>
+    <string name="occupation">Occupation</string>
+    <string name="next">NEXT</string>
+    <string name="dob">DOB</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="password_e">Password*</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password*</string>
+    <string name="search">Search</string>
+    <string name="_238_topics">238 Votes</string>
+    <string name="_3_528_replies">528 Comments</string>
+    <string name="_8_000_views">8,00 views</string>
+    <string name="articles">My Articles</string>
+    <string name="case_studies">Case Studies</string>
+    <string name="dealers_and_distributors">Dealer and Distributors</string>
+    <string name="my_conferences">My Conferences</string>
+    <string name="my_job">My Job</string>
+    <string name="logout">Logout</string>
+    <string name="getting_published">Getting Published</string>
+    <string name="message">Message</string>
+    <string name="publish">PUBLISH</string>
+    <string name="_5_hours_ago">5 Hours ago</string>
+    <string name="newtxt">NEW</string>
+    <string name="Rs">\u20B9</string>
+    <string name="medical_profile">Medical Profile*</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+
+    <string name="edit">EDIT</string>
+    <string name="buy">BUY</string>
+    <string name="jobs">Jobs</string>
+    <string name="job_title">Job</string>
+    <string name="profile_management">Profile Management</string>
+    <string name="descriptions">Description</string>
+    <string name="DealsDescriptions">Deal Description</string>
+    <string name="experience">Yrs. of Experience</string>
+    <string name="current_ctc">Current CTC(Annual)</string>
+    <string name="expected_ctc">Expected CTC(Annual)</string>
+    <string name="current_employer">Current Employer</string>
+    <string name="preferred_job_location">Job Location(s)</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="post">POST</string>
+    <string name="senior_resident_rmo">Senior Resident/RMO</string>
+    <string name="posted_today">Posted Today</string>
+    <string name="hazratganj_lucknow">Hazratganj, Lucknow</string>
+    <string name="tags">Emergency,Medical records,Service Quality,Disaster Management</string>
+    <string name="health_care_conference">Health Care Conference</string>
+    <string name="_22_jan_2018">22-Jan-2018</string>
+    <string name="_5_10_pm">5:10 PM</string>
+    <string name="case_1">CASE 1</string>
+    <string name="demo_name">Demo Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="croppertitle">Crop Image</string>
+    <string name="crop">Crop</string>
+    <string name="hello">Hello</string>
+    <string name="save">SAVE</string>
+    <string name="congrats">CONGRATS!</string>
+    <string name="publishedSuccessfully">You are published successfully</string>
+    <string name="specification">Specification</string>
+    <string name="write_a_message">Write a message .... </string>
+    <string name="hello_demo_user">Hello, Demo User</string>
+    <string name="how_can_i_help_you">How can I help you ?</string>
+    <string name="question_left">Ques Left</string>
+    <string name="skip_question">Skip Ques</string>
+    <string name="number">25</string>
+    <string name="five_min">5:00</string>
+    <string name="min">MIN</string>
+    <string name="ques_demo">Question : Which of the following is known as Sairandhari vanam?</string>
+    <string name="answer">Answer</string>
+    <string name="previous">Prev</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+    <string name="messgae_send_successfully">Your messgae has been send successfully</string>
+    <string name="locate_on_map">Locate on map</string>
+    <string name="posted_jobs">Posted Jobs</string>
+    <string name="requested_jobs">Requested Jobs</string>
+    <string name="post_jobs">Post Jobs</string>
+    <string name="request_jobs">Request Jobs</string>
+    <string name="apply">Apply</string>
+    <string name="write_something_here">Write Something here</string>
+    <string name="timelineMsg">I can\'t check what type of injuries. The patient is having trouble breathing</string>
+    <string name="comments">Comments</string>
+    <string name="vote">Vote</string>
+    <string name="_840">840</string>
+    <string name="_12_comments">12 Comments</string>
+
+    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_start">LET\'S START</string>
+    <string name="my_deals">My Deals</string>
+    <string name="my_case_studies">My Case Studies</string>
+    <string name="exit_msg">Press again to exit</string>
+    <string name="medical_surgery">Medical Surgery</string>
+    <string name="buy_product">Buying Products</string>
+    <string name="sell_product">Selling Products</string>
+    <string name="book_name">And To Think That I Saw It On Street</string>
+    <string name="published_2008">Published (2008)</string>
+    <string name="titleSell">Sell Products(Equipments)</string>
+    <string name="create_amp_alert"><![CDATA[Create  Alert]]></string>
+    <string name="notify">Notifications</string>
+    <string name="chat_title">CHAT</string>
+    <string name="job_description">Job Description</string>
+    <string name="total_area">Total Area</string>
+    <string name="built_up_area">Built Up Area</string>
+    <string name="no_of_beds">No. of Beds</string>
+    <string name="location">Location</string>
+    <string name="sell_prod_hos">Sell Product(Hospitals)</string>
+    <string name="licences">Licences</string>
+    <string name="price">Price</string>
+    <string name="add_more_">ADD MORE</string>
+    <string name="sell_buy_practice_">Sell/Buy Product(Practice)</string>
+    <string name="sent">SENT</string>
+    <string name="request_sent">Your Request has been sent to the admin for approval.You will be notified soon!</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="share">Share</string>
+    <string name="industry">Industry</string>
+    <string name="functional_area">Functional Area</string>
+    <string name="role">Role</string>
+    <string name="applied_">APPLIED</string>
+    <string name="apply_">APPLY</string>
+    <string name="shortlist_">SHORTLIST</string>
+    <string name="shortlisted_">SHORTLISTED</string>
+    <string name="email_">Email</string>
+    <string name="sell_buy_tie_ups">Sell/Buy Product(Tie Ups)</string>
+    <string name="name_of_entity">Name of Entity</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="name_books">Name</string>
+    <string name="others_">Others</string>
+    <string name="age">Age</string>
+    <string name="contact_no_">Contact number</string>
+    <string name="sell_buy_book">Sell/Buy Product (Books,Others)</string>
+    <string name="log_in_with">Log in with</string>
+    <string name="facebook_app_id">276650359650415</string>
+    <string name="rooms_or_chambers">Rooms or chambers</string>
+    <string name="name_of_the_practice">Name of the practice</string>
+    <string name="length">Length</string>
+    <string name="width_">width</string>
+    <string name="done_licence">Licence Done</string>
+    <string name="left_licence">Licence Left </string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_country2">*Enter Country</string>
+    <string name="quantity">Quantity</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_state2">*Enter State</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_city2">*Enter City</string>
+    <string name="enter_hospital">Enter Hospital</string>
+    <string name="enter_prac">Enter Practice</string>
+    <string name="enter_specialization">Enter Specialization</string>
+    <string name="enter_tieup_for">Enter TieUp For</string>
+    <string name="enter_seeking">Enter Seeking</string>
+    <string name="enter_tie_up_with">Enter Tie Up With</string>
+    <string name="enter_medical_profile">Enter Medical Profile</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure, you want to logout?</string>
+    <string name="dialog_profile_txt">Please fill the mandatory fields like, medical profile, title, specialisation, contact no in your profile to perform any activities in the application.</string>
+    <string name="specialilty">Specialilty</string>
+    <string name="target_audience_speciality">Target audience Speciality</string>
+    <string name="target_audience_speciality_selct">Select target audience Speciality</string>
+
+    <string name="within_city">Within City</string>
+    <string name="add_location">Add Location</string>
+    <string name="within_state">Within State</string>
+    <string name="within_all_india">Within All India</string>
+    <string name="filter">FILTER</string>
+    <string name="enter_the_seat">Enter the Seats</string>
+    <string name="registered">Registered</string>
+    <string name="interested">Interested</string>
+    <string name="views">Views</string>
+    <string name="auto">Auto</string>
+
+    <string name="cost">Cost</string>
+    <string name="duration">Duration</string>
+    <string name="days">Days</string>
+    <string name="contact">Contact</string>
+    <string name="event_host">Event Host</string>
+    <string name="time_to">Time(To)</string>
+    <string name="venue">Venue</string>
+    <string name="time_from">Time(From)</string>
+    <string name="date_to">Date(End)</string>
+    <string name="date_from">Date(Start)</string>
+    <string name="registration_fee">Registration Fee</string>
+    <string name="brochure_charges">Brochure Charges</string>
+    <string name="perticuler_for_country">Country</string>
+    <string name="perticuler_for_state">State</string>
+    <string name="upload_your_brochures">Upload your brochures</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="perticuler_for_city">City</string>
+    <string name="conference_description">Conference Description</string>
+    <string name="no_of_seat">No. Of Seat</string>
+    <string name="community_forum">Community Forum</string>
+    <string name="house_no_street">Street,House No.</string>
+    <string name="title_activity_basic__premimum_">Basic_Premimum_Activity</string>
+    <string name="title_activity_job_details">JobDetailsActivity</string>
+    <string name="enter_registration_state">Enter Registration State</string>
+    <string name="medical_writing">Medical Writing</string>
+    <string name="review_paymt">REVIEW PAYMENT</string>
+    <string name="review_plan">Review Plan</string>
+    <string name="tie_up">TIE-UP</string>
+    <string name="our_plans">Our Plans</string>
+    <string name="delete_reason">Please enter the reason for deleting this job</string>
+    <string name="pls_enter_reason">Please enter Reason</string>
+    <string name="job_details">Job Details</string>
+    <string name="no_records">No Records</string>
+    <string name="key_note_speaker">Key Note Speaker</string>
+
+    <string name="prices">Prices</string>
+    <string name="total_price">Total Price </string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="credit_earning">Credit Earning</string>
+    <string name="conferenceType">Conference Type</string>
+
+    <string name="target_audience">Target Audience :</string>
+    <string name="enter_the_conference_type">Enter the Conference Type</string>
+    <string name="verify">VERIFY</string>
+    <string name="otp">OTP</string>
+    <string name="zero">0</string>
+    <string name="didn_t_got_the_code">Didn\'t got the code !</string>
+    <string name="resend">RESEND</string>
+    <string name="clearfilter">Clear Filter</string>
+    <string name="all">Check All</string>
+    <string name="ok">OK</string>
+    <string name="ext">External</string>
+    <string name="Int">Internal</string>
+    <string name="New">New Folder</string>
+    <string name="none">Uncheck All</string>
+    <string name="nothing_to_show">Nothing To Show</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="term_cond_txt_third">NO SPAM POLICY You understand and agree that sending unsolicited email advertisements or other unsolicited communications to CYNAPCES email addresses or through CYNAPCES computer systems are expressly prohibited by these Terms. You acknowledge and agree that from time to time CYNAPCES may monitor email usage using human monitors or automated software to flag certain words associated with spam or scams in emails that are sent between one user to another in the CYNAPCES e mail system. Any communication between yourself and any other user utilizing the communication features available on the Service and the Platform may be used only in accordance with the Terms. Any unauthorized use of CYNAPCES computer systems is a violation of these Terms and certain applicable laws. Such violations may subject the sender and his or her agents to civil and criminal penalties. DEALINGS WITH ORGANIZATIONS AND INDIVIDUALS You acknowledge and agree that CYNAPCE shall not be liable for your interactions with any organizations and/or individuals on the Platform or through the Service. This includes, but is not limited to, payment and delivery of goods and services, and any other terms, conditions, warranties or representations associated with any interaction you may have with other organizations and/or individuals. These dealings are solely between you and such organizations and/or individuals. You agree and acknowledge that CYNAPCE shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings or interactions. If there is a dispute between participants on the Platform, or between users and any third party, you understand and agree that CYNAPCE is under no obligation to become involved in such dispute. In the event that you have a dispute with one or more other users, you hereby release CYNAPCE, its officers, employees, agents and successors from any and all claims, demands and damages (actual and consequential) of every kind or nature, known or unknown, suspected and unsuspected, disclosed and undisclosed, arising out of or in any way related to such disputes and/or our Service. LIMITATION AND TERMINATION OF SERVICE You acknowledge and agree that CYNAPCE may establish limits from time to time concerning use of the Service, including among others, the maximum number of days that Content will be maintained or retained by the Service, the maximum number and size of postings, e-mail messages, or other Content that may be transmitted or stored by the Service, and the frequency and the manner in which you may access the Service or the Platform. You acknowledge that your account is identified and linked through your mobile number, Facebook account or email address through which you have registered. In the event you have more than one account linked through your mobile number, Facebook account or email address, CYNAPCE reserves the right to remove or restrict the usage of such duplicate accounts. You acknowledge and agree that CYNAPCE has no responsibility or liability for the deletion or failure to store any Content maintained or transmitted by the Platform or the Service. You acknowledge and agree that CYNAPCE reserves the right at any time to modify, limit or discontinue the Service (or any part thereof) with or without notice, and that CYNAPCE shall not be liable to you or to any third party for any such modification, suspension or discontinuance of the Service. You acknowledge and agree that CYNAPCE, in its sole and absolute discretion, has the right (but not the obligation) to delete or deactivate your account, block your e-mail or IP address, or otherwise terminate your access to or use of the Service (or any part thereof), immediately and without notice, and remove and discard any Content within the Service, for any reason or no reason at all, including, without limitation, if CYNAPCE believes that you have violated these Terms. Further, you agree that CYNAPCE shall not be liable to you or any third-party for any termination of your access to the Platform or the Service. Further, you agree not to attempt to use the Service after any such termination.. DISCLAIMER OF WARRANTIES YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE PLATFORM AND THE SERVICE IS ENTIRELY AT YOUR OWN RISK AND THAT THE PLATFORM AND THE SERVICE ARE PROVIDED ON AN \"AS IS\" OR \"AS AVAILABLE\" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND.ALL EXPRESS AND IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS ARE EXPRESSLY DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. TO THE FULLEST EXTENT PERMITTED BY LAW “CYNAPCE”, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE PLATFORM AND YOUR USE THEREOF. “CYNAPCE” MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE PLATFORM\'S CONTENT OR THE CONTENT OF ANY THIRD-PARTY WEBSITES LINKED TO THE PLATFORM AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE PLATFORM AND SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE PLATFORM, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE PLATFORM BY ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, COMMUNICATED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE PLATFORM OR THE SERVICE. “CYNAPCE” DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE PLATFORM OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND “CYNAPCE” WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND/OR OTHER USERS AND/OR THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.\" LIMITATION OF LIABILITY YOU ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ENTIRE RISK ARISING OUT OF YOUR ACCESS TO AND USE OF THE SITE, SERVICES, APP AND COLLECTIVE CONTENT REMAINS WITH YOU. IN NO EVENT SHALL CYNAPCE, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGESRESULTING FROM ANY ASPECT OF YOUR USE OF THE PLATFORM OR THE SERVICE, INCLUDING WITHOUT LIMITATION WHETHER THE DAMAGES ARISE FROM USE OR MISUSE OF THE PLATFORM OR THE SERVICE, FROM INABILITY TO USE THE PLATFORM OR THE SERVICE, OR THE INTERRUPTION, SUSPENSION, MODIFICATION, ALTERATION, OR TERMINATION OF THE PLATFORM OR THE SERVICE. ASSIGNMENT These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by CYNAPCES without restriction. Any assignment or transfer by you shall be null and void. ABILITY TO ACCEPT TERMS OF SERVICE This Platform is intended only for adults and that you are eligible to contract as per applicable laws. If you are using/accessing this Platform as a representative of any person/entity, you acknowledge that you are legally authorised to represent that person/entity. Minors, i.e. users of under 18 years of age, are only allowed to access the Platform and use the Service, in the event of approval of their legal representatives or in the event that it concerns an act or a transaction that is usual and acceptable standard in civil life and practice. You affirm that you are either at least 18 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms, and to abide by and comply with these Terms. In any case, you affirm that you are over the age of 13, as the Platform is not intended for children under 13. GENERAL INFORMATION These Terms and the other policies posted on the Platform constitute the complete and exclusive understanding and agreement between you and CYNAPCES and govern your use of the Service and the Platform superseding all prior understandings, proposals, agreements, negotiations, and discussions between the parties, whether written or oral. The Terms and the relationship between you and CYNAPCES shall be governed by Indian Laws. Any claim you may have against CYNAPCES must be submitted to the exclusive jurisdiction the courts of New Delhi, India. However, in the event that you are a consumer it may be that consumer law requires that another law is applicable and that a claim may be submitted to another jurisdiction. The failure of CYNAPCES to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms is found by a court of competent jurisdiction to be invalid (including, without limitation, because such provision is inconsistent with the laws of another jurisdiction) or inapplicable, the parties nevertheless agree that the court should endeavour to give effect to the parties\' intentions as reflected in the provision. If any provision or provisions of these Terms is held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions of the Terms shall not in any way be affected or be impaired. YOU AGREE THAT ANY CAUSE OF ACTION BROUGHT BY YOU AND ARISING OUT OF OR RELATED TO YOUR USE OF THE SERVICE AND/OR THE PLATFORM MUST COMMENCE WITHIN A REASONABLE TIME AND IN ANY EVENT WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, EXCEPT THAT CYNAPCES MAY COMMENCE ANY SUCH CAUSE OF ACTION IN ACCORDANCE WITH THE APPLICABLE STATUTE OF LIMITATIONS UNDER INDIAN LAW. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED. These Terms shall inure to the benefit of and be binding upon each party\'s successors and assigns. VIOLATION OF TERMS AND LIQUIDATED DAMAGES Please report any violations of the Terms that you become aware of by contacting us using the link at the bottom of the CYNAPCES Application at …………… Any failure to act by CYNAPCES with respect to a breach by you or others does not waive our right to act with respect to subsequent or similar breaches by you or others. You understand and agree that, because damages are often difficult or impossible to quantify, if actual damages cannot be reasonably calculated then you will be liable to pay CYNAPCES the following as liquidated damages (and not a penalty): a. If CYNAPCES establishes any limits on the frequency with which you may access the Service or terminates your access to or use of the Service, you agree to pay CYNAPCES ………………. b. If you are a Posting Agent that uses the Service in violation of these Terms, in addition to any liquidated damages under Section xx(e) below you agree to pay CYNAPCES …………………….item you post in violation of these Terms. A Posting Agent will also be deemed an agent of the party engaging the Posting Agent to access the Service, and such party (by engaging the Posting Agent in violation of these Terms) agrees to pay CYNAPCES an additional (……………………..) for each item posted by the Posting Agent on behalf of such party in violation of these Terms. c. If you use CYNAPCES e-mail addresses or computer systems to send unsolicited e-mail advertisements to CYNAPCES e-mail addresses or any other party, you agree to pay CYNAPCES ………………. for each such e-mail. d. If you post messages in violation of these Terms, other than as described above, you agree to pay CYNAPCES …………….. for each such message. Notwithstanding the foregoing, CYNAPCES may, in its sole and absolute discretion, issue a warning before assessing damages. e. If you aggregate, copy, display, mirror, reproduce, or otherwise exploit for any purpose any Content (except for your own Content) in violation of these Terms without CYNAPCES’s express written permission, you agree to pay CYNAPCE…………………. for each day on which you engage in such conduct. If none of the foregoing clauses (a) – (f) are applicable, you agree to pay CYNAPCE’s actual damages, to the extent such actual damages can be reasonably calculated. Notwithstanding any other provision of these Terms, CYNAPCE retains the right to seek equitable remedies, including without limitation, specific performance of any term contained in these Terms, or a preliminary or permanent injunction against the breach or threatened breach of any such term or in aid of the exercise of any power granted in these Terms, or any combination thereof, without the necessity of posting a bond.</string>
+    <string name="term_cond_txt_scnd"> PAID SERVICES Most category of posts or individual posts will be charged. Certain deals also can be brokered and involve charges for deal execution. The user shall agree with us to be charged for Brokerage for certain transactional services and further agree to sign a Brokerage Agreement. The user shall agree that the CYNAPCE admin is authorised to make the changes in the post over the platform for e.g. the admin panel will be enabled to edit the fields of the post such as Name, address contact details or description part or category individually and tab wise at own discretion. The user shall be allowed to sell or buy Medical Books without any intervention of the Platform -Admin. There would be no charges over posting any ads regarding the buying and selling of books. The user shall agree that CYNAPCE admin will not be endorsing any conference or event and any changes with regards to the same. Any such fees paid hereunder are non-refundable in the event any Content is removed from the Service for violating these Terms and Each party posting Content to the Service is responsible for said Content and compliance with the Terms POSTING AGENTS As used herein, the term \"Posting Agent\" refers to a third-party agent, service or intermediary that offers to post Content to the Service on behalf of others. CYNAPCE prohibits the use of Posting Agents, directly or indirectly, without the express written permission of CYNAPCE. In addition, Posting Agents are not permitted to post Content on behalf of others, directly or indirectly, or otherwise access the Service to post Content on behalf of others, except with express written permission or license from CYNAPCE. ACCESS TO THE SERVICE If you have questions about this Privacy Policy, please contact CYNAPCE via the Contact Support form GRIEVANCE OFFICER CYNAPCE grants you a limited, revocable, non-exclusive license to access and use the Service for personal use. This license granted herein does not include any of the following: (a) access to or use of the Service by Posting Agents; or (b) any collection, aggregation, copying, duplication, display or derivative use of the Service nor any use of data mining, robots, spiders, or similar data gathering and extraction tools for any purpose unless expressly permitted by CYNAPCE or as otherwise set forth in these Terms. Notwithstanding the foregoing, general purpose internet search engines and non-commercial public archives that gather information for the sole purpose of displaying hyperlinks to the Service, provided they each do so from a stable IP address or range of IP addresses using an easily identifiable agent and comply with our robots.txt file, may engage in the activities set forth in (c). For purposes of this exception, a \"general purpose internet search engine\" does not include a website or search engine or other service that specializes in classified listings including any subset of classifieds listings such as housing, for sale, jobs, services, or personals, or which otherwise provides classified ad listing services. The license set forth in this Section permits you to display on your website, or create a hyperlink thereto, individual postings on the Service so long as such use is for non-commercial and/or news reporting purposes only (e.g., for use in personal blogs or other personal online media). If the total number of such postings displayed on or linked to your website exceeds limits set by CYNAPCE, your use will be in violation of these Terms, unless CYNAPCE expressly grants you permission otherwise. d) You are also permitted to create a hyperlink to the home page of the Platform so long as the link does not portray CYNAPCE, its employees, affiliates or agents in a false, confusing, misleading, derogatory, or otherwise offensive matter. Use of the Service beyond the scope of authorized access as set forth in these Terms immediately terminates any permission or license granted herein. In order to collect, aggregate, copy, duplicate, display or make derivative use of the Service or any Content made available via the Service for other purposes (including commercial purposes) not stated herein, you must first obtain a license from CYNAPCE. NOTIFICATION OF CLAIMS OF INFRINGEMENTS CYNAPCE is not liable for any infringement of intellectual property rights arising out of materials posted on or transmitted through the site, or items advertised on the site, by end users or any other third parties. If you are an owner of intellectual property rights or an agent who is fully authorised to act on behalf of the owner of intellectual property rights and believe that any Content or other content infringes upon your intellectual property right or intellectual property right of the owner on whose behalf you are authorised to act, you may submit a notification to CYNAPCE together with a request to CYNAPCE to delete the relevant Content in good faith. INTELLECTUAL PROPERTY RIGHTS You acknowledge and agree that the materials on the Platform, other than the user Content that you licensed including without limitation, the text, software, scripts, graphics, photos, sounds, music, videos, interactive features and the like (\"Materials\") and the trademarks, service marks and logos contained therein (\"Marks\"), are owned by or licensed to CYNAPCE, and are subject to copyright and other intellectual property rights under Indian IPR laws, foreign laws and international treaties and/or conventions. In connection with the Services, the Platform may display certain trademarks belonging to third parties. Use of these trademarks may be subject to license granted by third parties to CYNAPCE. You shall, in no event, reverse engineer, decompile, or disassemble such trademarks and nothing herein shall be construed to grant you any right in relation to such trademarks. Materials on the Platform are provided to you AS IS for your information and personal use only and may not be used, copied, reproduced, distributed, transmitted,broadcast, displayed, sold, licensed, or otherwise exploited for any other purposes whatsoever without the prior written consent of the respective owners. CYNAPCE reserves all rights not expressly granted herein to the Platform and the Materials. You agree to not engage in the use, copying, or distribution of any of the Materials other than as expressly permitted herein, including any use, copying, or distribution of Materials of third parties obtained through the Platform for any commercial purposes. If you download or print a copy of the Materials for personal use, you must retain all copyright and other proprietary notices contained therein. You agree not to circumvent, disable or otherwise interfere with security related features of the Platform or features that prevent or restrict use or copying of any Materials or enforce limitations on use of the Platform or the Materials therein. The Service is protected to the maximum extent permitted by copyright laws, other laws, and international treaties and/or conventions. Content displayed on or through the Service is protected by copyright as a collective work and/or compilation, pursuant to copyrights laws, other laws, and international conventions. Any reproduction, modification, creation of derivative works from or redistribution of the Platform, the Materials, or the collective work or compilation is expressly prohibited. Copying or reproducing the Platform, the Materials, or any portion thereof to any other server or location for further reproduction or redistribution is expressly prohibited. You further agree not to reproduce, duplicate or copy Content or Materials from the Service, and agree to abide by any and all copyright notices and other notices displayed on the Service. You may not decompile or disassemble, reverse engineer or otherwise attempt to discover any source code contained in the Service. Without limiting the foregoing, you agree not to reproduce, duplicate, copy, sell, resell or exploit for any commercial purposes, any aspect of the Service. CYNAPCE is a service mark registered with the Patent and Trademark Office in INDIA. USER SUBMISSIONS You understand that when using the Platform, you will be exposed to Content from a variety of sources, and that CYNAPCES is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such Content, and you agree and assume all liability for your use. You further understand and acknowledge that you may be exposed to Content that is inaccurate, offensive, indecent, or objectionable, defamatory or libellous and you agree to waive, and hereby do waive, any legal or equitable rights or remedies you have or may have against CYNAPCES with respect thereto. INDEMNITY You agree to defend, indemnify and hold harmless CYNAPCES, its officers, subsidiaries, affiliates, successors, assigns, directors, officers, agents, service providers, suppliers and employees, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorneys\' fees) arising from: (i) your use of and access to the Platform and/or the Service; (ii) your violation of any term of these Terms; (iii) your violation of any third party right, including without limitation any copyright, trademark, trade secret or other property, or privacy right; or (iv) any claim that your Content caused damage to a third party. This defence and indemnification obligation will survive termination, modification or expiration of these Terms and your use of the Service and the Platform.  </string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="term_cond_txt">CYNAPCE (BY NVM HEALTHCARE PRIVATE LIMITED) PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS PLATFORM, YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THE PLATFORM. ACCEPTANCE CYNAPCE is a mobile platform operated by NVM Healthcare, a Private limited company, that is registered in Delhi, India, Cynapce and its affiliates and / or branches (hereinafter together \" CYNAPCE\") provide a collection of online resources which include classified advertisements and Medical forum and updates including Medical cases and discussions (collectively, the \"Service\") on the mobile application of the platform (collectively, the \"Platform\"). The Platform and the Service are provided to you subject to these CYNAPCE Terms of Use (these \"Terms\"). For the purpose of the Terms and wherever the context so requires, the terms \"you\" and \"your\" shall mean any person who uses or accesses, whether through manual or automated means, the Platform or the Service in any manner whatsoever including persons browsing the Platform and its content, posting comments or any content or responding to any advertisements or content on the Platform. By using the Service, you agree to comply with these Terms. Additionally, when using a portion of the Service, you agree to conform to any applicable posted guidelines for such Service, which may change or be updated from time to time at CYNAPCE’s sole Discretion DESCRIPTION OF SERVICE AND CONTENT POLICY We are a Healthcare platform which aims to provide multiple services through the platform by bringing multiple healthcare stakeholders together. The services can be - (i). Transactional Services (ii). Career services (iii). Academic Services (iv). Case Publication Assistance I) TRANSACTIONAL SERVICES The Platform will allow users, subject to agreeing to these terms, to offer to buy, sell products and services dealing with Healthcare. CYNAPCE will be an intermediary only here and as such is not responsible for transactions that occur as a result of such an exercise. As such, CYNAPCE is not a party in these transactions although we might charge a fee for our services. The Authenticity, valuations and such other considerations are to be decided by the parties undertaking these transactions. II) CAREER SERVICES These Services will be charged when you apply for a position or shortlist candidates if you are a recruiter. However, initially or under certain promotions they may be given at a reduced or no cost. Simply creating a job alert or posting a vacancy will not be charged. The idea is to charge for value created and not otherwise. For recruiters’ certain categories of jobs may be charged under the commission model. III) ACADEMIC SERVICES CYNAPCE provides a unique case-based learning opportunity for doctors across the world. CYNAPCE also provides a platform for doctors to share their clinical experiences so that the whole of the medical community is benefitted. CYNAPCE also brings in latest updates in the field of medicine. We are solely an educational platform for doctors and we do not intend to provide any diagnostic/investigational/treatment advice or consultation. The information provided inside the application is solely for educational purpose only. Any other use is not permitted under the terms. The ever-changing evidence in the field of medicine is always a challenge to learn. The information provided by us will try to cover such advances. In case of healthcare delivery, the information provided by us is not liable as we provide only educational services. Our services will never replace any doctor’s intellectual ability and decision making in any instance and we are not liable for any such acts. IV) MEDICAL WRITING ASSISTANCE SERVICES CYNAPCE is a service provider for the medical writing services and in no way guarantee the publications of proposed research articles/abstracts. The publication will be dependent on the publication policy of target scientific/medical Journal as well as scientific relevance and novelty of the publication. CYNAPCE is not liable for the accuracy and authenticity of the raw data. The Author/organization undertaking the medical writing services of CYNAPCE shall own the complete responsibility towards the accuracy and authenticity of the raw data. The Author/organization undertaking the medical writing services of CYNAPCE will solely be responsible for the plagiarism claim, if any towards the raw data/publication material. However, CYNAPCE will ensure that the manuscripts/publications developed by it do not fall under the plagiarism criteria. For all Publications, Author/organization undertaking the medical writing services of CYNAPCE shall comply with recognized ethical standards concerning publications and authorship, including the Uniform Requirements for Manuscripts Submitted to Biomedical Journals, established by the International Committee of Medical Journal Editors. The ICMJE recommends that authorship be based on the following 4 criteria :- i). Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND ii). Drafting the work or revising it critically for important intellectual content; AND iii). Final approval of the version to be published; AND iv). Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All those designated as authors should meet all four criteria for authorship, and all who meet the four criteria should be identified as authors. Those who do not meet all four criteria should be acknowledged. CYNAPCE does not make any representation as regards to affiliation with any Scientific/Medical Journal. The initiation of the medical writing work is subject to the realization of professional fee. Further, the fee paid is non-refundable, non-transferable under any circumstances whatsoever. CYNAPCE is not responsible for postal delays or loss of raw data/publication material during transit. CYNAPCE reserves the right to change the terms and conditions from time to time in its sole and absolute discretion. If any such change is made, the latest amended terms and conditions would be applicable. CONDUCT You agree not to post, email, host, display, upload, modify, publish, transmit, update or share any information on the Site, or otherwise make available Content : i. that violates any law or regulation ii. that is copyrighted or patented, protected by trade secret or trademark, or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission or a license from their rightful owner to post the material and to grant CYNAPCE all the license rights granted herein; iii. that infringes any of the foregoing intellectual property rights of any party, or is Content that you do not have a right to make available under any law, regulation, contractual or fiduciary relationship(s); iv. that is harmful, abusive, unlawful, threatening, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another\'s privacy or other rights, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or illegal gambling or harms or could harm minors in any way or otherwise unlawful in any manner whatsoever; v. that harasses, degrades, intimidates or is hateful towards any individual or group of individuals based on religion, gender, sexual orientation, race, ethnicity, age, or disability vi. that violates any (local) equal employment laws, including but not limited to those prohibiting the stating, in any advertisement for employment, a preference or requirement based on race, colour, religion, sex, national origin, age, or disability of the applicant. vii. that threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognisable offence or prevents investigation of any offence or is insulting any other nation viii. that includes personal or identifying information about another person without that person\'s explicit consent ix. that impersonates any person or entity, including, but not limited to, an CYNAPCE employee, or falsely states or otherwise misrepresents an affiliation with a person or entity x. deceives or misleads the addressee about the origin of such messages or communicates any information which is grossly offensive or menacing in nature xi. that is false, deceptive, misleading, deceitful, mis-informative, or constitutes \"bait and switch\" offer xii. that constitutes or contains \"pyramid schemes,\" \"affiliate marketing,\" \"link referral code,\" \"junk mail,\" \"spam,\" \"chain letters,\" or unsolicited advertisements of a commercial nature xiii. that constitutes or contains any form of advertising or solicitation if (1) posted in areas or categories of the Platform which are not designated for such purposes; or (2) e-mailed to CYNAPCE users who have requested not to be contacted about other services, products or commercial interests xiv. that includes links to commercial services or Third-Party Websites, except as specifically allowed by CYNAPCE xv. that advertises any illegal services or the sale of any items the sale of which is prohibited or restricted by applicable law, including without limitation items the sale of which is prohibited or regulated by applicable law xvi. that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment or any other computer resource xvii. that disrupts the normal flow of dialogue with an excessive number of messages (flooding attack) to the Service, or that otherwise negatively affects other users\' ability to use the Service or xviii. that employs misleading email addresses, or forged headers or otherwise manipulated identifiers to disguise the origin of Content transmitted through the Service. Additionally, you agree not to : a) contact anyone who has asked not to be contacted, or make unsolicited contact with anyone for any commercial purpose, specifically, contact any user to post advertisement on a third-party website or post any advertisement on behalf of such user; or to \"stalk\" or otherwise harass anyone; b) make any libellous or defamatory comments or postings to or against anyone; c) collect personal data about other users or entities for commercial or unlawful purposes; d) use automated means, including spiders, robots, crawlers, data mining tools, or the like to download or scrape data from the Service, except for internet search engines (e.g. Google) and non-commercial public archives (e.g. archive.org) that comply with our robots.txt file; e) post Content that is outside the local area or not relevant to the local area, repeatedly post the same or similar Content, or otherwise impose unreasonable or disproportionately large loads on our servers and other infrastructure; f) post the same item or service in multiple classified categories or forums, or in multiple metropolitan areas; g) attempt to gain unauthorized access to computer systems owned or controlled by CYNAPCE or engage in any activity that disrupts, diminishes the quality of, interferes with the performance of, or impairs the functionality of, the Service or the Platform. h) use any form of automated device or computer program (sometimes referred to as \"flagging tools\") that enables the use of CYNAPCE \'s \"flagging system\" or other community control systems without each flag being manually entered by a human that initiates the flag (an \"automated flagging device\"), or use any such flagging tool to remove posts of competitors, other third parties or to remove posts without a reasonable good faith belief that the post being flagged violates these Terms or any applicable law or regulation. i) use any automated device or software that enables the submission of automatic postings on CYNAPCE without human intervention or authorship (an \"automated posting device\"), including without limitation, the use of any such automated posting device in connection with bulk postings, or for automatic submission of postings at certain times or intervals; or j) Any Content uploaded by you shall be subject to relevant laws and may disabled, or and may be subject to investigation under appropriate laws. Furthermore, if you are found to be in non-compliance with the laws and regulations, these terms, or the privacy policy of the Site, we may terminate your account/block your access to the Site and we reserve the right to remove any non-compliant Content uploaded by you.</string>
+    <string name="privacy_policy_txt">A. Information Technology Act, 2000 CYNAPCES is responsible for the collection, use, and retention of personal information in the sense of the Information Technology Act, 2000. B. Type of Information Collected: When you visit the Platform, we may collect certain non-personal information such as your Internet Protocol (\"IP\") address, operating system, browser type, and Internet service provider. This type of information does not identify you personally.When you register with the Platform, we may also collect personal information that you provide such as your name, mailing address, email address, phone/mobile number, home country, zip code, and certain other information in event you log in via Facebook depending on your privacy settings including but not limited to your name, email address, profile picture, list of friends, education etc. (\"Registration Information\"). You have the option of also providing to us your fax numbers, gender, age, and/or company name if you choose to register with CYNAPCE. If you provide your phone number, it may be displayed in your posting. Further, if you have provided your phone number and posted an advertisement using your account, you agree to receive communications on the provided phone number from our side which may include but not be limited to automated calls or text messages. The communication may require you to confirm and verify that your account has been used to post the relevant advertisement on the Platform. We may also collect additional information that our users provide, such as new or deleted postings, new or deleted comments, keyword searches, scam reports and new contact sellers. We use a third-party payment gateway for purchases, and other third-party companies to monitor site traffic, which may, in some instances, store your information. By using this Platform or the Service, you consent to collection, storage, and use of the personal information you provide for any of the services that we offer, and you consent to our collection of any changes or updates that you may provide to any information you provide that is collected by CYNAPCE. By using this Platform, you consent to sharing your geolocation data in order to publish information/advertisements of advertisements offered by users close to your location and vice-versa. C. Cookies We may use cookies to manage our users sessions and to store preferences, tracking information, and language selection. Cookies may be used whether you register with us or not. \"Cookies\" are small text files transferred by a web server to your hard drive and thereafter stored on your computer. The types of information a cookie collects include the date and time you visited, your browsing history, your preferences, and your username. In some instances, our third-party service providers may use cookies on the Platform. We cannot control or access cookies used by third- party service providers. This Privacy Policy covers only Cookies used by us, and not any cookies used by third parties. You have the ability to either accept or decline the use of cookies on your computer, whether you are registered with us or not. Typically, you can configure your browser to not accept cookies. However, declining the use of cookies may limit your access to certain features of the Platform. For example, you may have difficulty logging in or using certain interactive features of the Platform, such as the CYNAPCE Forum or Comments feature. D. Third Parties We use third-party service providers to assist us in measuring purchases and sales on our Platform and generally improving our Platform and to monitor our users’ interests and activities. You hereby authorize CYNAPCE and/or third-party service providers engaged by CYNAPCE to collect, use, store, analyze, reproduce, publish, and adapt (either on its own or through third party service provider) the information in relation to your use of the Platform for the purpose of data analysis and for improving your experience on the Platform. In addition, the Platform may occasionally contain links to Third-Party Sites or provide you information in relation to services that you may avail from any third parties. Information about services that you may choose to avail from these third-party service providers may be actively provided to you by CYNAPCE in any manner including through its various marketing and communication channels. You acknowledge that this is solely undertaken by CYNAPCE to improve your experience in relation to the use of the Platform and the provision of such services shall be subject to such additional terms and conditions of CYNAPCE and/or third-party service providers. CYNAPCE may also offer for free or for a fee, deliverables produced by third party service providers in furtherance of any services that you may have availed from these third-party service providers in connection with the advertisement posted on the Platform, without any obligation (monetary or otherwise) towards you. CYNAPCE shall not be responsible for any service availed by you from such third parties or any payment made by you to such third parties in connection with the services. Any concern or claims in relation to such services should be directed by you to such third parties. If you click on the links to Third-Party Websites, you leave the Platform. We are not responsible for the content of these Third- Party Websites or for the security of your personal information when you use the Third Party Websites. These third-party service providers and Third-Party Sites may have their own privacy policies governing the storage and retention of your personal information that you may be subject to. They may collect information such as your IP address, browser specification, or operating system. This Privacy Policy does not govern personal information provided to, stored on, or used by these third-party providers and Third-Party Sites. We recommend that when you enter a Third-Party Site, you review the Third-Party Site’s privacy policy as it relates to safeguarding your personal information. We use third-party advertising companies to serve ads when you visit the Platform. These companies may use information (not including your name, address, email address, or telephone number) about your visits to the Platform and Third-Party Websites in order to provide advertisements about goods and services of interest to you. On the Platform, Google, as a third-party vendor, uses Cookies to serve ads. Google’s use of the Double-Click DART Cookie enables it to serve ads to the Platform’s users based on their visit to the Platform and Third-Party Websites. You may opt out of the use of the DART Cookie by Google by visiting the Google Ad and Content Network Privacy Policy at: http://www.google.com/privacy_ads.html. By publishing an ad on the Platform, you acknowledge and agree that the Content is public and accessible by any third party and that they may appear in search engine results (such as Yahoo!, MSN, Google, Altavista, and other search engines) and in the cache of those search engines, in feeds and Third-Party Websites pursuant to cobranding agreements, and that it is the sole responsibility of each of those search engines, Third-Party Websites or RSS web feed resources to update and/or to remove Content from their indexes and their cache. You agree and acknowledge that CYNAPCE is not liable for the information published in search results or by any Third-Party Website that carries CYNAPCE postings. E. How Your Information is Used We may use information provided by you to: (i) enforce our Terms of Use, monitor user activity, such as keyword searches or new postings, and more effectively manage traffic on the Platform. (ii) provide customer services, create and manage user accounts and (iii) assist you with technical difficulties. Also, we may share with third- party service providers certain information, such as your browser capabilities or operating system, that we have collected in order to better understand which advertisements and services may interest you. We may block users located in certain countries from using the Platform. We may retain such information for as long as is required to fulfil our business objective, even after your account is terminated. F. Protecting Your Personal Information You are a valued customer, and we recognize that protecting your privacy is important to you. For this reason, we are committed to protecting the personal information you provide in a variety of ways. We do not directly process any payments and do not store your credit card information. Secured socket layer (\"SSL\") technology is used for processing payment transactions with third- party service provider partners, such as……………... Your Registration Information may be protected by a unique customer password and user ID. You should not disclose your password information to anyone and you should always remember to log off if using a shared computer. Lastly, you may utilize the Platform as an anonymous user by not registering. We have taken certain security protections in safeguarding your personal information. However, as with most electronic transactions, no method is 100% safe. While we strive to use a commercially acceptable means to protect the personal information you provide, we cannot guarantee its security. Therefore, you acknowledge and agree that we assume no liability regarding the theft, loss, alteration or misuse of personal or other information or Content, including, without limitation, such information that has been provided to third parties or other users, or with regards to the failure of a third party to abide by the agreement between us and such third party. You may participate in our Forum or utilize our Comments feature. For postings to the Forum, your username will be posted. For postings using the Comments feature, your name and email will only be posted if you provide it in the comment. We strongly discourage posting any information on these features or in any Content posted by you that you do not want others to see. You agree that you are responsible for maintaining the confidentiality of your username and password, and all uses of your account, whether or not you have authorized such use. G. Accessing and Modifying Personal Information and Communication Preferences You may access, remove, review, and/or make changes to personal information that you have provided to us via the Contact Support form. You need not register in order to post or respond to advertisements on the Platform. If you register or respond to advertisements or posts on the Platform or post any content on the Platform, we may send you certain notifications, advertisements, promotions, surveys, text messages, specials and phone calls in relation to the Services. We may also send you any legally required notifications and certain notifications, including but not limited to, service related notices or notices regarding a change to any of our policies. For example, we may send you a notice regarding server problems or scheduled maintenance to the Platform. In order to opt-out of receiving these notices, you may need to deactivate your account. You can opt out of certain e-mail communications from us, including our newsletters, advice on buying and selling on the Platform, notifications that a user has commented on your posting, and notifications that you can refresh your posting. We will not change your preferences without your consent. You cannot opt out of receiving transactional communications from CYNAPCE related to your account. H. Disclosures On rare occasions, we may be required to disclose your personal information due to legal or regulatory requirements. In such instances, we reserve the right to disclose your personal information as required in order to comply with our legal obligations, including but not limited to complying with court orders, warrants, subpoenas, service of process requirements, or discovery requests. We may also disclose information about our users to law enforcement officers or others, in the good faith belief that such disclosure is reasonably necessary to enforce these Terms and/or Privacy Policy; respond to claims that any Content violates the rights of third-parties; or protect the rights, property, or personal safety of CYNAPCE, our users or the general public; or we are in notice of any criminal activity being conducted via the Platform. You agree and acknowledge that we may not inform you prior to or after disclosures made according to this section. If substantially all of our assets are sold or merged into another company, the acquiring company shall be given access to your personal information without your consent. If we sell only a part of our business, the acquiring entity shall have access to your personal information without your consent and we may send you a notice regarding this sale. I. Notification of Changes We reserve the right to change these Terms from time to time, and at our sole discretion. We may send you a notice regarding material changes to these Terms, including the Privacy Policy or the Platform. You should make note of the \"last updated date\" at the beginning of the Terms. With this information, you should be able to identify if the Terms have been updated recently. J. Disputes Any disputes regarding your privacy are subject to the Terms, including but not limited to any provisions related to indemnification, limitations on damages, and choice of law and forum. K. How to Contact Us If you have questions about this Privacy Policy, please contact CYNAPCE via the Contact Support form GRIEVANCE OFFICER If you have any grievance with respect to the Platform or the Service, you can contact our grievance officer at: Name : Designation : Email : APPLICABLE LAW/JURISDICTION AND DISPUTE RESOLUTION All disputes between you and “CYNAPCE” arising out of or concerning these Terms, including but without limitation any dispute as to the interpretation of these Terms, any alleged breach of these Terms, the right of a party to exercise any right or remedy herein provided which have not been settled by informal negotiations or mediation, shall be resolved by binding arbitration in accordance……………………………</string>
+    <string name="profilepic">profilepic</string>
+    <string name="about">About</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="app_version">App version</string>
+    <string name="improve_services">Tell us how we can improve our services</string>
+    <string name="enter_feedback">Enter feedback</string>
+    <string name="submit">Submit</string>
+
+    <string name="pay_button">Pay</string>
+
+    <string name="merchant_id">Merchant Id</string>
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+    <string name="redirect_url">Redirect Url</string>
+    <string name="cancel_url">Cancel Url</string>
+    <string name="rsa_url">RSA Key Url</string>
+    <string name="access_code">Access Code</string>
+    <string name="title_activity_status">CCAvenueMobile</string>
+    <string name="get_info">Get Info</string>
+    <string name="digValidation">1234567890</string>
+    <string name="proceed_">PROCEED</string>
+
+    <string name="buy_req">Your Buying interest is noted and sent for Admin Approval</string>
+    <string name="sell_req">Your Selling interest is noted and sent for Admin Approval</string>
+    <string name="lease_req">Your Leasing interest is noted and sent for Admin Approval</string>
+    <string name="tieUp_req">Your Tie Ups interest is noted and sent for Admin Approval</string>
+    <string name="publication_req">Your request for publication is sent to admin for assessment and approval</string>
+    <string name="med_prof_req">Your request for profile changes has been sent to admin as these are non editable by you .Once approved you will be notified  or our customer care might call you for clarification.Once approved, your  profile changes are approved.</string>
+    <string name="enter_medical_profile_">*Enter Medical Profile</string>
+    <string name="description_box_placeholder"><b>Deals Description : </b> \nPlease don\'t  enter any contact details in description</string>
+    <string name="suppotedformats">Supported Formats <b>DOC,DOCX,PDF,RTF</b></string>
+    <string name="add_package">Add package</string>
+    <string name="addMore">Add More</string>
+    <string name="brochures">Brochures</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="mark_sold_out">Mark as Sold out</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string-array name="selectAction">
+        <item>Resend OTP</item>
+        <item>Enter OTP Manually</item>
+    </string-array>
+    <string-array name="jobTitleArray">
+        <item>Home Health Aide</item>
+        <item>Nurse Practitioner
+</item>
+        <item>Occupational Therapist
+</item>
+        <item>Physical Therapist
+</item>
+        <item>Physician Assistant
+</item>
+    </string-array>
+    <string-array name="SubSpecializationArray">
+        <item>Resident</item>
+        <item>Sr Residient</item>
+        <item>Medical Officer</item>
+        <item>Sr Medical Officer</item>
+        <item>Jr Registrar</item>
+        <item>Consultant</item>
+    </string-array>
+    <string-array name="preferForArray">
+        <item>Hospital</item>
+        <item>Nursing Home</item>
+        <item>Corporate Hospitals</item>
+        <item>Universities</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="conference_type">
+        <item>Conference</item>
+        <item>Exhibition</item>
+        <item>CME</item>
+        <item>Training Courses</item>
+        <item>Seminar</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="conference_type1">
+        <item>Choose Category</item>
+        <item>Conference</item>
+        <item>Exhibition</item>
+        <item>CME</item>
+        <item>Training Courses</item>
+        <item>Seminar</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>-->
+
+<resources>
+    <string name="TargetAudience">Target Audience</string>
+    <string name="place_date_from">DD-MM-YYYY</string>
+    <string name="place_date_to">DD-MM-YYYY</string>
+    <string name="place_time_from">HH:MM</string>
+    <string name="place_time_to">HH:MM</string>
+    <string name="gst">GST(%)</string>
+
+    <string name="googleAdsAppID">ca-app-pub-9730536466726178~7351210983</string>
+    <string name="googleAdsAdUnitId">ca-app-pub-9730536466726178/2744715120</string>
+    <string name="googlePlaceAPI">AIzaSyCUVWRZZji7uyu0xZdwYgC1q3xRJdReJ_Q</string>
+
+    <string name="googleAdsInterstitialAdId">ca-app-pub-9730536466726178/7059902023</string>
+    <string name="app_name">Cynapce</string>
+    <string name="find_jobs">Targeted Healthcare Jobs</string>
+    <string name="got_it">GOT IT</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forgot_passwords">Forgot Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="not_register_yet">Not Registered Yet !</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="name">Name*</string>
+    <string name="name_n">Name</string>
+    <string name="specializations">Specializations</string>
+    <string name="address">Address</string>
+    <string name="email">Email*</string>
+    <string name="email_n">Email</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="phone_number_n">Phone Number</string>
+    <string name="occupation">Occupation</string>
+    <string name="next">NEXT</string>
+    <string name="dob">DOB</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="password_e">Password*</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password*</string>
+    <string name="search">Search</string>
+    <string name="_238_topics">238 Votes</string>
+    <string name="_3_528_replies">528 Comments</string>
+    <string name="_8_000_views">8,00 views</string>
+    <string name="articles">My Articles</string>
+    <string name="case_studies">Case Studies</string>
+    <string name="dealers_and_distributors">Dealer and Distributors</string>
+    <string name="my_conferences">My Events</string>
+    <string name="my_job">My Job</string>
+    <string name="logout">Logout</string>
+    <string name="getting_published">Getting Published</string>
+    <string name="message">Message</string>
+    <string name="publish">PUBLISH</string>
+    <string name="_5_hours_ago">5 Hours ago</string>
+    <string name="newtxt">NEW</string>
+    <string name="Rs">\u20B9</string>
+    <string name="medical_profile">Medical Profile*</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+
+    <string name="edit">EDIT</string>
+    <string name="buy">BUY</string>
+    <string name="jobs">Jobs</string>
+    <string name="job_title">Job</string>
+    <string name="profile_management">Profile Management</string>
+    <string name="descriptions">Description</string>
+    <string name="DealsDescriptions">Deal Description</string>
+    <string name="experience">Yrs. of Experience</string>
+    <string name="current_ctc">Current CTC(Annual)</string>
+    <string name="expected_ctc">Expected CTC(Annual)</string>
+    <string name="current_employer">Current Employer</string>
+    <string name="preferred_job_location">Job Location(s)</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="post">POST</string>
+    <string name="senior_resident_rmo">Senior Resident/RMO</string>
+    <string name="posted_today">Posted Today</string>
+    <string name="hazratganj_lucknow">Hazratganj, Lucknow</string>
+    <string name="tags">Emergency,Medical records,Service Quality,Disaster Management</string>
+    <string name="health_care_conference">Health Care Events</string>
+    <string name="_22_jan_2018">22-Jan-2018</string>
+    <string name="_5_10_pm">5:10 PM</string>
+    <string name="case_1">CASE 1</string>
+    <string name="demo_name">Demo Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="croppertitle">Crop Image</string>
+    <string name="crop">Crop</string>
+    <string name="hello">Hello</string>
+    <string name="save">SAVE</string>
+    <string name="congrats">CONGRATS!</string>
+    <string name="publishedSuccessfully">You are published successfully</string>
+    <string name="specification">Specification</string>
+    <string name="write_a_message">Write a message .... </string>
+    <string name="hello_demo_user">Hello, Demo User</string>
+    <string name="how_can_i_help_you">How can I help you ?</string>
+    <string name="question_left">Ques Left</string>
+    <string name="skip_question">Skip Ques</string>
+    <string name="number">25</string>
+    <string name="five_min">5:00</string>
+    <string name="min">MIN</string>
+    <string name="ques_demo">Question : Which of the following is known as Sairandhari vanam?</string>
+    <string name="answer">Answer</string>
+    <string name="previous">Prev</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+    <string name="messgae_send_successfully">Your messgae has been send successfully</string>
+    <string name="locate_on_map">Locate on map</string>
+    <string name="posted_jobs">Posted Jobs</string>
+    <string name="requested_jobs">Requested Jobs</string>
+    <string name="post_jobs">Post Jobs</string>
+    <string name="request_jobs">Request Jobs</string>
+    <string name="apply">Apply</string>
+    <string name="write_something_here">Write Something here</string>
+    <string name="timelineMsg">I can\'t check what type of injuries. The patient is having trouble breathing</string>
+    <string name="comments">Comments</string>
+    <string name="vote">Vote</string>
+    <string name="_840">840</string>
+    <string name="_12_comments">12 Comments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_start">LET\'S START</string>
+    <string name="my_deals">My Deals</string>
+    <string name="my_case_studies">My Case Studies</string>
+    <string name="exit_msg">Press again to exit</string>
+    <string name="medical_surgery">Medical Surgery</string>
+    <string name="buy_product">Buying Products</string>
+    <string name="sell_product">Selling Products</string>
+    <string name="book_name">And To Think That I Saw It On Street</string>
+    <string name="published_2008">Published (2008)</string>
+    <string name="titleSell">Sell Products(Equipments)</string>
+    <string name="create_amp_alert"><![CDATA[Create  Alert]]></string>
+    <string name="notify">Notifications</string>
+    <string name="chat_title">CHAT</string>
+    <string name="job_description">Job Description</string>
+    <string name="total_area">Total Area</string>
+    <string name="built_up_area">Built Up Area</string>
+    <string name="no_of_beds">No. of Beds</string>
+    <string name="location">Location</string>
+    <string name="sell_prod_hos">Sell Product(Hospitals)</string>
+    <string name="licences">Licences</string>
+    <string name="price">Price</string>
+    <string name="add_more_">ADD MORE</string>
+    <string name="sell_buy_practice_">Sell/Buy Product(Practice)</string>
+    <string name="sent">SENT</string>
+    <string name="request_sent">Your Request has been sent to the admin for approval.You will be notified soon!</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="share">Share</string>
+    <string name="industry">Industry</string>
+    <string name="functional_area">Functional Area</string>
+    <string name="role">Role</string>
+    <string name="applied_">APPLIED</string>
+    <string name="apply_">APPLY</string>
+    <string name="shortlist_">SHORTLIST</string>
+    <string name="shortlisted_">SHORTLISTED</string>
+    <string name="email_">Email</string>
+    <string name="sell_buy_tie_ups">Sell/Buy Product(Tie Ups)</string>
+    <string name="name_of_entity">Name of Entity</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="name_books">Name</string>
+    <string name="others_">Others</string>
+    <string name="age">Age</string>
+    <string name="contact_no_">Contact number</string>
+    <string name="sell_buy_book">Sell/Buy Product (Books,Others)</string>
+    <string name="log_in_with">Log in with</string>
+    <string name="facebook_app_id">276650359650415</string>
+    <string name="fb_login_protocol_scheme">fb276650359650415</string>
+    <string name="rooms_or_chambers">Rooms or chambers</string>
+    <string name="name_of_the_practice">Name of the practice</string>
+    <string name="length">Length</string>
+    <string name="width_">width</string>
+    <string name="done_licence">Licence Done</string>
+    <string name="left_licence">Licence Left </string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_country2">*Enter Country</string>
+    <string name="quantity">Quantity</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_state2">*Enter State</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_city2">*Enter City</string>
+    <string name="enter_hospital">Enter Hospital</string>
+    <string name="enter_prac">Enter Practice</string>
+    <string name="enter_specialization">Enter Specialization</string>
+    <string name="enter_tieup_for">Enter TieUp For</string>
+    <string name="enter_seeking">Enter Seeking</string>
+    <string name="enter_tie_up_with">Enter Tie Up With</string>
+    <string name="enter_medical_profile">Enter Medical Profile</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure, you want to logout?</string>
+    <string name="dialog_profile_txt">Please fill the mandatory fields like, medical profile, title, specialisation, contact no in your profile to perform any activities in the application.</string>
+    <string name="specialilty">Specialilty</string>
+    <string name="target_audience_speciality">Target audience Speciality</string>
+    <string name="target_audience_speciality_selct">Select target audience Speciality</string>
+    <string name="target_audience_department_selct">Select target audience Department</string>
+    <string name="target_audience_department">Target audience Department</string>
+
+    <string name="within_city">Within City</string>
+    <string name="add_location">Add Location</string>
+    <string name="within_state">Within State</string>
+    <string name="within_all_india">Within All India</string>
+    <string name="filter">FILTER</string>
+    <string name="enter_the_seat">Enter the Seats</string>
+    <string name="registered">Registered</string>
+    <string name="interested">Interested</string>
+    <string name="views">Views</string>
+    <string name="auto">Auto</string>
+
+    <string name="cost">Cost</string>
+    <string name="duration">Duration</string>
+    <string name="days">Days</string>
+    <string name="contact">Contact</string>
+    <string name="event_host">Event Host</string>
+    <string name="time_to">Time(To)</string>
+    <string name="venue">Venue</string>
+    <string name="time_from">Time(From)</string>
+    <string name="date_to">Date(End)</string>
+    <string name="date_from">Date(Start)</string>
+    <string name="registration_fee">Registration Fee</string>
+    <string name="brochure_charges">Brochure Charges</string>
+    <string name="perticuler_for_country">Country</string>
+    <string name="perticuler_for_state">State</string>
+    <string name="upload_your_brochures">Upload your brochures</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="perticuler_for_city">City</string>
+    <string name="conference_description">Events Description</string>
+    <string name="conference_description2">Events Description shoud not be more than 1000 characters</string>
+    <string name="no_of_seat">No. Of Seat</string>
+    <string name="community_forum">Community Forum</string>
+    <string name="house_no_street">Street,House No.</string>
+    <string name="events">Events</string>
+    <string name="title_activity_basic__premimum_">Basic_Premimum_Activity</string>
+    <string name="title_activity_job_details">JobDetailsActivity</string>
+    <string name="enter_registration_state">Enter Registration State</string>
+    <string name="medical_writing">Medical Writing</string>
+    <string name="review_paymt">REVIEW PAYMENT</string>
+    <string name="review_plan">Review Plan</string>
+    <string name="tie_up">TIE-UP</string>
+    <string name="our_plans">Our Plans</string>
+    <string name="delete_reason">Please enter the reason for deleting this job</string>
+    <string name="pls_enter_reason">Please enter Reason</string>
+    <string name="job_details">Job Details</string>
+    <string name="no_records">No Records</string>
+    <string name="key_note_speaker">Key Note Speaker</string>
+
+    <string name="prices">Prices</string>
+    <string name="total_price">Total Price </string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="credit_earning">Credit Earning</string>
+    <string name="conferenceType">Events Type</string>
+
+    <string name="target_audience">Target Audience :</string>
+    <string name="enter_the_conference_type">Enter the Events Type</string>
+    <string name="verify">VERIFY</string>
+    <string name="otp">OTP</string>
+    <string name="zero">0</string>
+    <string name="didn_t_got_the_code">Didn\'t got the code !</string>
+    <string name="resend">RESEND</string>
+    <string name="clearfilter">Clear Filter</string>
+    <string name="all">Check All</string>
+    <string name="ok">OK</string>
+    <string name="ext">External</string>
+    <string name="Int">Internal</string>
+    <string name="New">New Folder</string>
+    <string name="none">Uncheck All</string>
+    <string name="nothing_to_show">Nothing To Show</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="term_cond_txt_third">NO SPAM POLICY You understand and agree that sending unsolicited email advertisements or other unsolicited communications to CYNAPCES email addresses or through CYNAPCES computer systems are expressly prohibited by these Terms. You acknowledge and agree that from time to time CYNAPCES may monitor email usage using human monitors or automated software to flag certain words associated with spam or scams in emails that are sent between one user to another in the CYNAPCES e mail system. Any communication between yourself and any other user utilizing the communication features available on the Service and the Platform may be used only in accordance with the Terms. Any unauthorized use of CYNAPCES computer systems is a violation of these Terms and certain applicable laws. Such violations may subject the sender and his or her agents to civil and criminal penalties. DEALINGS WITH ORGANIZATIONS AND INDIVIDUALS You acknowledge and agree that CYNAPCE shall not be liable for your interactions with any organizations and/or individuals on the Platform or through the Service. This includes, but is not limited to, payment and delivery of goods and services, and any other terms, conditions, warranties or representations associated with any interaction you may have with other organizations and/or individuals. These dealings are solely between you and such organizations and/or individuals. You agree and acknowledge that CYNAPCE shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings or interactions. If there is a dispute between participants on the Platform, or between users and any third party, you understand and agree that CYNAPCE is under no obligation to become involved in such dispute. In the event that you have a dispute with one or more other users, you hereby release CYNAPCE, its officers, employees, agents and successors from any and all claims, demands and damages (actual and consequential) of every kind or nature, known or unknown, suspected and unsuspected, disclosed and undisclosed, arising out of or in any way related to such disputes and/or our Service. LIMITATION AND TERMINATION OF SERVICE You acknowledge and agree that CYNAPCE may establish limits from time to time concerning use of the Service, including among others, the maximum number of days that Content will be maintained or retained by the Service, the maximum number and size of postings, e-mail messages, or other Content that may be transmitted or stored by the Service, and the frequency and the manner in which you may access the Service or the Platform. You acknowledge that your account is identified and linked through your mobile number, Facebook account or email address through which you have registered. In the event you have more than one account linked through your mobile number, Facebook account or email address, CYNAPCE reserves the right to remove or restrict the usage of such duplicate accounts. You acknowledge and agree that CYNAPCE has no responsibility or liability for the deletion or failure to store any Content maintained or transmitted by the Platform or the Service. You acknowledge and agree that CYNAPCE reserves the right at any time to modify, limit or discontinue the Service (or any part thereof) with or without notice, and that CYNAPCE shall not be liable to you or to any third party for any such modification, suspension or discontinuance of the Service. You acknowledge and agree that CYNAPCE, in its sole and absolute discretion, has the right (but not the obligation) to delete or deactivate your account, block your e-mail or IP address, or otherwise terminate your access to or use of the Service (or any part thereof), immediately and without notice, and remove and discard any Content within the Service, for any reason or no reason at all, including, without limitation, if CYNAPCE believes that you have violated these Terms. Further, you agree that CYNAPCE shall not be liable to you or any third-party for any termination of your access to the Platform or the Service. Further, you agree not to attempt to use the Service after any such termination.. DISCLAIMER OF WARRANTIES YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE PLATFORM AND THE SERVICE IS ENTIRELY AT YOUR OWN RISK AND THAT THE PLATFORM AND THE SERVICE ARE PROVIDED ON AN \"AS IS\" OR \"AS AVAILABLE\" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND.ALL EXPRESS AND IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS ARE EXPRESSLY DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW. TO THE FULLEST EXTENT PERMITTED BY LAW “CYNAPCE”, ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE PLATFORM AND YOUR USE THEREOF. “CYNAPCE” MAKES NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE PLATFORM\'S CONTENT OR THE CONTENT OF ANY THIRD-PARTY WEBSITES LINKED TO THE PLATFORM AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE PLATFORM AND SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE PLATFORM, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE PLATFORM BY ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, COMMUNICATED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE PLATFORM OR THE SERVICE. “CYNAPCE” DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE PLATFORM OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND “CYNAPCE” WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND/OR OTHER USERS AND/OR THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.\" LIMITATION OF LIABILITY YOU ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ENTIRE RISK ARISING OUT OF YOUR ACCESS TO AND USE OF THE SITE, SERVICES, APP AND COLLECTIVE CONTENT REMAINS WITH YOU. IN NO EVENT SHALL CYNAPCE, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGESRESULTING FROM ANY ASPECT OF YOUR USE OF THE PLATFORM OR THE SERVICE, INCLUDING WITHOUT LIMITATION WHETHER THE DAMAGES ARISE FROM USE OR MISUSE OF THE PLATFORM OR THE SERVICE, FROM INABILITY TO USE THE PLATFORM OR THE SERVICE, OR THE INTERRUPTION, SUSPENSION, MODIFICATION, ALTERATION, OR TERMINATION OF THE PLATFORM OR THE SERVICE. ASSIGNMENT These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by CYNAPCES without restriction. Any assignment or transfer by you shall be null and void. ABILITY TO ACCEPT TERMS OF SERVICE This Platform is intended only for adults and that you are eligible to contract as per applicable laws. If you are using/accessing this Platform as a representative of any person/entity, you acknowledge that you are legally authorised to represent that person/entity. Minors, i.e. users of under 18 years of age, are only allowed to access the Platform and use the Service, in the event of approval of their legal representatives or in the event that it concerns an act or a transaction that is usual and acceptable standard in civil life and practice. You affirm that you are either at least 18 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms, and to abide by and comply with these Terms. In any case, you affirm that you are over the age of 13, as the Platform is not intended for children under 13. GENERAL INFORMATION These Terms and the other policies posted on the Platform constitute the complete and exclusive understanding and agreement between you and CYNAPCES and govern your use of the Service and the Platform superseding all prior understandings, proposals, agreements, negotiations, and discussions between the parties, whether written or oral. The Terms and the relationship between you and CYNAPCES shall be governed by Indian Laws. Any claim you may have against CYNAPCES must be submitted to the exclusive jurisdiction the courts of New Delhi, India. However, in the event that you are a consumer it may be that consumer law requires that another law is applicable and that a claim may be submitted to another jurisdiction. The failure of CYNAPCES to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms is found by a court of competent jurisdiction to be invalid (including, without limitation, because such provision is inconsistent with the laws of another jurisdiction) or inapplicable, the parties nevertheless agree that the court should endeavour to give effect to the parties\' intentions as reflected in the provision. If any provision or provisions of these Terms is held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions of the Terms shall not in any way be affected or be impaired. YOU AGREE THAT ANY CAUSE OF ACTION BROUGHT BY YOU AND ARISING OUT OF OR RELATED TO YOUR USE OF THE SERVICE AND/OR THE PLATFORM MUST COMMENCE WITHIN A REASONABLE TIME AND IN ANY EVENT WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, EXCEPT THAT CYNAPCES MAY COMMENCE ANY SUCH CAUSE OF ACTION IN ACCORDANCE WITH THE APPLICABLE STATUTE OF LIMITATIONS UNDER INDIAN LAW. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED. These Terms shall inure to the benefit of and be binding upon each party\'s successors and assigns. VIOLATION OF TERMS AND LIQUIDATED DAMAGES Please report any violations of the Terms that you become aware of by contacting us using the link at the bottom of the CYNAPCES Application at …………… Any failure to act by CYNAPCES with respect to a breach by you or others does not waive our right to act with respect to subsequent or similar breaches by you or others. You understand and agree that, because damages are often difficult or impossible to quantify, if actual damages cannot be reasonably calculated then you will be liable to pay CYNAPCES the following as liquidated damages (and not a penalty): a. If CYNAPCES establishes any limits on the frequency with which you may access the Service or terminates your access to or use of the Service, you agree to pay CYNAPCES ………………. b. If you are a Posting Agent that uses the Service in violation of these Terms, in addition to any liquidated damages under Section xx(e) below you agree to pay CYNAPCES …………………….item you post in violation of these Terms. A Posting Agent will also be deemed an agent of the party engaging the Posting Agent to access the Service, and such party (by engaging the Posting Agent in violation of these Terms) agrees to pay CYNAPCES an additional (……………………..) for each item posted by the Posting Agent on behalf of such party in violation of these Terms. c. If you use CYNAPCES e-mail addresses or computer systems to send unsolicited e-mail advertisements to CYNAPCES e-mail addresses or any other party, you agree to pay CYNAPCES ………………. for each such e-mail. d. If you post messages in violation of these Terms, other than as described above, you agree to pay CYNAPCES …………….. for each such message. Notwithstanding the foregoing, CYNAPCES may, in its sole and absolute discretion, issue a warning before assessing damages. e. If you aggregate, copy, display, mirror, reproduce, or otherwise exploit for any purpose any Content (except for your own Content) in violation of these Terms without CYNAPCES’s express written permission, you agree to pay CYNAPCE…………………. for each day on which you engage in such conduct. If none of the foregoing clauses (a) – (f) are applicable, you agree to pay CYNAPCE’s actual damages, to the extent such actual damages can be reasonably calculated. Notwithstanding any other provision of these Terms, CYNAPCE retains the right to seek equitable remedies, including without limitation, specific performance of any term contained in these Terms, or a preliminary or permanent injunction against the breach or threatened breach of any such term or in aid of the exercise of any power granted in these Terms, or any combination thereof, without the necessity of posting a bond.</string>
+    <string name="term_cond_txt_scnd"> PAID SERVICES Most category of posts or individual posts will be charged. Certain deals also can be brokered and involve charges for deal execution. The user shall agree with us to be charged for Brokerage for certain transactional services and further agree to sign a Brokerage Agreement. The user shall agree that the CYNAPCE admin is authorised to make the changes in the post over the platform for e.g. the admin panel will be enabled to edit the fields of the post such as Name, address contact details or description part or category individually and tab wise at own discretion. The user shall be allowed to sell or buy Medical Books without any intervention of the Platform -Admin. There would be no charges over posting any ads regarding the buying and selling of books. The user shall agree that CYNAPCE admin will not be endorsing any Events or event and any changes with regards to the same. Any such fees paid hereunder are non-refundable in the event any Content is removed from the Service for violating these Terms and Each party posting Content to the Service is responsible for said Content and compliance with the Terms POSTING AGENTS As used herein, the term \"Posting Agent\" refers to a third-party agent, service or intermediary that offers to post Content to the Service on behalf of others. CYNAPCE prohibits the use of Posting Agents, directly or indirectly, without the express written permission of CYNAPCE. In addition, Posting Agents are not permitted to post Content on behalf of others, directly or indirectly, or otherwise access the Service to post Content on behalf of others, except with express written permission or license from CYNAPCE. ACCESS TO THE SERVICE If you have questions about this Privacy Policy, please contact CYNAPCE via the Contact Support form GRIEVANCE OFFICER CYNAPCE grants you a limited, revocable, non-exclusive license to access and use the Service for personal use. This license granted herein does not include any of the following: (a) access to or use of the Service by Posting Agents; or (b) any collection, aggregation, copying, duplication, display or derivative use of the Service nor any use of data mining, robots, spiders, or similar data gathering and extraction tools for any purpose unless expressly permitted by CYNAPCE or as otherwise set forth in these Terms. Notwithstanding the foregoing, general purpose internet search engines and non-commercial public archives that gather information for the sole purpose of displaying hyperlinks to the Service, provided they each do so from a stable IP address or range of IP addresses using an easily identifiable agent and comply with our robots.txt file, may engage in the activities set forth in (c). For purposes of this exception, a \"general purpose internet search engine\" does not include a website or search engine or other service that specializes in classified listings including any subset of classifieds listings such as housing, for sale, jobs, services, or personals, or which otherwise provides classified ad listing services. The license set forth in this Section permits you to display on your website, or create a hyperlink thereto, individual postings on the Service so long as such use is for non-commercial and/or news reporting purposes only (e.g., for use in personal blogs or other personal online media). If the total number of such postings displayed on or linked to your website exceeds limits set by CYNAPCE, your use will be in violation of these Terms, unless CYNAPCE expressly grants you permission otherwise. d) You are also permitted to create a hyperlink to the home page of the Platform so long as the link does not portray CYNAPCE, its employees, affiliates or agents in a false, confusing, misleading, derogatory, or otherwise offensive matter. Use of the Service beyond the scope of authorized access as set forth in these Terms immediately terminates any permission or license granted herein. In order to collect, aggregate, copy, duplicate, display or make derivative use of the Service or any Content made available via the Service for other purposes (including commercial purposes) not stated herein, you must first obtain a license from CYNAPCE. NOTIFICATION OF CLAIMS OF INFRINGEMENTS CYNAPCE is not liable for any infringement of intellectual property rights arising out of materials posted on or transmitted through the site, or items advertised on the site, by end users or any other third parties. If you are an owner of intellectual property rights or an agent who is fully authorised to act on behalf of the owner of intellectual property rights and believe that any Content or other content infringes upon your intellectual property right or intellectual property right of the owner on whose behalf you are authorised to act, you may submit a notification to CYNAPCE together with a request to CYNAPCE to delete the relevant Content in good faith. INTELLECTUAL PROPERTY RIGHTS You acknowledge and agree that the materials on the Platform, other than the user Content that you licensed including without limitation, the text, software, scripts, graphics, photos, sounds, music, videos, interactive features and the like (\"Materials\") and the trademarks, service marks and logos contained therein (\"Marks\"), are owned by or licensed to CYNAPCE, and are subject to copyright and other intellectual property rights under Indian IPR laws, foreign laws and international treaties and/or conventions. In connection with the Services, the Platform may display certain trademarks belonging to third parties. Use of these trademarks may be subject to license granted by third parties to CYNAPCE. You shall, in no event, reverse engineer, decompile, or disassemble such trademarks and nothing herein shall be construed to grant you any right in relation to such trademarks. Materials on the Platform are provided to you AS IS for your information and personal use only and may not be used, copied, reproduced, distributed, transmitted,broadcast, displayed, sold, licensed, or otherwise exploited for any other purposes whatsoever without the prior written consent of the respective owners. CYNAPCE reserves all rights not expressly granted herein to the Platform and the Materials. You agree to not engage in the use, copying, or distribution of any of the Materials other than as expressly permitted herein, including any use, copying, or distribution of Materials of third parties obtained through the Platform for any commercial purposes. If you download or print a copy of the Materials for personal use, you must retain all copyright and other proprietary notices contained therein. You agree not to circumvent, disable or otherwise interfere with security related features of the Platform or features that prevent or restrict use or copying of any Materials or enforce limitations on use of the Platform or the Materials therein. The Service is protected to the maximum extent permitted by copyright laws, other laws, and international treaties and/or conventions. Content displayed on or through the Service is protected by copyright as a collective work and/or compilation, pursuant to copyrights laws, other laws, and international conventions. Any reproduction, modification, creation of derivative works from or redistribution of the Platform, the Materials, or the collective work or compilation is expressly prohibited. Copying or reproducing the Platform, the Materials, or any portion thereof to any other server or location for further reproduction or redistribution is expressly prohibited. You further agree not to reproduce, duplicate or copy Content or Materials from the Service, and agree to abide by any and all copyright notices and other notices displayed on the Service. You may not decompile or disassemble, reverse engineer or otherwise attempt to discover any source code contained in the Service. Without limiting the foregoing, you agree not to reproduce, duplicate, copy, sell, resell or exploit for any commercial purposes, any aspect of the Service. CYNAPCE is a service mark registered with the Patent and Trademark Office in INDIA. USER SUBMISSIONS You understand that when using the Platform, you will be exposed to Content from a variety of sources, and that CYNAPCES is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such Content, and you agree and assume all liability for your use. You further understand and acknowledge that you may be exposed to Content that is inaccurate, offensive, indecent, or objectionable, defamatory or libellous and you agree to waive, and hereby do waive, any legal or equitable rights or remedies you have or may have against CYNAPCES with respect thereto. INDEMNITY You agree to defend, indemnify and hold harmless CYNAPCES, its officers, subsidiaries, affiliates, successors, assigns, directors, officers, agents, service providers, suppliers and employees, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorneys\' fees) arising from: (i) your use of and access to the Platform and/or the Service; (ii) your violation of any term of these Terms; (iii) your violation of any third party right, including without limitation any copyright, trademark, trade secret or other property, or privacy right; or (iv) any claim that your Content caused damage to a third party. This defence and indemnification obligation will survive termination, modification or expiration of these Terms and your use of the Service and the Platform.  </string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="term_cond_txt">CYNAPCE (BY NVM HEALTHCARE PRIVATE LIMITED) PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS PLATFORM, YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THE PLATFORM. ACCEPTANCE CYNAPCE is a mobile platform operated by NVM Healthcare, a Private limited company, that is registered in Delhi, India, Cynapce and its affiliates and / or branches (hereinafter together \" CYNAPCE\") provide a collection of online resources which include classified advertisements and Medical forum and updates including Medical cases and discussions (collectively, the \"Service\") on the mobile application of the platform (collectively, the \"Platform\"). The Platform and the Service are provided to you subject to these CYNAPCE Terms of Use (these \"Terms\"). For the purpose of the Terms and wherever the context so requires, the terms \"you\" and \"your\" shall mean any person who uses or accesses, whether through manual or automated means, the Platform or the Service in any manner whatsoever including persons browsing the Platform and its content, posting comments or any content or responding to any advertisements or content on the Platform. By using the Service, you agree to comply with these Terms. Additionally, when using a portion of the Service, you agree to conform to any applicable posted guidelines for such Service, which may change or be updated from time to time at CYNAPCE’s sole Discretion DESCRIPTION OF SERVICE AND CONTENT POLICY We are a Healthcare platform which aims to provide multiple services through the platform by bringing multiple healthcare stakeholders together. The services can be - (i). Transactional Services (ii). Career services (iii). Academic Services (iv). Case Publication Assistance I) TRANSACTIONAL SERVICES The Platform will allow users, subject to agreeing to these terms, to offer to buy, sell products and services dealing with Healthcare. CYNAPCE will be an intermediary only here and as such is not responsible for transactions that occur as a result of such an exercise. As such, CYNAPCE is not a party in these transactions although we might charge a fee for our services. The Authenticity, valuations and such other considerations are to be decided by the parties undertaking these transactions. II) CAREER SERVICES These Services will be charged when you apply for a position or shortlist candidates if you are a recruiter. However, initially or under certain promotions they may be given at a reduced or no cost. Simply creating a job alert or posting a vacancy will not be charged. The idea is to charge for value created and not otherwise. For recruiters’ certain categories of jobs may be charged under the commission model. III) ACADEMIC SERVICES CYNAPCE provides a unique case-based learning opportunity for doctors across the world. CYNAPCE also provides a platform for doctors to share their clinical experiences so that the whole of the medical community is benefitted. CYNAPCE also brings in latest updates in the field of medicine. We are solely an educational platform for doctors and we do not intend to provide any diagnostic/investigational/treatment advice or consultation. The information provided inside the application is solely for educational purpose only. Any other use is not permitted under the terms. The ever-changing evidence in the field of medicine is always a challenge to learn. The information provided by us will try to cover such advances. In case of healthcare delivery, the information provided by us is not liable as we provide only educational services. Our services will never replace any doctor’s intellectual ability and decision making in any instance and we are not liable for any such acts. IV) MEDICAL WRITING ASSISTANCE SERVICES CYNAPCE is a service provider for the medical writing services and in no way guarantee the publications of proposed research articles/abstracts. The publication will be dependent on the publication policy of target scientific/medical Journal as well as scientific relevance and novelty of the publication. CYNAPCE is not liable for the accuracy and authenticity of the raw data. The Author/organization undertaking the medical writing services of CYNAPCE shall own the complete responsibility towards the accuracy and authenticity of the raw data. The Author/organization undertaking the medical writing services of CYNAPCE will solely be responsible for the plagiarism claim, if any towards the raw data/publication material. However, CYNAPCE will ensure that the manuscripts/publications developed by it do not fall under the plagiarism criteria. For all Publications, Author/organization undertaking the medical writing services of CYNAPCE shall comply with recognized ethical standards concerning publications and authorship, including the Uniform Requirements for Manuscripts Submitted to Biomedical Journals, established by the International Committee of Medical Journal Editors. The ICMJE recommends that authorship be based on the following 4 criteria :- i). Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND ii). Drafting the work or revising it critically for important intellectual content; AND iii). Final approval of the version to be published; AND iv). Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All those designated as authors should meet all four criteria for authorship, and all who meet the four criteria should be identified as authors. Those who do not meet all four criteria should be acknowledged. CYNAPCE does not make any representation as regards to affiliation with any Scientific/Medical Journal. The initiation of the medical writing work is subject to the realization of professional fee. Further, the fee paid is non-refundable, non-transferable under any circumstances whatsoever. CYNAPCE is not responsible for postal delays or loss of raw data/publication material during transit. CYNAPCE reserves the right to change the terms and conditions from time to time in its sole and absolute discretion. If any such change is made, the latest amended terms and conditions would be applicable. CONDUCT You agree not to post, email, host, display, upload, modify, publish, transmit, update or share any information on the Site, or otherwise make available Content : i. that violates any law or regulation ii. that is copyrighted or patented, protected by trade secret or trademark, or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission or a license from their rightful owner to post the material and to grant CYNAPCE all the license rights granted herein; iii. that infringes any of the foregoing intellectual property rights of any party, or is Content that you do not have a right to make available under any law, regulation, contractual or fiduciary relationship(s); iv. that is harmful, abusive, unlawful, threatening, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another\'s privacy or other rights, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or illegal gambling or harms or could harm minors in any way or otherwise unlawful in any manner whatsoever; v. that harasses, degrades, intimidates or is hateful towards any individual or group of individuals based on religion, gender, sexual orientation, race, ethnicity, age, or disability vi. that violates any (local) equal employment laws, including but not limited to those prohibiting the stating, in any advertisement for employment, a preference or requirement based on race, colour, religion, sex, national origin, age, or disability of the applicant. vii. that threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognisable offence or prevents investigation of any offence or is insulting any other nation viii. that includes personal or identifying information about another person without that person\'s explicit consent ix. that impersonates any person or entity, including, but not limited to, an CYNAPCE employee, or falsely states or otherwise misrepresents an affiliation with a person or entity x. deceives or misleads the addressee about the origin of such messages or communicates any information which is grossly offensive or menacing in nature xi. that is false, deceptive, misleading, deceitful, mis-informative, or constitutes \"bait and switch\" offer xii. that constitutes or contains \"pyramid schemes,\" \"affiliate marketing,\" \"link referral code,\" \"junk mail,\" \"spam,\" \"chain letters,\" or unsolicited advertisements of a commercial nature xiii. that constitutes or contains any form of advertising or solicitation if (1) posted in areas or categories of the Platform which are not designated for such purposes; or (2) e-mailed to CYNAPCE users who have requested not to be contacted about other services, products or commercial interests xiv. that includes links to commercial services or Third-Party Websites, except as specifically allowed by CYNAPCE xv. that advertises any illegal services or the sale of any items the sale of which is prohibited or restricted by applicable law, including without limitation items the sale of which is prohibited or regulated by applicable law xvi. that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment or any other computer resource xvii. that disrupts the normal flow of dialogue with an excessive number of messages (flooding attack) to the Service, or that otherwise negatively affects other users\' ability to use the Service or xviii. that employs misleading email addresses, or forged headers or otherwise manipulated identifiers to disguise the origin of Content transmitted through the Service. Additionally, you agree not to : a) contact anyone who has asked not to be contacted, or make unsolicited contact with anyone for any commercial purpose, specifically, contact any user to post advertisement on a third-party website or post any advertisement on behalf of such user; or to \"stalk\" or otherwise harass anyone; b) make any libellous or defamatory comments or postings to or against anyone; c) collect personal data about other users or entities for commercial or unlawful purposes; d) use automated means, including spiders, robots, crawlers, data mining tools, or the like to download or scrape data from the Service, except for internet search engines (e.g. Google) and non-commercial public archives (e.g. archive.org) that comply with our robots.txt file; e) post Content that is outside the local area or not relevant to the local area, repeatedly post the same or similar Content, or otherwise impose unreasonable or disproportionately large loads on our servers and other infrastructure; f) post the same item or service in multiple classified categories or forums, or in multiple metropolitan areas; g) attempt to gain unauthorized access to computer systems owned or controlled by CYNAPCE or engage in any activity that disrupts, diminishes the quality of, interferes with the performance of, or impairs the functionality of, the Service or the Platform. h) use any form of automated device or computer program (sometimes referred to as \"flagging tools\") that enables the use of CYNAPCE \'s \"flagging system\" or other community control systems without each flag being manually entered by a human that initiates the flag (an \"automated flagging device\"), or use any such flagging tool to remove posts of competitors, other third parties or to remove posts without a reasonable good faith belief that the post being flagged violates these Terms or any applicable law or regulation. i) use any automated device or software that enables the submission of automatic postings on CYNAPCE without human intervention or authorship (an \"automated posting device\"), including without limitation, the use of any such automated posting device in connection with bulk postings, or for automatic submission of postings at certain times or intervals; or j) Any Content uploaded by you shall be subject to relevant laws and may disabled, or and may be subject to investigation under appropriate laws. Furthermore, if you are found to be in non-compliance with the laws and regulations, these terms, or the privacy policy of the Site, we may terminate your account/block your access to the Site and we reserve the right to remove any non-compliant Content uploaded by you.</string>
+    <string name="privacy_policy_txt">A. Information Technology Act, 2000 CYNAPCES is responsible for the collection, use, and retention of personal information in the sense of the Information Technology Act, 2000. B. Type of Information Collected: When you visit the Platform, we may collect certain non-personal information such as your Internet Protocol (\"IP\") address, operating system, browser type, and Internet service provider. This type of information does not identify you personally.When you register with the Platform, we may also collect personal information that you provide such as your name, mailing address, email address, phone/mobile number, home country, zip code, and certain other information in event you log in via Facebook depending on your privacy settings including but not limited to your name, email address, profile picture, list of friends, education etc. (\"Registration Information\"). You have the option of also providing to us your fax numbers, gender, age, and/or company name if you choose to register with CYNAPCE. If you provide your phone number, it may be displayed in your posting. Further, if you have provided your phone number and posted an advertisement using your account, you agree to receive communications on the provided phone number from our side which may include but not be limited to automated calls or text messages. The communication may require you to confirm and verify that your account has been used to post the relevant advertisement on the Platform. We may also collect additional information that our users provide, such as new or deleted postings, new or deleted comments, keyword searches, scam reports and new contact sellers. We use a third-party payment gateway for purchases, and other third-party companies to monitor site traffic, which may, in some instances, store your information. By using this Platform or the Service, you consent to collection, storage, and use of the personal information you provide for any of the services that we offer, and you consent to our collection of any changes or updates that you may provide to any information you provide that is collected by CYNAPCE. By using this Platform, you consent to sharing your geolocation data in order to publish information/advertisements of advertisements offered by users close to your location and vice-versa. C. Cookies We may use cookies to manage our users sessions and to store preferences, tracking information, and language selection. Cookies may be used whether you register with us or not. \"Cookies\" are small text files transferred by a web server to your hard drive and thereafter stored on your computer. The types of information a cookie collects include the date and time you visited, your browsing history, your preferences, and your username. In some instances, our third-party service providers may use cookies on the Platform. We cannot control or access cookies used by third- party service providers. This Privacy Policy covers only Cookies used by us, and not any cookies used by third parties. You have the ability to either accept or decline the use of cookies on your computer, whether you are registered with us or not. Typically, you can configure your browser to not accept cookies. However, declining the use of cookies may limit your access to certain features of the Platform. For example, you may have difficulty logging in or using certain interactive features of the Platform, such as the CYNAPCE Forum or Comments feature. D. Third Parties We use third-party service providers to assist us in measuring purchases and sales on our Platform and generally improving our Platform and to monitor our users’ interests and activities. You hereby authorize CYNAPCE and/or third-party service providers engaged by CYNAPCE to collect, use, store, analyze, reproduce, publish, and adapt (either on its own or through third party service provider) the information in relation to your use of the Platform for the purpose of data analysis and for improving your experience on the Platform. In addition, the Platform may occasionally contain links to Third-Party Sites or provide you information in relation to services that you may avail from any third parties. Information about services that you may choose to avail from these third-party service providers may be actively provided to you by CYNAPCE in any manner including through its various marketing and communication channels. You acknowledge that this is solely undertaken by CYNAPCE to improve your experience in relation to the use of the Platform and the provision of such services shall be subject to such additional terms and conditions of CYNAPCE and/or third-party service providers. CYNAPCE may also offer for free or for a fee, deliverables produced by third party service providers in furtherance of any services that you may have availed from these third-party service providers in connection with the advertisement posted on the Platform, without any obligation (monetary or otherwise) towards you. CYNAPCE shall not be responsible for any service availed by you from such third parties or any payment made by you to such third parties in connection with the services. Any concern or claims in relation to such services should be directed by you to such third parties. If you click on the links to Third-Party Websites, you leave the Platform. We are not responsible for the content of these Third- Party Websites or for the security of your personal information when you use the Third Party Websites. These third-party service providers and Third-Party Sites may have their own privacy policies governing the storage and retention of your personal information that you may be subject to. They may collect information such as your IP address, browser specification, or operating system. This Privacy Policy does not govern personal information provided to, stored on, or used by these third-party providers and Third-Party Sites. We recommend that when you enter a Third-Party Site, you review the Third-Party Site’s privacy policy as it relates to safeguarding your personal information. We use third-party advertising companies to serve ads when you visit the Platform. These companies may use information (not including your name, address, email address, or telephone number) about your visits to the Platform and Third-Party Websites in order to provide advertisements about goods and services of interest to you. On the Platform, Google, as a third-party vendor, uses Cookies to serve ads. Google’s use of the Double-Click DART Cookie enables it to serve ads to the Platform’s users based on their visit to the Platform and Third-Party Websites. You may opt out of the use of the DART Cookie by Google by visiting the Google Ad and Content Network Privacy Policy at: http://www.google.com/privacy_ads.html. By publishing an ad on the Platform, you acknowledge and agree that the Content is public and accessible by any third party and that they may appear in search engine results (such as Yahoo!, MSN, Google, Altavista, and other search engines) and in the cache of those search engines, in feeds and Third-Party Websites pursuant to cobranding agreements, and that it is the sole responsibility of each of those search engines, Third-Party Websites or RSS web feed resources to update and/or to remove Content from their indexes and their cache. You agree and acknowledge that CYNAPCE is not liable for the information published in search results or by any Third-Party Website that carries CYNAPCE postings. E. How Your Information is Used We may use information provided by you to: (i) enforce our Terms of Use, monitor user activity, such as keyword searches or new postings, and more effectively manage traffic on the Platform. (ii) provide customer services, create and manage user accounts and (iii) assist you with technical difficulties. Also, we may share with third- party service providers certain information, such as your browser capabilities or operating system, that we have collected in order to better understand which advertisements and services may interest you. We may block users located in certain countries from using the Platform. We may retain such information for as long as is required to fulfil our business objective, even after your account is terminated. F. Protecting Your Personal Information You are a valued customer, and we recognize that protecting your privacy is important to you. For this reason, we are committed to protecting the personal information you provide in a variety of ways. We do not directly process any payments and do not store your credit card information. Secured socket layer (\"SSL\") technology is used for processing payment transactions with third- party service provider partners, such as……………... Your Registration Information may be protected by a unique customer password and user ID. You should not disclose your password information to anyone and you should always remember to log off if using a shared computer. Lastly, you may utilize the Platform as an anonymous user by not registering. We have taken certain security protections in safeguarding your personal information. However, as with most electronic transactions, no method is 100% safe. While we strive to use a commercially acceptable means to protect the personal information you provide, we cannot guarantee its security. Therefore, you acknowledge and agree that we assume no liability regarding the theft, loss, alteration or misuse of personal or other information or Content, including, without limitation, such information that has been provided to third parties or other users, or with regards to the failure of a third party to abide by the agreement between us and such third party. You may participate in our Forum or utilize our Comments feature. For postings to the Forum, your username will be posted. For postings using the Comments feature, your name and email will only be posted if you provide it in the comment. We strongly discourage posting any information on these features or in any Content posted by you that you do not want others to see. You agree that you are responsible for maintaining the confidentiality of your username and password, and all uses of your account, whether or not you have authorized such use. G. Accessing and Modifying Personal Information and Communication Preferences You may access, remove, review, and/or make changes to personal information that you have provided to us via the Contact Support form. You need not register in order to post or respond to advertisements on the Platform. If you register or respond to advertisements or posts on the Platform or post any content on the Platform, we may send you certain notifications, advertisements, promotions, surveys, text messages, specials and phone calls in relation to the Services. We may also send you any legally required notifications and certain notifications, including but not limited to, service related notices or notices regarding a change to any of our policies. For example, we may send you a notice regarding server problems or scheduled maintenance to the Platform. In order to opt-out of receiving these notices, you may need to deactivate your account. You can opt out of certain e-mail communications from us, including our newsletters, advice on buying and selling on the Platform, notifications that a user has commented on your posting, and notifications that you can refresh your posting. We will not change your preferences without your consent. You cannot opt out of receiving transactional communications from CYNAPCE related to your account. H. Disclosures On rare occasions, we may be required to disclose your personal information due to legal or regulatory requirements. In such instances, we reserve the right to disclose your personal information as required in order to comply with our legal obligations, including but not limited to complying with court orders, warrants, subpoenas, service of process requirements, or discovery requests. We may also disclose information about our users to law enforcement officers or others, in the good faith belief that such disclosure is reasonably necessary to enforce these Terms and/or Privacy Policy; respond to claims that any Content violates the rights of third-parties; or protect the rights, property, or personal safety of CYNAPCE, our users or the general public; or we are in notice of any criminal activity being conducted via the Platform. You agree and acknowledge that we may not inform you prior to or after disclosures made according to this section. If substantially all of our assets are sold or merged into another company, the acquiring company shall be given access to your personal information without your consent. If we sell only a part of our business, the acquiring entity shall have access to your personal information without your consent and we may send you a notice regarding this sale. I. Notification of Changes We reserve the right to change these Terms from time to time, and at our sole discretion. We may send you a notice regarding material changes to these Terms, including the Privacy Policy or the Platform. You should make note of the \"last updated date\" at the beginning of the Terms. With this information, you should be able to identify if the Terms have been updated recently. J. Disputes Any disputes regarding your privacy are subject to the Terms, including but not limited to any provisions related to indemnification, limitations on damages, and choice of law and forum. K. How to Contact Us If you have questions about this Privacy Policy, please contact CYNAPCE via the Contact Support form GRIEVANCE OFFICER If you have any grievance with respect to the Platform or the Service, you can contact our grievance officer at: Name : Designation : Email : APPLICABLE LAW/JURISDICTION AND DISPUTE RESOLUTION All disputes between you and “CYNAPCE” arising out of or concerning these Terms, including but without limitation any dispute as to the interpretation of these Terms, any alleged breach of these Terms, the right of a party to exercise any right or remedy herein provided which have not been settled by informal negotiations or mediation, shall be resolved by binding arbitration in accordance……………………………</string>
+    <string name="profilepic">profilepic</string>
+    <string name="about">About</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="app_version">App version</string>
+    <string name="improve_services">Tell us how we can improve our services</string>
+    <string name="enter_feedback">Enter feedback</string>
+    <string name="submit">Submit</string>
+
+    <string name="pay_button">Pay</string>
+
+    <string name="merchant_id">Merchant Id</string>
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+    <string name="redirect_url">Redirect Url</string>
+    <string name="cancel_url">Cancel Url</string>
+    <string name="rsa_url">RSA Key Url</string>
+    <string name="access_code">Access Code</string>
+    <string name="title_activity_status">CCAvenueMobile</string>
+    <string name="get_info">Get Info</string>
+    <string name="digValidation">1234567890</string>
+    <string name="proceed_">PROCEED</string>
+
+    <string name="buy_req">Your Buying interest is noted and sent for Admin Approval</string>
+    <string name="sell_req">Your Selling interest is noted and sent for Admin Approval</string>
+    <string name="lease_req">Your Leasing interest is noted and sent for Admin Approval</string>
+    <string name="tieUp_req">Your Tie Ups interest is noted and sent for Admin Approval</string>
+    <string name="publication_req">Your request for publication is sent to admin for assessment and approval</string>
+    <string name="med_prof_req">Your request for profile changes has been sent to admin as these are non editable by you .Once approved you will be notified  or our customer care might call you for clarification.Once approved, your  profile changes are approved.</string>
+    <string name="enter_medical_profile_">*Enter Medical Profile</string>
+    <string name="description_box_placeholder"><b>Deals Description : </b> \nPlease don\'t  enter any contact details in description</string>
+    <string name="suppotedformats">Supported Formats <b>DOC,DOCX,PDF,RTF</b></string>
+    <string name="add_package">Add package</string>
+    <string name="addMore">Add More</string>
+    <string name="brochures">Brochures</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="mark_sold_out">Mark as Sold out</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="selected_audience">Selected Audience</string>
+    <string name="select_date">Select Date</string>
+    <string name="normal_packages">Normal Packages</string>
+    <string-array name="selectAction">
+        <item>Resend OTP</item>
+        <item>Enter OTP Manually</item>
+    </string-array>
+    <string-array name="jobTitleArray">
+        <item>Home Health Aide</item>
+        <item>Nurse Practitioner
+</item>
+        <item>Occupational Therapist
+</item>
+        <item>Physical Therapist
+</item>
+        <item>Physician Assistant
+</item>
+    </string-array>
+    <string-array name="SubSpecializationArray">
+        <item>Resident</item>
+        <item>Sr Residient</item>
+        <item>Medical Officer</item>
+        <item>Sr Medical Officer</item>
+        <item>Jr Registrar</item>
+        <item>Consultant</item>
+    </string-array>
+    <string-array name="preferForArray">
+        <item>Hospital</item>
+        <item>Nursing Home</item>
+        <item>Corporate Hospitals</item>
+        <item>Universities</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="conference_type">
+        <item>Conference</item>
+        <item>Exhibition</item>
+        <item>CME</item>
+        <item>Training Courses</item>
+        <item>Seminar</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="conference_type1">
+        <item>Choose Category</item>
+        <item>Conference</item>
+        <item>Exhibition</item>
+        <item>CME</item>
+        <item>Training Courses</item>
+        <item>Seminar</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
+

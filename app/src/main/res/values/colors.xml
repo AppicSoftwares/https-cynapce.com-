@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4AB5B0</color>
+    <color name="colorPrimaryDark">#4AB5B0</color>
+    <color name="colorAccent">#4AB5B0</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_blue">#228BD6</color>
+    <color name="color_light_Sky_blue">#68ddff</color>
+    <color name="color_black">#000000</color>
+    <color name="light_black">#4B4B4B</color>
+    <color name="view_color">#DEE0E4</color>
+    <color name="colorgrey">#737373</color>
+    <color name="color_violet">#9b4f70</color>
+    <color name="fadeGrey">#c7c7c7</color>
+    <color name="blue">#055780</color>
+    <color name="yellow">#efa320</color>
+    <color name="green">#2bb673</color>
+    <color name="orange">#fc804b</color>
+    <color name="lip_red">#f2203b</color>
+    <color name="red">#ff000d</color>
+    <color name="dark_grey">#a0acb3</color>
+    <color name="shadowColor">#42000000</color>
+    <!-- dots inactive colors -->
+    <!-- dots active colors -->
+    <color name="noti_row_color">#E1FDFB</color>
+    <color name="grey_color">#E8E8E8</color>
+    <color name="labels">#31c4be</color>
+    <color name="disableBtn">#2D009688</color>
+</resources>

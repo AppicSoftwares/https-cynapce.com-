@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.alcanzar.cynapse.activity.MyDealsActivity">
+    <include layout="@layout/header"
+        android:id="@+id/header"/>
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cardOne"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/header">-->
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:id="@+id/tabLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:tabIndicatorColor="@color/color_white"-->
+            <!--app:tabTextColor="@color/colorgrey"-->
+            <!--app:tabSelectedTextColor="@color/color_white"-->
+            <!--app:tabBackground="@color/colorPrimary"-->
+            <!--app:tabTextAppearance="@style/tab_text"-->
+            <!--app:tabMode="fixed">-->
+        <!--</android.support.design.widget.TabLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_below="@+id/header"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabSelectedTextColor="@color/color_white"
+        app:tabTextColor="@color/light_black"
+        app:tabIndicatorColor="@color/color_white">
+    </android.support.design.widget.TabLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            android:layout_gravity="center_horizontal"
+            ads:adUnitId="@string/googleAdsAdUnitId">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</RelativeLayout>

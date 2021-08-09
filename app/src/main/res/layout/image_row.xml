@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="@dimen/_4sdp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/rel_pdf"
+            android:layout_weight=".9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_pdf"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:src="@drawable/ic_pdf"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".1"/>
+        <TextView
+            android:id="@+id/tv_imagname"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/gothicb"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_weight=".8"
+
+            android:text="dfsdfsfsfsfsfs"
+        
+            android:textColor="@color/colorgrey"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/img_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".1"
+            android:visibility="gone"
+            android:src="@drawable/rubbish_bin"
+            />
+    </LinearLayout>
+
+</LinearLayout>

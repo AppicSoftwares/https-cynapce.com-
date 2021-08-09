@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_dash"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/soldOutBtn"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:fontFamily="@font/gothicb"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/_7sdp"
+        android:text="@string/health_care_conference"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/_11sdp" />
+
+    <Button
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:id="@+id/soldOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/gothicb"
+        android:gravity="center"
+        android:text="@string/mark_sold_out"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/lnr_shr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soldOutBtn"
+        android:padding="@dimen/_7sdp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight=".80"
+            android:fontFamily="@font/gothicb"
+            android:gravity="left|center_vertical"
+            android:text="@string/_22_jan_2018"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".20"
+            android:drawableStart="@drawable/watch"
+            android:drawablePadding="@dimen/_3sdp"
+            android:fontFamily="@font/gothicb"
+            android:gravity="center_vertical"
+            android:text="@string/_5_10_pm"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnr_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnr_shr"
+        android:orientation="horizontal"
+        android:padding="@dimen/_7sdp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight=".85"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="@dimen/_5sdp"
+            android:fontFamily="@font/gothicb"
+            android:gravity="left|center_vertical"
+            android:text="@string/hazratganj_lucknow"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_9sdp" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_weight=".07"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/share_icon" />
+
+        <ImageView
+            android:id="@+id/wishList"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_weight=".07"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/heart_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@+id/lnr_venue"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/fadeGrey"></View>
+
+    <LinearLayout
+        android:id="@+id/lnr_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txt_registered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:gravity="center"
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="#4d80df"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/txt_registered"
+                android:textColor="#4d80df"
+                android:textSize="@dimen/_11sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txt_intertested"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:gravity="center"
+                android:paddingRight="@dimen/_5sdp"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/txt_interst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/txt_intertested"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_11sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txt_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="#68b8c9"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/txt_views"
+                android:textColor="#45aac1"
+                android:textSize="@dimen/_11sdp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_tickimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

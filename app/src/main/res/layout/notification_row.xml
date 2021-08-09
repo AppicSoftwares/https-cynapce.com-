@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="@color/noti_row_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:padding="@dimen/_10sdp">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/job_white"
+                android:background="@drawable/circle"
+                android:padding="@dimen/_10sdp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/msg"
+                android:text=""
+                android:textSize="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothicb"
+                android:textColor="@color/dark_grey"/>
+            <TextView
+                android:id="@+id/time"
+                android:text="@string/_5_hours_ago"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/gothicb"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/new_lin_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="end">
+             <TextView
+                 android:layout_width="@dimen/_40sdp"
+                 android:layout_height="@dimen/_16sdp"
+                 android:gravity="center"
+                 android:text="@string/newtxt"
+                 android:background="@drawable/halfcircle"
+                 android:fontFamily="@font/gothicb"
+                 android:textSize="@dimen/_9sdp"
+                 android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/viewOne"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_color"
+        android:layout_below="@+id/top"
+        android:layout_marginStart="@dimen/_25sdp" />
+
+</RelativeLayout>

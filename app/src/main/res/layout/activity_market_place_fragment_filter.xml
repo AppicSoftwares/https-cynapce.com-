@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilterClasses.MarketPlaceFilter">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/distanceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/gothic"
+                android:textColor="@color/colorPrimary"
+                android:text="Filter deals by distance (0)"
+                android:textSize="12sp"/>
+
+            <com.xw.repo.BubbleSeekBar
+                android:id="@+id/demo_4_seek_bar_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:bsb_auto_adjust_section_mark="true"
+                app:bsb_is_float_type="true"
+                app:bsb_second_track_color="@color/color_blue"
+                app:bsb_section_count="10"
+                app:bsb_section_text_position="bottom_sides"
+                app:bsb_show_progress_in_float="true"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="true"
+                app:bsb_thumb_text_size="18sp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/dealId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/rupee"
+                    android:fontFamily="@font/gothic"
+                    android:hint="Deal Id"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+                <requestFocus />
+
+            </android.support.design.widget.TextInputLayout>
+            <View
+                android:layout_below="@id/dealId"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+            <RelativeLayout
+                android:id="@+id/rel_lay_hospital"
+                android:layout_width="match_parent"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hospitalImg"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/clock_icon"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/hospital_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/hospitalImg"
+                    android:maxLength="30"
+                    android:fontFamily="@font/gothic"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="Type"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_below="@id/hospital_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rel_lay_ti_up_for"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp">
+                <ImageView
+                    android:id="@+id/tie_upImg"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/age_icon"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/tieup_for_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tie_upImg"
+                    android:maxLength="30"
+                    android:fontFamily="@font/gothic"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_tieup_for"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <View
+                    android:layout_below="@id/tieup_for_auto"
+                    android:id="@+id/viewstate"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rel_lay_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+                <ImageView
+                    android:id="@+id/typeImg"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/state"/>
+                <Spinner
+                    android:id="@+id/type"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:textSize="@dimen/editTxt"
+                    android:textColor="@color/light_black"
+                    android:fontFamily="@font/gothic"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:padding="@dimen/_5sdp"/>
+                <AutoCompleteTextView
+                    android:id="@+id/seeking_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/typeImg"
+                    android:maxLength="30"
+                    android:fontFamily="@font/gothic"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_seeking"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                </AutoCompleteTextView>
+
+                <View
+                    android:layout_below="@id/seeking_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_lay_tie_up_with"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+                <ImageView
+                    android:id="@+id/tie_up_with_Img"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/city"/>
+                <Spinner
+                    android:id="@+id/tie_up_with"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:textSize="@dimen/editTxt"
+                    android:textColor="@color/light_black"
+                    android:fontFamily="@font/gothic"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:padding="@dimen/_5sdp"/>
+                <AutoCompleteTextView
+                    android:id="@+id/tie_up_with_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tie_up_with_Img"
+                    android:maxLength="30"
+                    android:fontFamily="@font/gothic"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_tie_up_with"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                </AutoCompleteTextView>
+                <View
+                    android:id="@+id/viewtie_up_with"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tie_up_with_auto"
+                    android:background="@color/view_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_lay_name"
+                android:layout_width="match_parent"
+                android:padding="@dimen/_5sdp"
+                android:visibility="visible"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/nameImg"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/state"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/name_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/nameImg"
+                    android:fontFamily="@font/gothic"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/name_n"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </AutoCompleteTextView>
+                <View
+                    android:layout_below="@id/name_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel_lay_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+                <RelativeLayout
+                    android:id="@+id/rel_lay_country"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/countryImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/state"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/country_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/countryImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_country"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewcountry"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_country"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+                <RelativeLayout
+                    android:id="@+id/rel_lay_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewcountry">
+                    <ImageView
+                        android:id="@+id/stateImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/city"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/state_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/stateImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_state"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewOne"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_state"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+                <RelativeLayout
+                    android:id="@+id/rel_lay_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewOne">
+                    <ImageView
+                        android:id="@+id/cityImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/equipment_icon"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/city_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/cityImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_city"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                </RelativeLayout>
+                <View
+                    android:id="@+id/viewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:layout_below="@+id/rel_lay_city"
+                    android:background="@color/view_color"/>
+
+            </RelativeLayout>
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_drawable_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+            <RelativeLayout
+                android:id="@+id/SpealizationLayout"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg1"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="@string/specializations"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </AutoCompleteTextView>
+
+                <View
+                    android:layout_below="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_color" />
+
+            </RelativeLayout>
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_multiSpeciality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                app:showDivider="middle"/>
+            <RelativeLayout
+                android:id="@+id/rel_lay_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/state" />
+
+                <Spinner
+                    android:id="@+id/categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:padding="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+
+        android:id="@+id/filterMarketButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:background="@drawable/btnlogin"
+        android:fontFamily="@font/gothicb"
+        android:text="@string/search"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/btnTxt" />
+</LinearLayout>

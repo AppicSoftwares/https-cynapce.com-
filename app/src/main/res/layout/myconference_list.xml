@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_dash"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lnr_shr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp">
+
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight=".80"
+            android:fontFamily="@font/gothicb"
+            android:gravity="left|center_vertical"
+            android:text="@string/_22_jan_2018"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".20"
+            android:drawablePadding="@dimen/_3sdp"
+            android:drawableStart="@drawable/watch"
+            android:fontFamily="@font/gothicb"
+            android:gravity="center_vertical"
+            android:text="@string/_5_10_pm"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/lnr_shr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp">
+
+        <TextView
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight=".80"
+            android:fontFamily="@font/gothicb"
+            android:gravity="left|center_vertical"
+            android:text="@string/_22_jan_2018"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/noOFTicketsTv"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".20"
+            android:drawablePadding="@dimen/_3sdp"
+            android:drawableStart="@drawable/watch"
+            android:fontFamily="@font/gothicb"
+            android:gravity="center_vertical"
+            android:text="@string/_5_10_pm"
+            android:textColor="@color/colorgrey"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

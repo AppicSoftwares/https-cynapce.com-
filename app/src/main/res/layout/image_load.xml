@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/loadImg"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="@dimen/_150sdp"/>-->
+
+    <ImageView
+        android:background="@drawable/splash_new"
+        android:scaleType="fitXY"
+        android:id="@+id/loadImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

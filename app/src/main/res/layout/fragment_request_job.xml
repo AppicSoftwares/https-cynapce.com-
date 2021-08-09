@@ -1,0 +1,1138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.alcanzar.cynapse.fragments.RequestJobFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+                <Spinner
+                    android:id="@+id/medicalProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/mPImg"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/medicalProfileauto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg"
+                    android:layout_toStartOf="@+id/crossC"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_medical_profile"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossC"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/jTImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/my_job" />
+
+                <Spinner
+                    android:id="@+id/jobTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/jTImg"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/Title_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossTitle"
+                    android:layout_toRightOf="@+id/jTImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Title"
+                    android:padding="@dimen/_5sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp"/>
+
+                <ImageButton
+                    android:id="@+id/crossTitle"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_title_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputtitleothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_title_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputtitleothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Spl_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/jSImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/specialization" />
+
+                <Spinner
+                    android:id="@+id/jobSpecialization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/jSImg"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossS"
+                    android:layout_toRightOf="@+id/jSImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Specialization"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossS"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/spl_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_spl_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputsplothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_spl_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputsplothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/subS_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/sSImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/specialization" />
+
+                <Spinner
+                    android:id="@+id/subSpecialization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/sSImg"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/SubS_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossSubS"
+                    android:layout_toRightOf="@+id/sSImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter SubSpecialization"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossSubS"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/subS_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_sub_spl_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputSub_splothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_Sub_spl_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputSub_splothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dept_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/deptImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+                <Spinner
+                    android:id="@+id/dept_dd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/deptImg"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/dept_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/cross_dept"
+                    android:layout_toRightOf="@+id/deptImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Department"
+                    android:maxLength="30"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/cross_dept"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/dept_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/other_dept_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputdeptothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_dept_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputdeptothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/reg_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_Reg_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/city"
+                        android:fontFamily="@font/gothic"
+                        android:hint="Registration Number"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:id="@+id/view_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/input_Reg"
+                    android:background="@color/view_color" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_two"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_Reg_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/room"
+                        android:fontFamily="@font/gothic"
+                        android:hint="Registration State"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+                <RelativeLayout
+                    android:id="@+id/state_rel_lay"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/view_two"
+                    android:layout_height="@dimen/_42sdp"
+                    android:padding="@dimen/_5sdp">
+
+                    <ImageView
+                        android:id="@+id/sImg"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/state" />
+
+                    <Spinner
+                        android:id="@+id/state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_toEndOf="@id/sImg"
+                        android:visibility="gone" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/state_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_toEndOf="@+id/sImg"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/gothic"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_registration_state"
+                        android:maxLength="30"
+                        android:padding="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+                        <requestFocus />
+                    </AutoCompleteTextView>
+                </RelativeLayout>
+                <View
+                    android:id="@+id/view_reg_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/state_rel_lay"
+                    android:background="@color/view_color" />
+
+            </RelativeLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/state"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/experience"
+                    android:inputType="number"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/currentCtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/rupee"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/current_ctc"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/expectedCtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/rupee"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/expected_ctc"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/ed_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/email"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/email_n"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/currentEmployer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/login"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/current_employer"
+                    android:inputType="textCapSentences"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <TextView
+                android:id="@+id/jobLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawablePadding="@dimen/_15sdp"
+                android:drawableStart="@drawable/address"
+                android:fontFamily="@font/gothic"
+                android:gravity="center_vertical"
+                android:hint="@string/preferred_job_location"
+                android:minHeight="@dimen/_40sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/editTxt"
+                android:visibility="gone"
+                />
+
+            <!--akash commit changes-->
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Job Location"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:textColor="@color/labels"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <RelativeLayout
+                android:id="@+id/rel_lay_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+                <RelativeLayout
+                    android:id="@+id/rel_lay_country"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/countryImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/state"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/country_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/countryImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_country"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/view_color" />
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewcountry"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_country"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+                <RelativeLayout
+                    android:id="@+id/rel_lay_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewcountry">
+                    <ImageView
+                        android:id="@+id/stateImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/city"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/state_auto1"
+                        android:layout_width="321dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_toEndOf="@+id/stateImg"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/gothic"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_state"
+                        android:padding="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/view_color" />
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/viewOne"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/rel_lay_state"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/view_color"/>
+                <RelativeLayout
+                    android:id="@+id/rel_lay_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/viewOne">
+                    <ImageView
+                        android:id="@+id/cityImg"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/equipment_icon"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/city_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/cityImg"
+                        android:fontFamily="@font/gothic"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:padding="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_city"
+                        android:singleLine="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_12sdp">
+
+
+                    </AutoCompleteTextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/view_color" />
+
+                </RelativeLayout>
+                <View
+                    android:id="@+id/viewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:layout_below="@+id/rel_lay_city"
+                    android:background="@color/view_color"/>
+
+            </RelativeLayout>
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexbox_drawable_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignContent="space_around"
+                app:alignItems="flex_start"
+                app:dividerDrawable="@drawable/div"
+                app:flexWrap="wrap"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:showDivider="middle"/>
+
+            <!--akash commit changes-->
+            <!--android:drawableEnd="@drawable/job_location"-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/pFImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/address" />
+
+                <Spinner
+                    android:id="@+id/preferFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/pFImg"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/editTxt" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/dropdownicon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color"
+                android:visibility="gone" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Resume"
+                    android:textColor="@color/labels"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_2sdp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp">
+
+                    <TextView
+                        android:id="@+id/uploadResume"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawableStart="@drawable/specification_icon"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/upload_resume"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/resumeImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/uploadresume" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <EditText
+                android:id="@+id/copy_paste_resume"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/backbox"
+                android:fontFamily="@font/gothic"
+                android:gravity="start"
+                android:hint="Copy and Paste your Resume/Cover Letter"
+                android:minHeight="@dimen/_100sdp"
+                android:padding="@dimen/_10sdp"
+                android:maxLength="800"
+                android:scrollbars="vertical"
+                android:textColor="@color/light_black"
+                android:textColorHint="@color/colorgrey"
+                android:textSize="@dimen/editTxt" />
+
+            <TextView
+                android:id="@+id/current_address_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/_5sdp"
+                android:text="Please Do Not Enter Your Contact Details"
+                android:textColor="@color/colorgrey"
+                android:textSize="@dimen/_12sdp" />
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_25sdp"
+                android:background="@drawable/btnlogin"
+                android:fontFamily="@font/gothicb"
+                android:text="@string/create_amp_alert"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/btnTxt" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_15sdp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="0.85">
+
+                <ImageView
+                    android:id="@+id/profilePic"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/avatar" />
+
+                <TextView
+                    android:id="@+id/msgText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:background="@drawable/msgbox_shadow"
+                    android:fontFamily="@font/gothicb"
+                    android:padding="@dimen/_20sdp"
+                    android:textColor="@color/light_black"
+                    android:textSize="@dimen/_11sdp" />
+                <!--<EditText-->
+                <!--android:id="@+id/msgText"-->
+                <!--android:textColor="@color/light_black"-->
+                <!--android:textColorHint="@color/colorgrey"-->
+                <!--android:fontFamily="@font/gothicb"-->
+                <!--android:textSize="@dimen/_10sdp"-->
+                <!--android:inputType="textCapSentences"-->
+                <!--android:background="@drawable/msgbox"-->
+                <!--android:padding="@dimen/_10sdp"-->
+                <!--android:layout_marginStart="@dimen/_10sdp"-->
+                <!--android:hint="@string/write_something_here"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"/>-->
+            </LinearLayout>
+
+            <!--<Button-->
+            <!--android:id="@+id/btnSend"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="@dimen/_30sdp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="0.11"-->
+            <!--android:background="@drawable/send" />-->
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

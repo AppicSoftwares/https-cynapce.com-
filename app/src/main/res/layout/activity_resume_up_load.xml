@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ResumeUpLoad">
+    <include layout="@layout/header"
+        android:id="@+id/header"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="90"
+                >
+
+                <ImageView
+                    android:id="@+id/doc"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="161dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginEnd="150dp"
+                    android:src="@drawable/resumedoc" />
+
+                <TextView
+                    android:id="@+id/resumename"
+                    android:layout_width="410dp"
+                    android:layout_height="36dp"
+                    android:layout_alignStart="@+id/doc"
+                    android:layout_alignEnd="@+id/doc"
+                    android:layout_alignBottom="@+id/doc"
+                    android:layout_marginStart="-152dp"
+                    android:layout_marginEnd="-159dp"
+                    android:layout_marginBottom="-56dp"
+                    android:gravity="center"
+                    android:text="No Resume Uploaded "
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/supportedformat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/resumename"
+                    android:layout_marginBottom="-199dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/suppotedformats"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="10">
+
+            <Button
+                android:id="@+id/uploadresume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Resume"
+                android:background="#429995"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

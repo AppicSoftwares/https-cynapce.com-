@@ -1,0 +1,627 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.alcanzar.cynapse.fragments.SignUpFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg">
+
+        <LinearLayout
+            android:id="@+id/relOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/login"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/email"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_3sdp">
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/phonenumber"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/key"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/password_e"
+                    android:inputType="textPassword"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:drawableStart="@drawable/key"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gothic"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:maxLength="35"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/light_black"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/editTxt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:padding="@dimen/_6sdp">
+
+                <ImageView
+                    android:id="@+id/mPImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+                <Spinner
+                    android:id="@+id/medicalProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/mPImg"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/medicalProfileauto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossC"
+                    android:layout_toRightOf="@+id/mPImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Medical Profile*"
+                    android:maxLength="30"
+                    android:padding="@dimen/_6sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossC"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_medical_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_medical_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/input_medical_others"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/Spl_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_6sdp">
+
+                <ImageView
+                    android:id="@+id/spImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/state" />
+
+                <Spinner
+                    android:id="@+id/specialization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/spImg"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/Spealization_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossS"
+                    android:layout_toRightOf="@+id/spImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Specialization*"
+                    android:padding="@dimen/_6sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossS"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/spl_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_spl_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_spl_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_spl_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/input_spl_others"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/dept_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/deptImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/medicalprofile" />
+
+                <Spinner
+                    android:id="@+id/dept_dd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/deptImg"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/dept_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/deptImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Department*"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/dept_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/other_dept_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputdeptothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_dept_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="35"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/inputdeptothers"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/hd_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_6sdp">
+
+                <ImageView
+                    android:id="@+id/hdImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/city" />
+
+                <Spinner
+                    android:id="@+id/highestDegree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/hdImg"
+                    android:visibility="gone" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/Hd_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toLeftOf="@+id/crossHd"
+                    android:layout_toRightOf="@+id/hdImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Highest Degree*"
+                    android:padding="@dimen/_6sdp"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+                <ImageButton
+                    android:id="@+id/crossHd"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="center"
+                    android:src="@drawable/cross"
+                    android:visibility="gone" />
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_below="@+id/Hd_auto"-->
+                    <!--android:background="@color/view_color" />-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/other_hd_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_hd_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_hd_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/input_hd_others"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/yos_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/yosImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/bed" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/Yos_auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/yosImg"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Years of Study*"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorgrey"
+                    android:textSize="@dimen/_12sdp">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <RelativeLayout
+                android:id="@+id/other_Yos_rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_yos_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp">
+
+                    <EditText
+                        android:id="@+id/edit_yos_others"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:drawableStart="@drawable/login"
+                        android:fontFamily="@font/gothic"
+                        android:hint="@string/others_"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/light_black"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/editTxt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/input_yos_others"
+                    android:background="@color/view_color" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@+id/relOne"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/btnlogin"
+            android:fontFamily="@font/gothicb"
+            android:text="@string/sign_up"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/btnTxt" />
+    </RelativeLayout>
+</ScrollView>

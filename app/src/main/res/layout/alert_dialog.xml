@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Going back will discard all the form data,  Are you sure ?"
+        android:id="@+id/messageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_13sdp"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:id="@+id/btnContainerLl"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_weight="0.5"
+            android:id="@+id/noBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/btnlogin"
+            android:fontFamily="@font/gothicb"
+            android:text="NO"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/btnTxt" />
+
+        <Button
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_weight="0.5"
+            android:id="@+id/yesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/btnlogin"
+            android:fontFamily="@font/gothicb"
+            android:text="Yes"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/btnTxt" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/btnlogin"
+        android:fontFamily="@font/gothicb"
+        android:text="OK"
+        android:textAllCaps="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/btnTxt" />
+
+</LinearLayout>

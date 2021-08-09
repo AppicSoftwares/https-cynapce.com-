@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/addconference_header" />
+
+    <LinearLayout
+        android:id="@+id/lnr_payment_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_below="@+id/header"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:padding="@dimen/_15sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_15sdp">
+
+                <LinearLayout
+                    android:id="@+id/linOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:id="@+id/conferenceTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".84"
+                        android:fontFamily="@font/gothicb"
+                        android:text=""
+                        android:textColor="@color/light_black"
+                        android:textSize="@dimen/_12sdp" />
+
+
+                    <ImageView
+                        android:id="@+id/share"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_weight="0.07"
+                        android:padding="@dimen/_2sdp"
+                        android:src="@drawable/share_icon"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/wishlist"
+                        android:layout_width="@dimen/_21sdp"
+                        android:layout_height="@dimen/_21sdp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_weight="0.14"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/heart_icon"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lintwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linOne"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_12sdp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/txt_frm_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableStart="@drawable/date"
+                        android:fontFamily="@font/gothicb"
+                        android:text=""
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/txt_fms"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".45"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:textColor="@color/colorgrey"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_fm_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableStart="@drawable/watch"
+                        android:fontFamily="@font/gothicb"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:text=""
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_details_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lintwo"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/img_date_range"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".2"
+                        android:padding="@dimen/_8sdp"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:src="@drawable/ic_down_arw" />
+
+                    <ImageView
+                        android:id="@+id/img_date_1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight=".45"
+                        android:padding="@dimen/_8sdp"
+                        android:paddingLeft="@dimen/_10sdp" />
+
+                    <ImageView
+                        android:id="@+id/img_time_range"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight=".2"
+                        android:padding="@dimen/_8sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:src="@drawable/ic_down_arw" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lnr_details_img"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/txt_t_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableStart="@drawable/date"
+                        android:fontFamily="@font/gothicb"
+                        android:text=""
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/txt_fm"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".45"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:textColor="@color/colorgrey"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_t_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:drawableStart="@drawable/watch"
+                        android:fontFamily="@font/gothicb"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:text=""
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lnr_time"
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_12sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/dimen_0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".3"
+                        android:fontFamily="@font/gothicb"
+                        android:gravity="center_vertical"
+                        android:text="@string/venue"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/locationAdres"
+                        android:layout_width="@dimen/dimen_0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:fontFamily="@font/gothicb"
+                        android:maxLines="10"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text=""
+                        android:textColor="@color/colorgrey"
+                        android:textSize="@dimen/_10sdp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_conf_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lnr_payment_detail"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No activated conference found"/>
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <include layout="@layout/header"
+        android:id="@+id/top"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15sdp">
+            <RelativeLayout
+                android:id="@+id/relOne"
+                android:background="@color/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/subtotal"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/gothicb"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/light_black"
+                    android:text="Subtotal"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/two"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/gothicb"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/light_black"
+                    android:text="200.00"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"/>
+                <TextView
+                    android:id="@+id/internet"
+                    android:textSize="@dimen/_10sdp"
+                    android:fontFamily="@font/gothicb"
+                    android:layout_below="@+id/subtotal"
+                    android:textColor="@color/light_black"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:text="Internet handling fees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/four"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@+id/subtotal"
+                    android:fontFamily="@font/gothicb"
+                    android:textColor="@color/light_black"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="40.00"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tax"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/gothicb"
+                    android:layout_below="@+id/internet"
+                    android:textColor="@color/color_white"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Total Payable Amount"
+                    android:layout_width="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/forty"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_below="@+id/internet"
+                    android:fontFamily="@font/gothicb"
+                    android:textColor="@color/color_white"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="240.00"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relOne"
+                android:layout_marginTop="@dimen/_15sdp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/payment"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Payment Options"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/debit"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Debit/Credit Card"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/net"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Net Banking"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/quick"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Quick Checkout"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/wallet"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Mobile Wallet"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/redeem"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Redeem points"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/upi"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="UPI"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+                    <TextView
+                        android:id="@+id/payLater"
+                        android:textSize="@dimen/_11sdp"
+                        android:fontFamily="@font/gothicb"
+                        android:textColor="@color/light_black"
+                        android:text="Pay Later"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_20sdp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:id="@+id/tnc"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/book_image"
+                android:scaleType="fitXY"
+                android:layout_below="@id/cardOne"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

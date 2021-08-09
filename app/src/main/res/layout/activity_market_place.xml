@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    tools:context="com.alcanzar.cynapse.activity.MarketPlaceActivity">
+    <include layout="@layout/header"
+        android:id="@+id/top"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top">
+        <ScrollView
+            android:layout_weight="1"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/_6sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background">
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_150sdp" />
+
+                        <me.relex.circleindicator.CircleIndicator
+                            android:layout_below="@+id/pager"
+                            android:background="@color/white"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:id="@+id/indicator"
+                            app:ci_drawable="@drawable/dot_color"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_20sdp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/topImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_150sdp"
+                            android:src="@drawable/animation_loading_circle"
+                            android:scaleType="fitXY"/>
+
+                        <ImageView
+                            android:id="@+id/share"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:src="@drawable/share_icon"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:layout_alignParentRight="true"
+                            android:scaleType="fitXY"/>
+                        <LinearLayout
+                            android:layout_below="@+id/indicator"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_7sdp"
+                            android:weightSum="1"
+                            android:baselineAligned="false">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.7"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/title_in_row"
+                                    android:layout_margin="@dimen/_5sdp"
+                                    android:text=""
+                                    android:textSize="@dimen/_11sdp"
+                                    android:textColor="@color/light_black"
+                                    android:fontFamily="@font/gothicb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/price"
+                                    android:text=""
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:fontFamily="@font/gothicb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/quantity"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:text=""
+                                    android:textSize="@dimen/_11sdp"
+                                    android:textColor="@color/view_color"
+                                    android:fontFamily="@font/gothicb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+                                <Button
+                                    android:id="@+id/btnBuy"
+                                    android:background="@drawable/rectangle"
+                                    android:layout_width="match_parent"
+                                    android:text="@string/buy"
+                                    android:padding="@dimen/_1sdp"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:fontFamily="@font/gothicb"
+                                    android:textColor="@color/colorPrimary"
+                                    android:minHeight="@dimen/_30sdp"
+                                    android:layout_height="wrap_content" />
+                                <ImageView
+                                    android:id="@+id/share_in_row"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="@dimen/_20sdp"
+                                    android:src="@drawable/share_icon"
+                                    android:layout_margin="@dimen/_10sdp"
+                                    android:layout_gravity="end"
+                                    android:visibility="gone"
+                                    android:scaleType="fitXY"/>
+                                <TextView
+                                    android:id="@+id/brok_unbrok_txt"
+                                    android:text="unbrokered"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:visibility="gone"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:fontFamily="@font/gothicb"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardTwo"
+                    android:layout_below="@id/cardOne"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/_6sdp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/cardOne"
+                        android:orientation="vertical"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_5sdp">
+                        <TextView
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:text="@string/specification"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_11sdp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:id="@+id/form"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/light_black"/>
+                        <TextView
+                            android:id="@+id/vegNon"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/light_black"/>
+                        <TextView
+                            android:id="@+id/usage"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/light_black"/>
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/light_black"
+                            android:layout_marginBottom="@dimen/_5sdp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardV"
+                    android:layout_below="@id/cardTwo"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/_6sdp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/cardOne"
+                        android:orientation="vertical"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_5sdp">
+                        <TextView
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:text="@string/descriptions"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_11sdp"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:id="@+id/details"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicb"
+                            android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/light_black"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <fragment
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_below="@+id/cardV" />
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_below="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnBuyNow"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="@string/buy_now"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/gothicb"
+                android:textSize="@dimen/btnTxt"
+                android:textColor="@color/color_white"/>
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_below="@id/btnBuyNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                android:layout_gravity="center_horizontal"
+                ads:adUnitId="@string/googleAdsAdUnitId">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp">
+        <TextView
+            android:id="@+id/medical_prof"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/gothicb"
+            android:textColor="@color/light_black"
+            android:text=""
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/medical_prof"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/gothic"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/total_jobs"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_below="@+id/title"
+            android:fontFamily="@font/gothic"
+            android:textColor="@color/colorgrey"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/package_type"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_below="@+id/total_jobs"
+            android:fontFamily="@font/gothic"
+            android:textColor="@color/colorgrey"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/_5sdp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/view_color"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@id/relone"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+</RelativeLayout>

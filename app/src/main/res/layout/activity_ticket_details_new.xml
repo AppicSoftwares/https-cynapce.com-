@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f6f6"
+    tools:context=".activity.TicketDetailsNew">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:id="@+id/indicator"
+                app:ci_drawable="@drawable/dot_color"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp" />
+
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_20"
+                app:cardElevation="@dimen/_2sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:id="@+id/linOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:weightSum="1">
+
+
+                        <TextView
+                            android:id="@+id/conferenceTitle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".76"
+                            android:fontFamily="@font/gothicb"
+                            android:text="@string/health_care_conference"
+                            android:textColor="@color/light_black"
+                            android:textSize="@dimen/_15sdp" />
+
+
+                        <ImageView
+                            android:id="@+id/share"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_21sdp"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_weight=".12"
+                            android:padding="@dimen/_2sdp"
+                            android:src="@drawable/share_icon" />
+
+                        <ImageView
+                            android:id="@+id/wishlist"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_21sdp"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_weight="0.1"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/heart_icon" />
+
+                        <ImageView
+                            android:id="@+id/likedHeartImg"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_21sdp"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_weight="0.1"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/heart_icon"
+                            android:tint="@color/red"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_10sdp">
+
+                        <TextView
+                            android:id="@+id/conTpeTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Exhibition"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/txt_frm_date"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".7"
+                            android:drawableStart="@drawable/date"
+
+                            android:drawablePadding="@dimen/_15sdp"
+                            android:fontFamily="@font/gothicb"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:text="@string/_22_jan_2018"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:id="@+id/freeevent"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:fontFamily="@font/gothicb"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:text="Free Event"
+                            android:textAlignment="center"
+                            android:textColor="#75c8c3"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_10sdp">
+
+                        <TextView
+                            android:id="@+id/timeTv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".7"
+                            android:drawableStart="@drawable/ic_watch_later_black_24dp"
+                            android:drawablePadding="@dimen/_14sdp"
+                            android:fontFamily="@font/gothicb"
+                            android:paddingTop="@dimen/_10sdp"
+                            android:text="5:10PM - 7:30PM"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!--your preference-->
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/vew_notif"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/lnr_conf_notifi"
+                    android:background="@color/view_color" />
+
+                <TextView
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:id="@+id/tvt"
+                    android:layout_below="@+id/vew_notif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gothic"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="Your Preferences"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11sdp"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/vew_notif3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tvt"
+                    android:background="@color/view_color" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_medial_profiel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_select_notif"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:id="@+id/linOne1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+
+                        <TextView
+                            android:id="@+id/txt_medical_select2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/transparent"
+                            android:drawablePadding="@dimen/_15sdp"
+                            android:fontFamily="@font/gothic"
+                            android:gravity="center_vertical"
+                            android:hint="@string/selected_audience"
+                            android:inputType="textMultiLine"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:textColorHint="@color/color_black"
+                            android:textSize="@dimen/_11sdp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:padding="@dimen/_5sdp"
+                        android:inputType="textMultiLine"
+                        android:layout_below="@+id/linOne1"
+                        android:id="@+id/txt_medical_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:fontFamily="@font/gothic"
+                        android:gravity="center_vertical"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp"/>
+
+
+                </RelativeLayout>
+                <View
+                    android:id="@+id/vew_count2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/rel_medial_profiel"
+                    android:background="@color/view_color" />
+                <RelativeLayout
+                    android:id="@+id/targetAudianseSpeciality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rel_medial_profiel"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:id="@+id/linOne2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/target_audience_speciality2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/transparent"
+                            android:drawablePadding="@dimen/_15sdp"
+                            android:fontFamily="@font/gothic"
+                            android:gravity="center_vertical"
+                            android:hint="Selected Speciality"
+                            android:padding="@dimen/_5sdp"
+                            android:textColorHint="@color/color_black"
+                            android:textSize="@dimen/_11sdp">
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:inputType="textMultiLine"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_below="@+id/linOne2"
+                        android:id="@+id/target_audience_speciality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:fontFamily="@font/gothic"
+                        android:gravity="center_vertical"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp"/>
+
+                </RelativeLayout>
+                <View
+                    android:id="@+id/vew_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/rel_medial_profiel"
+                    android:background="@color/view_color" />
+                <RelativeLayout
+                    android:id="@+id/targetAudianseDepartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rel_medial_profiel"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp">
+
+                    <LinearLayout
+                        android:id="@+id/linOne3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/target_audience_DepartmentTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:layout_centerVertical="true"
+                            android:background="@android:color/transparent"
+                            android:drawablePadding="@dimen/_15sdp"
+                            android:fontFamily="@font/gothic"
+                            android:gravity="center_vertical"
+                            android:hint="Selected Department"
+                            android:padding="@dimen/_5sdp"
+                            android:textColorHint="@color/color_black"
+                            android:textSize="@dimen/_11sdp">
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:padding="@dimen/_5sdp"
+                        android:layout_below="@+id/linOne3"
+                        android:id="@+id/target_audience_DepartmentTv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:fontFamily="@font/gothic"
+                        android:gravity="center_vertical"
+                        android:inputType="textMultiLine"
+                        android:textColorHint="@color/colorgrey"
+                        android:textSize="@dimen/_11sdp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/discountCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dottedfile">
+
+                    <TextView
+                        android:id="@+id/discountTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="0% Discount for Doctors"
+                        android:textColor="@color/color_black" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dottedfile"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:weightSum="1">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+
+                        android:fontFamily="@font/gothicb"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="Credit Points" />
+
+                    <TextView
+                        android:id="@+id/creaditPointsTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:fontFamily="@font/gothicb"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="0.01"
+                        android:textAlignment="center"
+                        android:textColor="#75c8c3" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/target_audience_speciality"
+                        android:textColor="#31c4be"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <TextView
+                        android:inputType="textMultiLine"
+                        android:id="@+id/specialityTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="@dimen/_11sdp" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="Event Hosts"
+                        android:textColor="#31c4be"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <TextView
+                        android:id="@+id/eventHostTv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="Dr. Chandra Prakash Gupta"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <TextView
+                        android:id="@+id/eventHostTv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="(MBBS,PHD Pharma)"
+                        android:textSize="@dimen/_11sdp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/eventHostTv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/phonenumber"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="8948051877"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                app:cardBackgroundColor="@color/white">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Keynote Speakers"
+                            android:textColor="#31c4be"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/keyNotesTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Dr. Chandra Prakash Gupta"
+                            android:textColor="#000"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Head of Cardiology Department KGMU"
+                            android:textSize="@dimen/_11sdp"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Dr. Neeraj Mehta"
+                            android:textColor="#000"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Head of Pulmonology Department KGMU"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                app:cardBackgroundColor="@color/white">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Conference Description"
+                            android:textColor="#31c4be"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:id="@+id/confrenceDesTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="#000"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Head of Cardiology Department KGMU"
+                            android:textSize="@dimen/_11sdp"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Dr. Neeraj Mehta"
+                            android:textColor="#000"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_22sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Head of Pulmonology Department KGMU"
+                            android:textSize="@dimen/_11sdp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:id="@+id/header_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_170sdp"
+                    android:layout_below="@id/header">
+
+                    <TextView
+                        android:id="@+id/locate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_22sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="Map Location"
+                        android:textColor="#31c4be"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <fragment
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        class="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_170sdp"
+                        android:layout_below="@+id/locate" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/normalPackCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6f6f6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_22sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/normal_packages"
+                    android:textColor="#31c4be"
+                    android:textSize="@dimen/_13sdp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycle_normal_package"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/packageForgeinCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6f6f6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_22sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="Packages for foreign deligates"
+                    android:textColor="#31c4be"
+                    android:textSize="@dimen/_13sdp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycle_foreign_package"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="10">
+
+                <Button
+                    android:id="@+id/ticketsbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="#429995"
+                    android:fontFamily="@font/gothicb"
+                    android:text="BOOK"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/btnTxt" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

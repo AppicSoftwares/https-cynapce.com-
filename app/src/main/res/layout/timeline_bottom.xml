@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.2"
+        android:layout_below="@id/viewOne"
+        android:layout_marginStart="@dimen/_5sdp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/gothicb"
+                android:text="@string/_238_topics"
+                android:textColor="#5298ef"
+                android:drawableStart="@drawable/like_icon"
+                android:drawablePadding="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/gothicb"
+                android:textColor="#63d7b0"
+                android:text="@string/_3_528_replies"
+                android:drawableStart="@drawable/comments"
+                android:drawablePadding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#30b0d2"
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/gothicb"
+                android:text="@string/_8_000_views"
+                android:drawableStart="@drawable/views"
+                android:drawablePadding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

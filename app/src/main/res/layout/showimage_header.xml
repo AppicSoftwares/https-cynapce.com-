@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/head_rel_lay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <ImageView
+            android:id="@+id/btnBack"
+            android:src="@drawable/backbutton"
+            android:padding="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <ImageView
+            android:id="@+id/titleIcon"
+            android:src="@drawable/dealers_distrbuters_white"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_toStartOf="@id/title"
+
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/title"
+            android:textSize="@dimen/_11sdp"
+            android:layout_centerInParent="true"
+            android:text="@string/dealers_and_distributors"
+            android:textColor="@color/color_white"
+            android:visibility="gone"
+            android:fontFamily="@font/gothicb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:text="@string/edit"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="#DEEFE9"
+            android:fontFamily="@font/gothicb"
+            android:background="@drawable/buttonskip"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btnSearch"
+            android:background="@drawable/searchicon"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</RelativeLayout>
