@@ -9,7 +9,7 @@
     tools:context="com.alcanzar.cynapse.activity.MyJobActivity">
     <include layout="@layout/header"
         android:id="@+id/header"/>
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_below="@+id/header"
         android:background="@color/colorPrimary"
@@ -19,18 +19,18 @@
         app:tabSelectedTextColor="@color/color_white"
         app:tabTextColor="@color/light_black"
         app:tabIndicatorColor="@color/color_white">
-    </android.support.design.widget.TabLayout>
+    </com.google.android.material.tabs.TabLayout>
     <LinearLayout
         android:orientation="vertical"
         android:layout_below="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewPager"
             android:layout_weight="2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        </android.support.v4.view.ViewPager>
+        </androidx.viewpager.widget.ViewPager>
         <com.google.android.gms.ads.AdView
             xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"

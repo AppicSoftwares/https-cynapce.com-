@@ -35,7 +35,7 @@
             android:layout_below="@+id/locate"
             android:layout_weight=".70" />
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             <!--android:layout_height="@dimen/_180sdp"-->
             <!--android:src="@drawable/whey_protien" />-->
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardOne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -253,10 +253,10 @@
 
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardTh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -284,12 +284,12 @@
                         android:paddingTop="@dimen/_2sdp"
                         android:weightSum="1">
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/recycleView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
-                        </android.support.v7.widget.RecyclerView>
+                        </androidx.recyclerview.widget.RecyclerView>
 
 
                         <ImageView
@@ -305,7 +305,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <RelativeLayout
                 android:id="@+id/lnr_get_pdf"
@@ -330,7 +330,7 @@
                     />
             </RelativeLayout>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/my_ariticle_detl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -418,9 +418,9 @@
                 </LinearLayout>
 
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardTwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -521,9 +521,9 @@
                         android:textSize="@dimen/_11sdp"
                         android:visibility="gone" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardThree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -560,9 +560,9 @@
                         android:textColor="@color/colorgrey"
                         android:textSize="@dimen/_11sdp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardFour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -649,10 +649,10 @@
                         android:textSize="@dimen/_13sdp"
                         android:visibility="gone" />
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardFive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -738,9 +738,9 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardSix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -798,12 +798,12 @@
                         android:orientation="vertical">
 
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/recycleViewCharge"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                        </android.support.v7.widget.RecyclerView>
+                        </androidx.recyclerview.widget.RecyclerView>
 
                     </LinearLayout>
 
@@ -910,10 +910,10 @@
 
 
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardSeven"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1096,7 +1096,7 @@
 
                     </LinearLayout>
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
             <Button

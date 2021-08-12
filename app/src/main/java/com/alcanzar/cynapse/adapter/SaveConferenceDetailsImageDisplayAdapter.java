@@ -1,35 +1,22 @@
 package com.alcanzar.cynapse.adapter;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.PagerAdapter;
+import androidx.core.content.ContextCompat;
+import androidx.viewpager.widget.PagerAdapter;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.widget.AbsListView;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.activity.ImagePDFDisplay;
-import com.alcanzar.cynapse.activity.ShowImageTicket;
 import com.alcanzar.cynapse.utils.MyToast;
-import com.alcanzar.cynapse.utils.ServiceUtility;
-import com.alcanzar.cynapse.utils.Utils;
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.squareup.picasso.Picasso;
 
@@ -42,7 +29,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Random;
 
 import uk.co.senab.photoview.PhotoViewAttacher;
 

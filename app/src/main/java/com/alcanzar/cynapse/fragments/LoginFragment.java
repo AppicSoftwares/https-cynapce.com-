@@ -1,28 +1,22 @@
 package com.alcanzar.cynapse.fragments;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.Dialog;
-import android.app.Person;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentSender;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.JsonReader;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
@@ -35,14 +29,12 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.alcanzar.cynapse.GoogleOtp.AppSignatureHashHelper;
 import com.alcanzar.cynapse.LinkedInWebView.LinkedInLoginWebView;
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.activity.LoginSignUpActivity;
 import com.alcanzar.cynapse.activity.MainActivity;
-import com.alcanzar.cynapse.activity.NameEntryActivity;
 import com.alcanzar.cynapse.activity.OtpActivity;
 import com.alcanzar.cynapse.api.ForgotPassWordApi;
 import com.alcanzar.cynapse.api.LoginApi;
@@ -56,15 +48,12 @@ import com.alcanzar.cynapse.utils.PostImage;
 import com.alcanzar.cynapse.utils.Util;
 import com.alcanzar.cynapse.utils.Utils;
 import com.android.volley.VolleyError;
-import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
-import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
-import com.facebook.Profile;
 import com.facebook.login.LoginBehavior;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
@@ -80,7 +69,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
-import com.google.gson.JsonObject;
 import com.linkedin.platform.APIHelper;
 import com.linkedin.platform.LISessionManager;
 import com.linkedin.platform.errors.LIApiError;
@@ -89,25 +77,13 @@ import com.linkedin.platform.listeners.ApiListener;
 import com.linkedin.platform.listeners.ApiResponse;
 import com.linkedin.platform.listeners.AuthListener;
 import com.linkedin.platform.utils.Scope;
-import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.xml.sax.InputSource;
-import org.xml.sax.XMLReader;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.net.URL;
 import java.util.Arrays;
-import java.util.EnumSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javax.net.ssl.HttpsURLConnection;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
 
 import static com.facebook.FacebookSdk.getApplicationContext;
 
@@ -475,8 +451,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener, Goo
                 break;
             case R.id.linkedin_login:
                 //HandleLogin();
-                Intent intent = new Intent(getActivity(), LinkedInLoginWebView.class);
-                startActivityForResult(intent, 100);
+         //       Intent intent = new Intent(getActivity(), LinkedInLoginWebView.class);
+         //       startActivityForResult(intent, 100);
                 break;
             case R.id.btnLogIn:
                 //TODO: validations check

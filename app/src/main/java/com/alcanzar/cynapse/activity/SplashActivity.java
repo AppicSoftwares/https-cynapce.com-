@@ -8,12 +8,11 @@ import android.content.pm.Signature;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 
-import com.alcanzar.cynapse.FBLoginDemo;
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 

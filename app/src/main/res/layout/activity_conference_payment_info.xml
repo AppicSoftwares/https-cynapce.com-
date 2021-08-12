@@ -838,7 +838,7 @@
                     android:weightSum="1">
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -862,7 +862,7 @@
                             android:textColorHint="@color/colorgrey"
                             android:textSize="@dimen/_11sdp"
                             android:visibility="visible" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                     <TextView

@@ -95,7 +95,7 @@
                 android:orientation="vertical"
                 android:padding="@dimen/_10sdp">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="@dimen/_6sdp">
@@ -121,7 +121,7 @@
                         android:textSize="@dimen/_13sdp">
 
                     </EditText>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"

@@ -1,8 +1,7 @@
 package com.alcanzar.cynapse.app;
 
 
-import android.app.Application;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 import android.text.TextUtils;
 
 import com.alcanzar.cynapse.utils.AppEnvironment;

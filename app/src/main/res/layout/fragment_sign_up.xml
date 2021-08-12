@@ -20,7 +20,7 @@
             android:orientation="vertical"
             android:visibility="visible">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp">
@@ -41,14 +41,14 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/view_color" />
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp">
@@ -69,14 +69,14 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/view_color" />
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_3sdp">
@@ -97,14 +97,14 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/view_color" />
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp">
@@ -125,14 +125,14 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/view_color" />
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp">
@@ -153,7 +153,7 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
@@ -226,7 +226,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/input_medical_others"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -247,7 +247,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"
@@ -322,7 +322,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/input_spl_others"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -343,7 +343,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"
@@ -408,7 +408,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputdeptothers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -429,7 +429,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"
@@ -503,7 +503,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/input_hd_others"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -524,7 +524,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"
@@ -579,7 +579,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/input_yos_others"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -600,7 +600,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:layout_width="match_parent"

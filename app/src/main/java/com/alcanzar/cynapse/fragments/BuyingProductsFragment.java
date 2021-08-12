@@ -2,10 +2,10 @@ package com.alcanzar.cynapse.fragments;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,8 +15,6 @@ import android.widget.TextView;
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.activity.MyDealsActivity;
 import com.alcanzar.cynapse.adapter.MyDealsAdapter;
-import com.alcanzar.cynapse.api.GetAllMyProductsAPI;
-import com.alcanzar.cynapse.api.GetAllProductsApi;
 import com.alcanzar.cynapse.api.GetMyDealApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.DashBoardModel;

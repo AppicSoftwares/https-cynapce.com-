@@ -22,11 +22,10 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.FileProvider;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.FileProvider;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -38,36 +37,23 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.activity.CheckOutActivity;
-import com.alcanzar.cynapse.activity.MainActivity;
 import com.alcanzar.cynapse.activity.MyProfileActivity;
-import com.alcanzar.cynapse.activity.OtpActivity;
-import com.alcanzar.cynapse.activity.Sell_Buy_Practice_Activity;
-import com.alcanzar.cynapse.activity.TieUpsActivity;
-import com.alcanzar.cynapse.adapter.Adapter_Filter;
 import com.alcanzar.cynapse.api.ChkProfileApi;
-import com.alcanzar.cynapse.api.GetCityApi;
-import com.alcanzar.cynapse.model.CityModel;
 import com.android.volley.VolleyError;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
-
-import static com.alcanzar.cynapse.utils.FilePath.isMediaDocument;
 
 
 public class Util {

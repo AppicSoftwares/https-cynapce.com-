@@ -1,20 +1,14 @@
 package com.alcanzar.cynapse.activity;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Base64;
+
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -27,17 +21,9 @@ import android.widget.Toast;
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.fragments.LoginFragment;
 import com.alcanzar.cynapse.fragments.SignUpFragment;
-import com.alcanzar.cynapse.utils.MyToast;
-import com.alcanzar.cynapse.utils.Utils;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
-
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class LoginSignUpActivity extends AppCompatActivity {
 

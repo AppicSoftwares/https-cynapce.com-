@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -28,9 +28,7 @@ import com.alcanzar.cynapse.model.DashBoardProductModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.Util;
-import com.alcanzar.cynapse.utils.Utils;
 import com.android.volley.VolleyError;
-import com.bumptech.glide.Glide;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;

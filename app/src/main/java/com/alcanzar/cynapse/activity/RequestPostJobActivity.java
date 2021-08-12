@@ -1,9 +1,9 @@
 package com.alcanzar.cynapse.activity;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.tabs.TabLayout;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -13,7 +13,6 @@ import com.alcanzar.cynapse.adapter.ViewPagerAdapter;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.fragments.PostJobFragment;
 import com.alcanzar.cynapse.fragments.RequestJobFragment;
-import com.alcanzar.cynapse.utils.MyToast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;

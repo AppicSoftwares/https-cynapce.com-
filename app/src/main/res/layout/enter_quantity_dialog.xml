@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_150sdp"
                 android:layout_marginLeft="@dimen/_20sdp"
@@ -37,7 +37,7 @@
                     android:textSize="@dimen/_12sdp"
 
                     />
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputothers"
                     android:layout_width="0dp"
                     android:layout_weight=".6"
@@ -55,7 +55,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
                 <Button
@@ -72,6 +72,6 @@
                     android:text="SUBMIT"
                     android:textColor="@color/color_white"
                     android:textSize="@dimen/btnTxt" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
     </RelativeLayout>
 </LinearLayout>

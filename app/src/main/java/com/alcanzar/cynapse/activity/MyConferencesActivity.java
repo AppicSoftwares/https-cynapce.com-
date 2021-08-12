@@ -1,13 +1,11 @@
 package com.alcanzar.cynapse.activity;
 
 
-import android.app.ActivityManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.tabs.TabLayout;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +23,6 @@ import com.alcanzar.cynapse.model.ConferenceDetailsModel;
 import com.alcanzar.cynapse.model.ConferencePackageModel;
 import com.alcanzar.cynapse.model.ImageModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
-import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.Utils;
 import com.android.volley.VolleyError;
 
@@ -34,7 +31,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MyConferencesActivity extends AppCompatActivity implements View.OnClickListener {
 

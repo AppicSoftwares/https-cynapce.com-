@@ -3,10 +3,10 @@ package com.alcanzar.cynapse.fragments;
 import android.content.Intent;
 import android.database.sqlite.SQLiteException;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,21 +14,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.alcanzar.cynapse.activity.GoingConferenceDetailsActivity;
-import com.alcanzar.cynapse.activity.MyConferenceDetailsActivity;
 import com.alcanzar.cynapse.activity.MyConferencesActivity;
 import com.alcanzar.cynapse.adapter.TicketsGoingAdapter;
 import com.alcanzar.cynapse.api.ConferenceMyListApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
-import com.alcanzar.cynapse.model.AddForgeinPackageMYConferenceModel;
 import com.alcanzar.cynapse.model.ConferenceDetailsModel;
 import com.alcanzar.cynapse.model.ConferencePackageModel;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.model.ConferencePackageModelForgein;
-import com.alcanzar.cynapse.model.PackageSavedConferenceModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.Util;
-import com.alcanzar.cynapse.utils.Utils;
 import com.android.volley.VolleyError;
 
 import org.json.JSONArray;

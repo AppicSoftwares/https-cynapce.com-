@@ -77,7 +77,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -88,7 +88,7 @@
                                 android:text="@string/conferenceType"
                                 android:textColor="@color/labels" />
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                         <Spinner
                             android:id="@+id/conferenceType"
@@ -128,7 +128,7 @@
                 <!--android:textSize="@dimen/editTxt" />-->
 
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="0dp">
@@ -153,7 +153,7 @@
                         android:visibility="gone">
 
                     </EditText>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
                 <!--<ImageView-->
                 <!--android:layout_width="@dimen/dimen_45dp"-->
                 <!--android:layout_height="@dimen/dimen_45dp"-->
@@ -228,7 +228,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -259,7 +259,7 @@
 
                             </TextView>
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -479,7 +479,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -501,7 +501,7 @@
                                 android:textSize="@dimen/_12sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -558,7 +558,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -591,7 +591,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </TextView>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -631,7 +631,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -660,7 +660,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </TextView>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -731,7 +731,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -759,7 +759,7 @@
                                 android:singleLine="true"
                                 android:textColorHint="@color/colorgrey"
                                 android:textSize="@dimen/_13sdp"></TextView>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -799,7 +799,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -833,7 +833,7 @@
 
                             </TextView>
 
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -1213,7 +1213,7 @@
                         android:layout_height="wrap_content"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_adres"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -1257,7 +1257,7 @@
                             <!--android:textColorHint="@color/colorgrey"-->
                             <!--android:textSize="@dimen/editTxt" />-->
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
 
@@ -1338,7 +1338,7 @@
                     android:layout_weight="0.9">
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_available_seat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1366,7 +1366,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -1396,7 +1396,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.9">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_event_host"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1422,7 +1422,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -1455,7 +1455,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.9">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/img_contact"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1482,7 +1482,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -1510,7 +1510,7 @@
                 android:padding="@dimen/_12sdp"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputsplothers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -1530,7 +1530,7 @@
                         android:textColor="@color/light_black"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
             </RelativeLayout>
 
@@ -1561,7 +1561,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.9">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/ed_crdit_earn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -1581,7 +1581,7 @@
                             android:textColor="@color/light_black"
                             android:textColorHint="@color/colorgrey"
                             android:textSize="@dimen/editTxt" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -1615,7 +1615,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.9">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/gst"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -1635,7 +1635,7 @@
                             android:textColor="@color/light_black"
                             android:textColorHint="@color/colorgrey"
                             android:textSize="@dimen/editTxt" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -1818,7 +1818,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.9">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_event"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1844,7 +1844,7 @@
                             android:textSize="@dimen/editTxt">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -1859,7 +1859,7 @@
                 android:padding="@dimen/_12sdp"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -1879,9 +1879,9 @@
                         android:paddingStart="@dimen/_7sdp"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".2"
@@ -1898,7 +1898,7 @@
                         android:inputType="number"
                         android:textColorHint="#dddddd"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
                     android:layout_width="0dp"
@@ -1926,7 +1926,7 @@
                 android:visibility="gone"
                 android:weightSum="1">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -1945,9 +1945,9 @@
                         android:paddingStart="@dimen/_7sdp"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".2"
@@ -1965,7 +1965,7 @@
                         android:inputType="number"
                         android:textColorHint="#dddddd"
                         android:textSize="@dimen/editTxt" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
                     android:layout_width="0dp"
@@ -2060,7 +2060,7 @@
                 android:visibility="gone">
 
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tm_cost"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -2085,7 +2085,7 @@
                         android:singleLine="true"
                         android:textColorHint="@color/colorgrey"
                         android:textSize="@dimen/_12sdp"></EditText>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
 
             </LinearLayout>
@@ -2102,7 +2102,7 @@
                 android:padding="@dimen/_7sdp"
                 android:visibility="gone">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tm_duration"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -2129,7 +2129,7 @@
                         android:textSize="@dimen/_13sdp">
 
                     </EditText>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
 
@@ -2259,7 +2259,7 @@
 
                 </LinearLayout>
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/addPackageRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -2317,7 +2317,7 @@
 
                 </LinearLayout>
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/addPackageForeignRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -3022,7 +3022,7 @@
                         android:textSize="@dimen/_11sdp"
                         android:textStyle="bold" />
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_package_name"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -3049,7 +3049,7 @@
                             android:textSize="@dimen/_11sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                     <ImageView
                         android:id="@+id/img_add"
@@ -3083,7 +3083,7 @@
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="normal" />
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_day1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -3109,7 +3109,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -3135,7 +3135,7 @@
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="normal" />
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_day2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -3161,7 +3161,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -3187,7 +3187,7 @@
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="normal" />
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_day3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -3213,7 +3213,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -3242,7 +3242,7 @@
                         android:textSize="@dimen/_12sdp"
                         android:textStyle="normal" />
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tm_total"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -3269,7 +3269,7 @@
                             android:textSize="@dimen/_13sdp">
 
                         </EditText>
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -3303,7 +3303,7 @@
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/tm_package_name_1"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -3329,7 +3329,7 @@
                                 android:textSize="@dimen/_11sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
 
                     </LinearLayout>
@@ -3356,7 +3356,7 @@
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="normal" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/tm_day_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -3383,7 +3383,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -3409,7 +3409,7 @@
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="normal" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/tm_day_2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -3435,7 +3435,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -3461,7 +3461,7 @@
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="normal" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/tm_day_3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -3487,7 +3487,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
@@ -3516,7 +3516,7 @@
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="normal" />
 
-                        <android.support.design.widget.TextInputLayout
+                        <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/tm_total_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -3543,7 +3543,7 @@
                                 android:textSize="@dimen/_13sdp">
 
                             </EditText>
-                        </android.support.design.widget.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 

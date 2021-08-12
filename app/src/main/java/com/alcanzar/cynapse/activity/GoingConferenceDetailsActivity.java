@@ -781,58 +781,38 @@ package com.alcanzar.cynapse.activity;
 
 import android.Manifest;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.core.app.ActivityCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.view.Window;
-import android.widget.AbsListView;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.adapter.ConferenceChargeAdapter;
-import com.alcanzar.cynapse.adapter.ImageShowAdapterConf;
-import com.alcanzar.cynapse.adapter.MyConferenceAdapter;
 import com.alcanzar.cynapse.adapter.SaveConferenceDetailsImageDisplayAdapter;
 import com.alcanzar.cynapse.adapter.TicketsPackageAdapter;
 import com.alcanzar.cynapse.adapter.TicketsPackageForgeinAdapter;
 import com.alcanzar.cynapse.api.ChangeLikeApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
-import com.alcanzar.cynapse.fragments.MapFragment;
 import com.alcanzar.cynapse.model.ConferencePackageModel;
 import com.alcanzar.cynapse.model.ConferencePackageModelForgein;
-import com.alcanzar.cynapse.model.PackageSavedConferenceModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.Constants;
-import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.Utils;
 import com.android.volley.VolleyError;
-import com.github.barteksc.pdfviewer.PDFView;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -841,7 +821,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -851,9 +830,6 @@ import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import fr.quentinklein.slt.LocationTracker;
-import fr.quentinklein.slt.ProviderError;
-import fr.quentinklein.slt.TrackerSettings;
 import me.relex.circleindicator.CircleIndicator;
 
 public class GoingConferenceDetailsActivity extends AppCompatActivity implements View.OnClickListener, OnMapReadyCallback {

@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardOne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -232,9 +232,9 @@
                             android:textSize="@dimen/_11sdp" />
                     </LinearLayout>
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardTwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -440,9 +440,9 @@
                         android:textSize="@dimen/_10sdp"
                         android:visibility="gone" />
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardThree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -504,7 +504,7 @@
                         android:textColor="@color/colorgrey"
                         android:textSize="@dimen/_11sdp" />
                 </RelativeLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
             <!--<android.support.design.widget.TextInputLayout-->

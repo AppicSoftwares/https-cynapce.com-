@@ -15,7 +15,316 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be06b250-bd6b-4fd6-861a-eddc8f64d7e4" name="Default Changelist" comment="" />
+    <list default="true" id="be06b250-bd6b-4fd6-861a-eddc8f64d7e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/cynapce_code.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bubbleseekbar/cynapce_code.bubbleseekbar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/library-chips/cynapce_code.library-chips.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/linkedin-sdk/cynapce_code.linkedin-sdk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/alcanzar/cynapse/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/alcanzar/cynapse/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FBLoginDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FBLoginDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/JobRequirementFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/JobRequirementFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/MarketPlaceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/MarketPlaceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/HelperClasses/SwipeRevealLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/HelperClasses/SwipeRevealLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Basic_Premimum_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Basic_Premimum_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/BooksActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/BooksActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CaseStudyAnswerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CaseStudyAnswerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CaseStudyDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CaseStudyDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CheckOutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CheckOutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CommentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CommentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CustomPhotoGalleryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/CustomPhotoGalleryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/DealerDistributeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/DealerDistributeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FileSelectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FileSelectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GettingPublishedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GettingPublishedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GoingConferenceDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GoingConferenceDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ImagePDFDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ImagePDFDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/JobDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/JobDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/JobDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/JobDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/LoginSignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/LoginSignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MessageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MessageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyAllConferenceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyAllConferenceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyArticleDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyArticleDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyArticlesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyArticlesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyCaseStudiesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyCaseStudiesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferencesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferencesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyDealsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyDealsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyJobActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyPlansActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyPlansActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyPublicationsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyPublicationsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NameEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NameEntryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NotificationsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NotificationsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PdfActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PdfActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PostedJobDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PostedJobDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PrivacyPolicyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PrivacyPolicyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Question_Answers_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Question_Answers_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/RecommendedJobsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/RecommendedJobsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/RequestPostJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/RequestPostJobActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SelectPersonPackageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SelectPersonPackageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellHospitalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellHospitalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SendFeedbackActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SendFeedbackActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedCandidateDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedCandidateDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedJobListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedJobListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShowImageTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShowImageTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/StartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Terms_And_Condtions_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Terms_And_Condtions_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketPaymentsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketPaymentsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TieUpsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TieUpsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/WebViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/WebViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/AddMorePackageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/AddMorePackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/AddMultipleImageAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/AddMultipleImageAV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/BookTicketPriceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/BookTicketPriceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/CaseStudyListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/CaseStudyListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ChatAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ChatMessageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ChatMessageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/CityListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/CityListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ConferenceChargeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ConferenceChargeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DashBoardAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DashBoardAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DashBoardFragmentPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DashBoardFragmentPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DealersDistAdapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/DealersDistAdapters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/FilesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/FilesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ImageShowAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ImageShowAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ImageShowAdapterConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ImageShowAdapterConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalProfileAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityDepartmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityDepartmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalTitleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalTitleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MetroCityAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MetroCityAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyArticlesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyArticlesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyCaseStudiesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyCaseStudiesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceDetails2Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceDetails2Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceDetails3Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceDetails3Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyDealsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyDealsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPlansAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPlansAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPublicationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyPublicationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/NotificationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/NotificationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/NumberOfPresonAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/NumberOfPresonAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PaymentJobAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PaymentJobAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PdfDelConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PdfDelConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PostedJobListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/PostedJobListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/RecommendedAppliedJobAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/RecommendedAppliedJobAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/RequestPostJobAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/RequestPostJobAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ShortlistedJobListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ShortlistedJobListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/StateListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/StateListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SubCityListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SubCityListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsConferenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsConferenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsGoingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsGoingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageAdapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageAdapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageForgeinAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageForgeinAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageForgeinAdapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsPackageForgeinAdapter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/ViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/app/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/app/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/firebaseMessage/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/firebaseMessage/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/CaseStudiesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/CaseStudiesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/DashBoardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/DashBoardFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/DealerDistributerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/DealerDistributerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/FilterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/FilterFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/ForeignPackageSelectionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/ForeignPackageSelectionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GettingPublishedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GettingPublishedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/JobRequirementFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/JobRequirementFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MyConferencesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MyConferencesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PackageSelectionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PackageSelectionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PersonDetailsFormFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PersonDetailsFormFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PostJobFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PostJobFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PostedJobsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PostedJobsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestedJobsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestedJobsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SavedConferencesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SavedConferencesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SellingProductFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SellingProductFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/TicketsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/TicketsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/model/TicketsPackageModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/model/TicketsPackageModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/FilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/FilePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/GPSTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/GPSTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/LruBitmapCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/LruBitmapCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/MyToast.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/MyToast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/NonSwipeableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/NonSwipeableViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/RecyclerTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/RecyclerTouchListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-large/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-large/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_conference_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_conference_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_apply_job_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_apply_job_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_basic__premimum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_basic__premimum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_books.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_check_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_check_out.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_conference_payment_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_conference_payment_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dealer_distribute.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dealer_distribute.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_conference.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_conference.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_getting_published.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_getting_published.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_going_article_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_going_article_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_requirement_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_requirement_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_market_place.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_market_place.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_market_place_fragment_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_market_place_fragment_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_all_conference.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_all_conference.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_article_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_article_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_articles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_articles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_case_studies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_case_studies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_conference_details2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_conference_details2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_conferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_conferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_deals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_deals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_publications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_publications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_conference.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_conference.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_request_post_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_request_post_job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_review_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_review_booking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_review_booking_new_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_review_booking_new_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_save_article_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_save_article_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_person_package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_person_package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_buy_practice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_buy_practice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_product_hospital.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell_product_hospital.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_send_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_send_feedback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_details_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_details_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_payments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_payments.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tie_ups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tie_ups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_package_details_cust_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_package_details_cust_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_more_package_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_more_package_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/attend_questions_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/attend_questions_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/case_details_theory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/case_details_theory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/case_study_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/case_study_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/changepassword_alert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/changepassword_alert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/comments_layout_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/comments_layout_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cust_book_ticket_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cust_book_ticket_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cust_city_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cust_city_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cust_city_row_diloag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cust_city_row_diloag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/delete_enter_reason_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/delete_enter_reason_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_fill_social_login_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_fill_social_login_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/enter_quantity_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/enter_quantity_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/forgotpassword_alert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/forgotpassword_alert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_ticket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_ticket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_ticket_fragment_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_book_ticket_fragment_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_buying_products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_buying_products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_case_studies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_case_studies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dash_board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dash_board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_foreign_package_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_foreign_package_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_getting_published.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_getting_published.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_going_conferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_going_conferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_job_requirement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_job_requirement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market_place.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market_place.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_conferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_conferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_package_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_package_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_person_details_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_person_details_form.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_post_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_post_job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_posted_jobs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_posted_jobs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_request_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_request_job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_requested_jobs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_requested_jobs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_saved_conferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_saved_conferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selling_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selling_product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tickets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tickets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/job_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/job_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/marketplacerow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/marketplacerow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/marketplacerow_noimage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/marketplacerow_noimage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/message_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/message_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/multi_city_selection_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/multi_city_selection_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/multi_medical_selection_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/multi_medical_selection_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/multi_speciality_selection_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/multi_speciality_selection_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/multi_title_selection_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/multi_title_selection_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_conference_details3_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_conference_details3_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_publications_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_publications_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/name_entry_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/name_entry_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/save_conference_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/save_conference_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shortlisted_job_list_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shortlisted_job_list_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tickects_packages_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tickects_packages_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ticket_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ticket_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/timeline_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/timeline_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubbleseekbar/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bubbleseekbar/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubbleseekbar/src/main/java/com/xw/repo/BubbleConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubbleseekbar/src/main/java/com/xw/repo/BubbleConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubbleseekbar/src/main/java/com/xw/repo/BubbleSeekBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/bubbleseekbar/src/main/java/com/xw/repo/BubbleSeekBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-chips/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library-chips/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-chips/src/main/java/fisk/chipcloud/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-chips/src/main/java/fisk/chipcloud/ConfigHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-chips/src/main/java/fisk/chipcloud/ToggleChip.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-chips/src/main/java/fisk/chipcloud/ToggleChip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/generated/source/buildConfig/debug/com/linkedin/android/mobilesdk/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/generated/source/buildConfig/debug/com/linkedin/android/mobilesdk/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/APIHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/APIHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/DeepLinkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/DeepLinkHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/LISessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/LISessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/errors/LIDeepLinkError.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/errors/LIDeepLinkError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/internals/LIAppVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/internals/LIAppVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/internals/QueueManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin-sdk/src/main/java/com/linkedin/platform/internals/QueueManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +350,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cynapce" type="f1a62948:ProjectNode" />
+                <item name="cynapce code" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cynapce" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cynapce code" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cynapce" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="android" type="c8890929:TasksNode$1" />
+                <item name="cynapce code" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -154,10 +463,16 @@
     <property name="device.picker.selection" value="EYAIYDIZMZQG8DMN" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../sample.pdf" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1628506685952" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1628684832973" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -371,8 +686,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.cynapce [signingReport]" />
         <item itemvalue="Gradle.cynapce:app [signingReport]" />
+        <item itemvalue="Gradle.cynapce [signingReport]" />
         <item itemvalue="Android App.AddConference" />
       </list>
     </recent_temporary>
@@ -427,67 +742,67 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3879</line>
+          <line>3867</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3916</line>
+          <line>3904</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/MarketPlaceFilter.java</url>
-          <line>431</line>
+          <line>427</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/MarketPlaceFilter.java</url>
-          <line>432</line>
+          <line>428</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>656</line>
+          <line>644</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>569</line>
+          <line>557</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>4547</line>
+          <line>4535</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>2571</line>
+          <line>2559</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>1827</line>
+          <line>1815</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>2058</line>
+          <line>2051</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1696</line>
+          <line>1689</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1701</line>
+          <line>1694</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java</url>
-          <line>96</line>
+          <line>94</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -507,32 +822,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>461</line>
+          <line>460</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1233</line>
+          <line>1229</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>981</line>
+          <line>977</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1002</line>
+          <line>998</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1008</line>
+          <line>1004</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1288</line>
+          <line>1284</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -547,27 +862,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>363</line>
+          <line>362</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>527</line>
+          <line>526</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>520</line>
+          <line>519</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>162</line>
+          <line>161</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>174</line>
+          <line>173</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -577,32 +892,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>158</line>
+          <line>150</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>547</line>
+          <line>539</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>562</line>
+          <line>554</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java</url>
-          <line>96</line>
+          <line>94</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PackageSelectionFragment.java</url>
-          <line>165</line>
+          <line>163</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SelectPersonPackageActivity.java</url>
-          <line>60</line>
+          <line>52</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -612,27 +927,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java</url>
-          <line>512</line>
+          <line>510</line>
           <option name="timeStamp" value="188" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>358</line>
+          <line>346</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>453</line>
+          <line>441</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>459</line>
+          <line>447</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>231</line>
+          <line>219</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -707,82 +1022,82 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/PersonDetailsFormFragment.java</url>
-          <line>179</line>
+          <line>178</line>
           <option name="timeStamp" value="222" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>177</line>
+          <line>165</line>
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1859</line>
+          <line>1852</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1865</line>
+          <line>1858</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1907</line>
+          <line>1900</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1901</line>
+          <line>1894</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>114</line>
+          <line>112</line>
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>815</line>
+          <line>813</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>260</line>
+          <line>258</line>
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>348</line>
+          <line>346</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3683</line>
+          <line>3671</line>
           <option name="timeStamp" value="272" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3770</line>
+          <line>3758</line>
           <option name="timeStamp" value="273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3761</line>
+          <line>3749</line>
           <option name="timeStamp" value="274" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3764</line>
+          <line>3752</line>
           <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3907</line>
+          <line>3895</line>
           <option name="timeStamp" value="277" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>572</line>
+          <line>566</line>
           <option name="timeStamp" value="280" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -797,27 +1112,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>421</line>
+          <line>415</line>
           <option name="timeStamp" value="284" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java</url>
-          <line>142</line>
+          <line>140</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>638</line>
+          <line>632</line>
           <option name="timeStamp" value="290" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>617</line>
+          <line>611</line>
           <option name="timeStamp" value="291" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>695</line>
+          <line>689</line>
           <option name="timeStamp" value="294" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -827,27 +1142,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>916</line>
+          <line>914</line>
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SavedConferencesFragment.java</url>
-          <line>109</line>
+          <line>107</line>
           <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>995</line>
+          <line>993</line>
           <option name="timeStamp" value="301" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1777</line>
+          <line>1770</line>
           <option name="timeStamp" value="304" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1782</line>
+          <line>1775</line>
           <option name="timeStamp" value="306" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -867,82 +1182,82 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SavedConferencesFragment.java</url>
-          <line>119</line>
+          <line>117</line>
           <option name="timeStamp" value="319" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>125</line>
+          <line>117</line>
           <option name="timeStamp" value="320" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SavedConferencesFragment.java</url>
-          <line>475</line>
+          <line>473</line>
           <option name="timeStamp" value="327" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java</url>
-          <line>85</line>
+          <line>83</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>173</line>
+          <line>159</line>
           <option name="timeStamp" value="334" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>135</line>
+          <line>121</line>
           <option name="timeStamp" value="335" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>215</line>
+          <line>201</line>
           <option name="timeStamp" value="337" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>237</line>
+          <line>223</line>
           <option name="timeStamp" value="338" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>268</line>
+          <line>254</line>
           <option name="timeStamp" value="339" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1033</line>
+          <line>1031</line>
           <option name="timeStamp" value="341" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsGoingAdapter.java</url>
-          <line>97</line>
+          <line>96</line>
           <option name="timeStamp" value="342" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>598</line>
+          <line>586</line>
           <option name="timeStamp" value="345" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>1278</line>
+          <line>1266</line>
           <option name="timeStamp" value="348" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>1293</line>
+          <line>1281</line>
           <option name="timeStamp" value="349" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>4008</line>
+          <line>3996</line>
           <option name="timeStamp" value="351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MyConferencesFragment.java</url>
-          <line>170</line>
+          <line>164</line>
           <option name="timeStamp" value="355" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -952,57 +1267,57 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java</url>
-          <line>585</line>
+          <line>583</line>
           <option name="timeStamp" value="378" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java</url>
-          <line>301</line>
+          <line>273</line>
           <option name="timeStamp" value="381" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java</url>
-          <line>222</line>
+          <line>194</line>
           <option name="timeStamp" value="383" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java</url>
-          <line>149</line>
+          <line>121</line>
           <option name="timeStamp" value="384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>934</line>
+          <line>928</line>
           <option name="timeStamp" value="386" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>939</line>
+          <line>933</line>
           <option name="timeStamp" value="387" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/FilterConferenceActivity.java</url>
-          <line>793</line>
+          <line>787</line>
           <option name="timeStamp" value="388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java</url>
-          <line>266</line>
+          <line>264</line>
           <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java</url>
-          <line>279</line>
+          <line>277</line>
           <option name="timeStamp" value="400" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java</url>
-          <line>101</line>
+          <line>99</line>
           <option name="timeStamp" value="403" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>710</line>
+          <line>708</line>
           <option name="timeStamp" value="407" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1012,27 +1327,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PostedJobDetailsActivity.java</url>
-          <line>134</line>
+          <line>133</line>
           <option name="timeStamp" value="423" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java</url>
-          <line>83</line>
+          <line>77</line>
           <option name="timeStamp" value="429" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java</url>
-          <line>86</line>
+          <line>80</line>
           <option name="timeStamp" value="430" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java</url>
-          <line>137</line>
+          <line>131</line>
           <option name="timeStamp" value="434" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MyConferenceDetails2Adapter.java</url>
-          <line>85</line>
+          <line>83</line>
           <option name="timeStamp" value="437" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1077,97 +1392,97 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/TicketsFragment.java</url>
-          <line>723</line>
+          <line>714</line>
           <option name="timeStamp" value="459" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1452</line>
+          <line>1451</line>
           <option name="timeStamp" value="463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1387</line>
+          <line>1386</line>
           <option name="timeStamp" value="466" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1436</line>
+          <line>1435</line>
           <option name="timeStamp" value="467" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1333</line>
+          <line>1332</line>
           <option name="timeStamp" value="468" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1297</line>
+          <line>1296</line>
           <option name="timeStamp" value="469" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>277</line>
+          <line>276</line>
           <option name="timeStamp" value="471" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>184</line>
+          <line>183</line>
           <option name="timeStamp" value="472" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1484</line>
+          <line>1483</line>
           <option name="timeStamp" value="473" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1397</line>
+          <line>1396</line>
           <option name="timeStamp" value="474" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1435</line>
+          <line>1434</line>
           <option name="timeStamp" value="475" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1500</line>
+          <line>1499</line>
           <option name="timeStamp" value="476" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>179</line>
+          <line>167</line>
           <option name="timeStamp" value="477" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java</url>
-          <line>123</line>
+          <line>119</line>
           <option name="timeStamp" value="481" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1282</line>
+          <line>1278</line>
           <option name="timeStamp" value="482" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>971</line>
+          <line>947</line>
           <option name="timeStamp" value="501" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>263</line>
+          <line>256</line>
           <option name="timeStamp" value="502" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1442</line>
+          <line>1435</line>
           <option name="timeStamp" value="506" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>511</line>
+          <line>503</line>
           <option name="timeStamp" value="509" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1177,47 +1492,47 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>668</line>
+          <line>660</line>
           <option name="timeStamp" value="512" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>217</line>
+          <line>205</line>
           <option name="timeStamp" value="513" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>508</line>
+          <line>501</line>
           <option name="timeStamp" value="514" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1445</line>
+          <line>1438</line>
           <option name="timeStamp" value="516" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1384</line>
+          <line>1377</line>
           <option name="timeStamp" value="519" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1390</line>
+          <line>1383</line>
           <option name="timeStamp" value="520" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java</url>
-          <line>366</line>
+          <line>364</line>
           <option name="timeStamp" value="530" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/TicketsFragment.java</url>
-          <line>134</line>
+          <line>125</line>
           <option name="timeStamp" value="533" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>521</line>
+          <line>509</line>
           <option name="timeStamp" value="534" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1227,52 +1542,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>156</line>
+          <line>144</line>
           <option name="timeStamp" value="537" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>332</line>
+          <line>325</line>
           <option name="timeStamp" value="538" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>486</line>
+          <line>462</line>
           <option name="timeStamp" value="540" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1125</line>
+          <line>1101</line>
           <option name="timeStamp" value="541" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1131</line>
+          <line>1107</line>
           <option name="timeStamp" value="542" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>455</line>
+          <line>454</line>
           <option name="timeStamp" value="544" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NameEntryActivity.java</url>
-          <line>78</line>
+          <line>73</line>
           <option name="timeStamp" value="546" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/NameEntryActivity.java</url>
-          <line>81</line>
+          <line>76</line>
           <option name="timeStamp" value="547" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>858</line>
+          <line>834</line>
           <option name="timeStamp" value="548" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>168</line>
+          <line>166</line>
           <option name="timeStamp" value="551" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1282,7 +1597,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>2370</line>
+          <line>2369</line>
           <option name="timeStamp" value="571" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1297,12 +1612,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Util.java</url>
-          <line>739</line>
+          <line>725</line>
           <option name="timeStamp" value="576" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Util.java</url>
-          <line>742</line>
+          <line>728</line>
           <option name="timeStamp" value="577" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1317,37 +1632,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/OtpActivity.java</url>
-          <line>210</line>
+          <line>209</line>
           <option name="timeStamp" value="592" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>448</line>
+          <line>446</line>
           <option name="timeStamp" value="594" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>451</line>
+          <line>449</line>
           <option name="timeStamp" value="595" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>506</line>
+          <line>504</line>
           <option name="timeStamp" value="596" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>966</line>
+          <line>965</line>
           <option name="timeStamp" value="600" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>663</line>
+          <line>662</line>
           <option name="timeStamp" value="606" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>2373</line>
+          <line>2372</line>
           <option name="timeStamp" value="609" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1362,7 +1677,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>940</line>
+          <line>939</line>
           <option name="timeStamp" value="612" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1372,22 +1687,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>992</line>
+          <line>991</line>
           <option name="timeStamp" value="614" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1812</line>
+          <line>1811</line>
           <option name="timeStamp" value="615" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>294</line>
+          <line>293</line>
           <option name="timeStamp" value="617" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>246</line>
+          <line>245</line>
           <option name="timeStamp" value="618" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1397,7 +1712,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>166</line>
+          <line>165</line>
           <option name="timeStamp" value="620" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1407,7 +1722,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>660</line>
+          <line>659</line>
           <option name="timeStamp" value="622" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1432,37 +1747,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>720</line>
+          <line>696</line>
           <option name="timeStamp" value="636" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>705</line>
+          <line>681</line>
           <option name="timeStamp" value="638" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>712</line>
+          <line>688</line>
           <option name="timeStamp" value="639" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>731</line>
+          <line>707</line>
           <option name="timeStamp" value="640" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>744</line>
+          <line>720</line>
           <option name="timeStamp" value="641" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>761</line>
+          <line>737</line>
           <option name="timeStamp" value="642" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>740</line>
+          <line>716</line>
           <option name="timeStamp" value="643" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1472,192 +1787,192 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>491</line>
+          <line>490</line>
           <option name="timeStamp" value="651" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>2304</line>
+          <line>2303</line>
           <option name="timeStamp" value="652" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>371</line>
+          <line>370</line>
           <option name="timeStamp" value="653" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1494</line>
+          <line>1493</line>
           <option name="timeStamp" value="660" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java</url>
-          <line>124</line>
+          <line>122</line>
           <option name="timeStamp" value="667" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java</url>
-          <line>250</line>
+          <line>248</line>
           <option name="timeStamp" value="668" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java</url>
-          <line>258</line>
+          <line>256</line>
           <option name="timeStamp" value="669" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>251</line>
+          <line>250</line>
           <option name="timeStamp" value="673" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1967</line>
+          <line>1965</line>
           <option name="timeStamp" value="678" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1986</line>
+          <line>1984</line>
           <option name="timeStamp" value="680" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>864</line>
+          <line>840</line>
           <option name="timeStamp" value="683" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>98</line>
+          <line>96</line>
           <option name="timeStamp" value="691" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>99</line>
+          <line>97</line>
           <option name="timeStamp" value="693" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>469</line>
+          <line>467</line>
           <option name="timeStamp" value="696" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>466</line>
+          <line>464</line>
           <option name="timeStamp" value="697" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>186</line>
+          <line>184</line>
           <option name="timeStamp" value="698" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>188</line>
+          <line>186</line>
           <option name="timeStamp" value="699" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>513</line>
+          <line>511</line>
           <option name="timeStamp" value="700" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MarketPlaceProductAdapter.java</url>
-          <line>516</line>
+          <line>514</line>
           <option name="timeStamp" value="701" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SellProductActivity.java</url>
-          <line>1855</line>
+          <line>1854</line>
           <option name="timeStamp" value="702" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>318</line>
+          <line>306</line>
           <option name="timeStamp" value="705" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>114</line>
+          <line>102</line>
           <option name="timeStamp" value="706" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>113</line>
+          <line>101</line>
           <option name="timeStamp" value="707" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>157</line>
+          <line>145</line>
           <option name="timeStamp" value="708" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>352</line>
+          <line>340</line>
           <option name="timeStamp" value="709" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1191</line>
+          <line>1167</line>
           <option name="timeStamp" value="710" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1194</line>
+          <line>1170</line>
           <option name="timeStamp" value="711" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/FilterClasses/MarketPlaceFilter.java</url>
-          <line>109</line>
+          <line>105</line>
           <option name="timeStamp" value="720" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>962</line>
+          <line>961</line>
           <option name="timeStamp" value="724" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>876</line>
+          <line>875</line>
           <option name="timeStamp" value="725" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MarketPlaceFragment.java</url>
-          <line>874</line>
+          <line>873</line>
           <option name="timeStamp" value="726" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>102</line>
+          <line>101</line>
           <option name="timeStamp" value="727" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>141</line>
+          <line>140</line>
           <option name="timeStamp" value="728" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>154</line>
+          <line>153</line>
           <option name="timeStamp" value="729" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>183</line>
+          <line>182</line>
           <option name="timeStamp" value="730" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>220</line>
+          <line>219</line>
           <option name="timeStamp" value="731" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>320</line>
+          <line>319</line>
           <option name="timeStamp" value="732" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>286</line>
+          <line>285</line>
           <option name="timeStamp" value="734" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1672,7 +1987,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1101</line>
+          <line>1100</line>
           <option name="timeStamp" value="742" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1762,82 +2077,82 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1138</line>
+          <line>1114</line>
           <option name="timeStamp" value="778" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1593</line>
+          <line>1586</line>
           <option name="timeStamp" value="780" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1596</line>
+          <line>1589</line>
           <option name="timeStamp" value="782" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1955</line>
+          <line>1953</line>
           <option name="timeStamp" value="788" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1954</line>
+          <line>1952</line>
           <option name="timeStamp" value="792" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java</url>
-          <line>135</line>
+          <line>131</line>
           <option name="timeStamp" value="793" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsGoingAdapter.java</url>
-          <line>396</line>
+          <line>395</line>
           <option name="timeStamp" value="795" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java</url>
-          <line>98</line>
+          <line>95</line>
           <option name="timeStamp" value="796" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java</url>
-          <line>351</line>
+          <line>348</line>
           <option name="timeStamp" value="797" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java</url>
-          <line>354</line>
+          <line>351</line>
           <option name="timeStamp" value="798" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java</url>
-          <line>330</line>
+          <line>327</line>
           <option name="timeStamp" value="801" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsSaveAdapter.java</url>
-          <line>301</line>
+          <line>298</line>
           <option name="timeStamp" value="802" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1499</line>
+          <line>1497</line>
           <option name="timeStamp" value="803" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1107</line>
+          <line>1105</line>
           <option name="timeStamp" value="808" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1106</line>
+          <line>1104</line>
           <option name="timeStamp" value="809" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1129</line>
+          <line>1127</line>
           <option name="timeStamp" value="812" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1847,17 +2162,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1090</line>
+          <line>1083</line>
           <option name="timeStamp" value="818" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>388</line>
+          <line>381</line>
           <option name="timeStamp" value="822" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>404</line>
+          <line>397</line>
           <option name="timeStamp" value="823" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1867,77 +2182,77 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MarketPlaceActivity.java</url>
-          <line>924</line>
+          <line>922</line>
           <option name="timeStamp" value="826" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BuyingProductsFragment.java</url>
-          <line>104</line>
+          <line>102</line>
           <option name="timeStamp" value="828" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/firebaseMessage/MyFirebaseMessagingService.java</url>
-          <line>77</line>
+          <line>60</line>
           <option name="timeStamp" value="832" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/LoginSignUpActivity.java</url>
-          <line>62</line>
+          <line>48</line>
           <option name="timeStamp" value="833" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Utils.java</url>
-          <line>159</line>
+          <line>140</line>
           <option name="timeStamp" value="834" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Utils.java</url>
-          <line>164</line>
+          <line>145</line>
           <option name="timeStamp" value="835" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1481</line>
+          <line>1474</line>
           <option name="timeStamp" value="843" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1484</line>
+          <line>1477</line>
           <option name="timeStamp" value="844" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1418</line>
+          <line>1411</line>
           <option name="timeStamp" value="845" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1421</line>
+          <line>1414</line>
           <option name="timeStamp" value="846" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1335</line>
+          <line>1328</line>
           <option name="timeStamp" value="848" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1980</line>
+          <line>1973</line>
           <option name="timeStamp" value="849" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1977</line>
+          <line>1970</line>
           <option name="timeStamp" value="850" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/BookTicketFragmentNew.java</url>
-          <line>295</line>
+          <line>293</line>
           <option name="timeStamp" value="857" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>2016</line>
+          <line>2004</line>
           <option name="timeStamp" value="858" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1947,162 +2262,162 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/firebaseMessage/MyFirebaseMessagingService.java</url>
-          <line>230</line>
+          <line>213</line>
           <option name="timeStamp" value="861" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>656</line>
+          <line>649</line>
           <option name="timeStamp" value="870" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3638</line>
+          <line>3626</line>
           <option name="timeStamp" value="871" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3644</line>
+          <line>3632</line>
           <option name="timeStamp" value="874" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3847</line>
+          <line>3835</line>
           <option name="timeStamp" value="879" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PaymentConference.java</url>
-          <line>127</line>
+          <line>125</line>
           <option name="timeStamp" value="881" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1733</line>
+          <line>1726</line>
           <option name="timeStamp" value="883" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ConferencePaymentInfoActivity.java</url>
-          <line>1740</line>
+          <line>1733</line>
           <option name="timeStamp" value="884" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>2284</line>
+          <line>2283</line>
           <option name="timeStamp" value="885" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>1547</line>
+          <line>1535</line>
           <option name="timeStamp" value="886" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/MyConferencesFragment.java</url>
-          <line>167</line>
+          <line>161</line>
           <option name="timeStamp" value="887" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java</url>
-          <line>136</line>
+          <line>108</line>
           <option name="timeStamp" value="889" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetailsActivity.java</url>
-          <line>370</line>
+          <line>342</line>
           <option name="timeStamp" value="890" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GoingConferenceDetailsActivity.java</url>
-          <line>1003</line>
+          <line>979</line>
           <option name="timeStamp" value="891" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/GoingConferenceDetailsActivity.java</url>
-          <line>1130</line>
+          <line>1106</line>
           <option name="timeStamp" value="892" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>83</line>
+          <line>69</line>
           <option name="timeStamp" value="893" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>82</line>
+          <line>68</line>
           <option name="timeStamp" value="894" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>85</line>
+          <line>71</line>
           <option name="timeStamp" value="895" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/SaveConferenceDetailsImageDisplayAdapter.java</url>
-          <line>59</line>
+          <line>45</line>
           <option name="timeStamp" value="896" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityDepartmentAdapter.java</url>
-          <line>85</line>
+          <line>83</line>
           <option name="timeStamp" value="902" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/MedicalSpecialityDepartmentAdapter.java</url>
-          <line>104</line>
+          <line>102</line>
           <option name="timeStamp" value="904" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBookingNewPay.java</url>
-          <line>526</line>
+          <line>514</line>
           <option name="timeStamp" value="905" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java</url>
-          <line>256</line>
+          <line>252</line>
           <option name="timeStamp" value="907" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3419</line>
+          <line>3407</line>
           <option name="timeStamp" value="910" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3432</line>
+          <line>3420</line>
           <option name="timeStamp" value="911" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3460</line>
+          <line>3448</line>
           <option name="timeStamp" value="912" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3454</line>
+          <line>3442</line>
           <option name="timeStamp" value="914" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>328</line>
+          <line>320</line>
           <option name="timeStamp" value="917" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>331</line>
+          <line>323</line>
           <option name="timeStamp" value="918" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>383</line>
+          <line>375</line>
           <option name="timeStamp" value="919" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>387</line>
+          <line>379</line>
           <option name="timeStamp" value="920" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/TicketDetailsNew.java</url>
-          <line>260</line>
+          <line>252</line>
           <option name="timeStamp" value="921" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2112,22 +2427,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>3976</line>
+          <line>3964</line>
           <option name="timeStamp" value="923" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/adapter/TicketsAdapter.java</url>
-          <line>579</line>
+          <line>577</line>
           <option name="timeStamp" value="924" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java</url>
-          <line>52</line>
+          <line>46</line>
           <option name="timeStamp" value="929" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MyConferenceDetails2.java</url>
-          <line>53</line>
+          <line>47</line>
           <option name="timeStamp" value="930" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2147,12 +2462,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1153</line>
+          <line>1151</line>
           <option name="timeStamp" value="942" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/SaveConferenceDetailsActivity.java</url>
-          <line>1150</line>
+          <line>1148</line>
           <option name="timeStamp" value="947" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2172,32 +2487,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GoingConferencesFragment.java</url>
-          <line>120</line>
+          <line>116</line>
           <option name="timeStamp" value="955" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1325</line>
+          <line>1324</line>
           <option name="timeStamp" value="956" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1363</line>
+          <line>1362</line>
           <option name="timeStamp" value="960" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1376</line>
+          <line>1375</line>
           <option name="timeStamp" value="963" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1378</line>
+          <line>1377</line>
           <option name="timeStamp" value="964" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/AddConference.java</url>
-          <line>2098</line>
+          <line>2086</line>
           <option name="timeStamp" value="965" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2217,12 +2532,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBooking.java</url>
-          <line>45</line>
+          <line>43</line>
           <option name="timeStamp" value="980" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ReviewBooking.java</url>
-          <line>63</line>
+          <line>61</line>
           <option name="timeStamp" value="981" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2247,22 +2562,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1265</line>
+          <line>1263</line>
           <option name="timeStamp" value="988" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1262</line>
+          <line>1260</line>
           <option name="timeStamp" value="989" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PostedJobDetailsActivity.java</url>
-          <line>212</line>
+          <line>211</line>
           <option name="timeStamp" value="990" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java</url>
-          <line>98</line>
+          <line>95</line>
           <option name="timeStamp" value="991" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2272,32 +2587,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java</url>
-          <line>317</line>
+          <line>314</line>
           <option name="timeStamp" value="993" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/FilePath.java</url>
-          <line>110</line>
+          <line>109</line>
           <option name="timeStamp" value="1007" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/LinkedInWebView/LinkedInLoginWebView.java</url>
-          <line>84</line>
+          <line>83</line>
           <option name="timeStamp" value="1016" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>667</line>
+          <line>643</line>
           <option name="timeStamp" value="1019" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>337</line>
+          <line>313</line>
           <option name="timeStamp" value="1020" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/PostedJobDetailsActivity.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="1024" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2307,7 +2622,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1431</line>
+          <line>1429</line>
           <option name="timeStamp" value="1029" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2317,7 +2632,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>978</line>
+          <line>954</line>
           <option name="timeStamp" value="1032" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2357,7 +2672,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedCandidateDetailsActivity.java</url>
-          <line>37</line>
+          <line>35</line>
           <option name="timeStamp" value="1054" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2367,57 +2682,57 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1895</line>
+          <line>1893</line>
           <option name="timeStamp" value="1056" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/RequestJobFragment.java</url>
-          <line>1945</line>
+          <line>1943</line>
           <option name="timeStamp" value="1058" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1076</line>
+          <line>1052</line>
           <option name="timeStamp" value="1059" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>291</line>
+          <line>267</line>
           <option name="timeStamp" value="1062" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/LoginFragment.java</url>
-          <line>1266</line>
+          <line>1242</line>
           <option name="timeStamp" value="1064" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/FilePath.java</url>
-          <line>23</line>
+          <line>22</line>
           <option name="timeStamp" value="1069" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>259</line>
+          <line>246</line>
           <option name="timeStamp" value="1073" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>271</line>
+          <line>258</line>
           <option name="timeStamp" value="1074" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>294</line>
+          <line>281</line>
           <option name="timeStamp" value="1075" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>300</line>
+          <line>287</line>
           <option name="timeStamp" value="1076" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/utils/Util.java</url>
-          <line>216</line>
+          <line>202</line>
           <option name="timeStamp" value="1077" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2427,12 +2742,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>113</line>
+          <line>100</line>
           <option name="timeStamp" value="1079" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>163</line>
+          <line>150</line>
           <option name="timeStamp" value="1082" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2442,27 +2757,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>216</line>
+          <line>203</line>
           <option name="timeStamp" value="1086" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>191</line>
+          <line>178</line>
           <option name="timeStamp" value="1087" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>180</line>
+          <line>167</line>
           <option name="timeStamp" value="1099" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ShortlistedCandidateDetailsActivity.java</url>
-          <line>128</line>
+          <line>126</line>
           <option name="timeStamp" value="1100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/GettingPublishedFragment.java</url>
-          <line>200</line>
+          <line>194</line>
           <option name="timeStamp" value="1101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2477,22 +2792,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1567</line>
+          <line>1560</line>
           <option name="timeStamp" value="1105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>2000</line>
+          <line>1993</line>
           <option name="timeStamp" value="1106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>2005</line>
+          <line>1998</line>
           <option name="timeStamp" value="1107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/fragments/SignUpFragment.java</url>
-          <line>1007</line>
+          <line>1003</line>
           <properties method="errorApi" />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
@@ -2504,7 +2819,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/Sell_Buy_Practice_Activity.java</url>
-          <line>1491</line>
+          <line>1490</line>
           <properties method="receiveData" />
           <option name="timeStamp" value="593" />
         </line-breakpoint>
@@ -2516,25 +2831,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/MainActivity.java</url>
-          <line>1334</line>
+          <line>1327</line>
           <properties method="responseApi" />
           <option name="timeStamp" value="847" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java</url>
-          <line>546</line>
+          <line>543</line>
           <properties class="com.alcanzar.cynapse.activity.ApplyJobFromPostedJobListActivity" method="RequestDirectJobPostApi" />
           <option name="timeStamp" value="994" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ApplyJobFromPostedJobListActivity.java</url>
-          <line>606</line>
+          <line>603</line>
           <properties class="com.alcanzar.cynapse.activity.ApplyJobFromPostedJobListActivity" method="applyForRequestJobApi" />
           <option name="timeStamp" value="995" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alcanzar/cynapse/activity/ResumeUpLoad.java</url>
-          <line>317</line>
+          <line>304</line>
           <properties method="responseApi" />
           <option name="timeStamp" value="1042" />
         </line-breakpoint>

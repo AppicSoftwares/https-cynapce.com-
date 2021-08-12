@@ -3,7 +3,7 @@ package com.alcanzar.cynapse.activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -17,14 +17,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.alcanzar.cynapse.FilterClasses.JobRequirementFilter;
 import com.alcanzar.cynapse.HelperClasses.GetCityClass;
 import com.alcanzar.cynapse.HelperClasses.GetCountryClass;
 import com.alcanzar.cynapse.HelperClasses.GetStateClass;
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.adapter.Adapter_Filter;
 import com.alcanzar.cynapse.api.ConferenceSearchAPI;
-import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.CityModel;
 import com.alcanzar.cynapse.model.CountryModel;
 import com.alcanzar.cynapse.model.StateModel;
@@ -33,10 +31,6 @@ import com.alcanzar.cynapse.utils.MyToast;
 import com.android.volley.VolleyError;
 import com.google.android.flexbox.FlexboxLayout;
 
-import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEvent;
-import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEventListener;
-
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 

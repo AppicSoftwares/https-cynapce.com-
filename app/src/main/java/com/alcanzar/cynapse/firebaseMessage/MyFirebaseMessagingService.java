@@ -1,7 +1,6 @@
 package com.alcanzar.cynapse.firebaseMessage;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,14 +9,11 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.TaskStackBuilder;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.TaskStackBuilder;
 import android.util.Log;
-import android.view.View;
-import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.activity.GoingConferenceDetailsActivity;
 import com.alcanzar.cynapse.activity.LoginSignUpActivity;
 import com.alcanzar.cynapse.activity.MainActivity;
 import com.alcanzar.cynapse.activity.MarketPlaceActivity;
@@ -29,24 +25,11 @@ import com.alcanzar.cynapse.activity.MyProfileActivity;
 import com.alcanzar.cynapse.activity.NotificationsActivity;
 import com.alcanzar.cynapse.activity.PaymentConference;
 import com.alcanzar.cynapse.activity.RecommendedJobsActivity;
-import com.alcanzar.cynapse.activity.TicketDetailsNew;
-import com.alcanzar.cynapse.api.ConferenceMyListApi;
-import com.alcanzar.cynapse.api.RequestJobListApi;
-import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
-import com.alcanzar.cynapse.model.AddForgeinPackageMYConferenceModel;
 import com.alcanzar.cynapse.model.ConferenceDetailsModel;
-import com.alcanzar.cynapse.model.ImageModel;
-import com.alcanzar.cynapse.model.PackageSavedConferenceModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
-import com.alcanzar.cynapse.utils.Utils;
-import com.android.volley.VolleyError;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Random;

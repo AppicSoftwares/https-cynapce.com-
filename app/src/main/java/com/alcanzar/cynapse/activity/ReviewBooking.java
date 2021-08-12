@@ -1,17 +1,15 @@
 package com.alcanzar.cynapse.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.fragments.BookTicketFragment;
-import com.alcanzar.cynapse.utils.ServiceUtility;
 
 
 public class ReviewBooking extends AppCompatActivity implements View.OnClickListener {

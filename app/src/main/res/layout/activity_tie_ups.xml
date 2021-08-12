@@ -51,14 +51,14 @@
                 android:src="@drawable/add_photos" />
 
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:visibility="gone"
                 android:layout_below="@+id/productImg"
                 android:id="@+id/imageRv"
                 android:layout_centerHorizontal="true"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_65sdp">
-            </android.support.v7.widget.RecyclerView>
+            </androidx.recyclerview.widget.RecyclerView>
         </RelativeLayout>
 
 
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/viewstate"
                 android:visibility="gone">
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputothers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -232,7 +232,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/viewTwo"
                 android:visibility="gone">
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputothers_two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -252,7 +252,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"/>
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -327,7 +327,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/viewtie_up_with"
                 android:visibility="gone">
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputothers_three"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -347,7 +347,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"/>
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -634,7 +634,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_below="@+id/fragmen"
                     android:id="@+id/inputStreet"
                     android:layout_width="match_parent"
@@ -654,7 +654,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <View
                     android:id="@+id/viewStreet"
@@ -664,7 +664,7 @@
                     android:background="@color/view_color"/>
             </RelativeLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputname"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_width="match_parent"
@@ -685,7 +685,7 @@
                     android:padding="@dimen/_5sdp"
                     android:drawableStart="@drawable/room"
                     android:drawablePadding="@dimen/_15sdp"/>
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
             <View
                 android:id="@+id/viewThree"
                 android:layout_width="match_parent"
@@ -698,7 +698,7 @@
                 android:layout_marginStart="@dimen/_5sdp"
                 android:layout_below="@id/viewThree"
                 android:layout_marginTop="@dimen/_5sdp">
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -718,14 +718,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
                 <View
                     android:id="@+id/viewFour"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_below="@+id/inputPrice"
                     android:background="@color/view_color"/>
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputArea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -747,14 +747,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
                 <View
                     android:id="@+id/viewArea"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_below="@+id/inputArea"
                     android:background="@color/view_color"/>
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/inputBuiltUpArea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -776,7 +776,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"/>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
                 <View
                     android:id="@+id/viewBuiltArea"
                     android:layout_width="match_parent"

@@ -1,22 +1,16 @@
 package com.alcanzar.cynapse.activity;
 
 import android.Manifest;
-import android.content.ContentUris;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Environment;
-import android.provider.DocumentsContract;
-import android.provider.MediaStore;
-import android.provider.OpenableColumns;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,7 +21,6 @@ import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.api.SaveResumeApi;
-import com.alcanzar.cynapse.api.applyForRequestJobApi;
 import com.alcanzar.cynapse.utils.AppConstantClass;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.FilePath;
@@ -35,20 +28,14 @@ import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.PostImage;
 import com.alcanzar.cynapse.utils.Util;
 import com.android.volley.VolleyError;
-import com.github.barteksc.pdfviewer.util.FileUtils;
-import com.google.gson.JsonObject;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
 
 import static com.alcanzar.cynapse.utils.FilePath.isDownloadsDocument;
 import static com.alcanzar.cynapse.utils.Util.getDriveFilePath;
-import static com.facebook.internal.Utility.isContentUri;
-import static com.facebook.internal.Utility.isFileUri;
 
 public class ResumeUpLoad extends AppCompatActivity implements View.OnClickListener {
 

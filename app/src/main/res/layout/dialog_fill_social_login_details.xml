@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputothers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
@@ -182,7 +182,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputsplothers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -203,7 +203,7 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"
@@ -270,7 +270,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputdeptothers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -291,7 +291,7 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="match_parent"

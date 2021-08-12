@@ -3,24 +3,19 @@ package com.alcanzar.cynapse.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.api.ResendOTPApi;
 import com.alcanzar.cynapse.api.UpdateUsernameAPI;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.MyToast;
 import com.android.volley.VolleyError;
-import com.facebook.FacebookSdk;
 
 import org.json.JSONException;
 import org.json.JSONObject;

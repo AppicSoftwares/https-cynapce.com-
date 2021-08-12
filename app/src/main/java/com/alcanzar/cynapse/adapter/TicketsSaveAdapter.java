@@ -2,8 +2,8 @@ package com.alcanzar.cynapse.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +13,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.activity.GoingConferenceDetailsActivity;
-import com.alcanzar.cynapse.activity.MyConferenceDetailsActivity;
 import com.alcanzar.cynapse.activity.MyConferencesActivity;
 import com.alcanzar.cynapse.activity.SaveConferenceDetailsActivity;
 import com.alcanzar.cynapse.api.ChangeLikeApi;
@@ -22,7 +20,6 @@ import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.ConferenceDetailsModel;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.Constants;
-import com.alcanzar.cynapse.utils.MyToast;
 import com.android.volley.VolleyError;
 
 import org.json.JSONException;

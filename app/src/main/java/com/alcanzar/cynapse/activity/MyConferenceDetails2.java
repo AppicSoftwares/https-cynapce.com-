@@ -1,13 +1,11 @@
 package com.alcanzar.cynapse.activity;
 
 import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -16,14 +14,10 @@ import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.adapter.MyConferenceDetails2Adapter;
-import com.alcanzar.cynapse.adapter.MyConferenceDetails3Adapter;
-import com.alcanzar.cynapse.api.ConferenceSearchAPI;
 import com.alcanzar.cynapse.api.GetbookedConferenceAPI;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
-import com.alcanzar.cynapse.model.MyConferenceDetails2Model;
 import com.alcanzar.cynapse.model.MyConferenceModel.BookingDetail;
 import com.alcanzar.cynapse.model.MyConferenceModel.MyConferenceDetailsModel;
-import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.MyToast;
 import com.android.volley.VolleyError;
 

@@ -3,7 +3,7 @@ package com.alcanzar.cynapse.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,9 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.activity.MainActivity;
 import com.alcanzar.cynapse.activity.MyConferenceDetailsActivity;
-import com.alcanzar.cynapse.activity.MyConferencesActivity;
 import com.alcanzar.cynapse.api.ChangeLikeApi;
 import com.alcanzar.cynapse.api.StopConferenceBookingAPi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;

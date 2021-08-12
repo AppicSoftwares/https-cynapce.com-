@@ -9,12 +9,12 @@
     tools:context="com.alcanzar.cynapse.activity.MyCaseStudiesActivity">
     <include layout="@layout/header"
         android:id="@+id/header"/>
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleView"
         android:layout_below="@id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
     <TextView
         android:id="@+id/no_record_txt"
         android:text=""
@@ -26,7 +26,7 @@
         android:fontFamily="@font/gothicb"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

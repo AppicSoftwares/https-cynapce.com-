@@ -1,9 +1,9 @@
 package com.alcanzar.cynapse.adapter;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.alcanzar.cynapse.fragments.CaseStudiesFragment;
 import com.alcanzar.cynapse.fragments.DashBoardFragment;

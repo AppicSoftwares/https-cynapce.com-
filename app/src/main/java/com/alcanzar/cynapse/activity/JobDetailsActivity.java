@@ -3,7 +3,7 @@ package com.alcanzar.cynapse.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 
 public class JobDetailsActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_checkout;

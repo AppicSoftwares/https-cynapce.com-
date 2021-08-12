@@ -1,25 +1,20 @@
 package com.alcanzar.cynapse.fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.alcanzar.cynapse.activity.MainActivity;
 import com.alcanzar.cynapse.activity.MyConferenceDetailsActivity;
 import com.alcanzar.cynapse.activity.MyConferencesActivity;
 
@@ -28,7 +23,6 @@ import com.alcanzar.cynapse.api.ConferenceMyListApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.AddForgeinPackageMYConferenceModel;
 import com.alcanzar.cynapse.model.ConferenceDetailsModel;
-import com.alcanzar.cynapse.model.ConferencePackageModel;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.adapter.TicketsAdapter;

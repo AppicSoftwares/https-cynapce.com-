@@ -52,7 +52,7 @@
                 android:textSize="@dimen/editTxt" />
 
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp"
@@ -75,7 +75,7 @@
                     android:textColor="@color/light_black"
                     android:textColorHint="@color/colorgrey"
                     android:textSize="@dimen/editTxt" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:id="@+id/viewTwo"

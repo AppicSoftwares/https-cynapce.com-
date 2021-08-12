@@ -8,17 +8,16 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Handler;
-import android.support.constraint.ConstraintLayout;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.core.app.ActivityCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
@@ -28,10 +27,8 @@ import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.adapter.ImageShowAdapterConf;
@@ -41,18 +38,15 @@ import com.alcanzar.cynapse.adapter.TicketsPackageForgeinAdapter;
 import com.alcanzar.cynapse.api.ChangeLikeApi;
 import com.alcanzar.cynapse.api.ConferenceBookApi;
 import com.alcanzar.cynapse.api.PostPaymentApi;
-import com.alcanzar.cynapse.api.SeatAvailabilityApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.ConferencePackageModel;
 import com.alcanzar.cynapse.model.ConferencePackageModelForgein;
-import com.alcanzar.cynapse.model.TicketsPackageModal;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.Constants;
 import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.ServiceUtility;
 import com.alcanzar.cynapse.utils.Util;
 import com.android.volley.VolleyError;
-import com.bumptech.glide.Glide;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -73,8 +67,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import me.relex.circleindicator.CircleIndicator;
-
-import static com.alcanzar.cynapse.fragments.BookTicketFragmentNew.allUsersList;
 
 public class TicketDetailsNew extends AppCompatActivity implements OnMapReadyCallback {
 

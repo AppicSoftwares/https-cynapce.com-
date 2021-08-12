@@ -1,7 +1,7 @@
 package com.alcanzar.cynapse.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -15,8 +15,6 @@ import com.alcanzar.cynapse.R;
 import com.alcanzar.cynapse.api.ConfGetDetailsApi;
 import com.alcanzar.cynapse.appDatabase.DatabaseHelper;
 import com.alcanzar.cynapse.model.ConferenceDetailsModel;
-import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
-import com.alcanzar.cynapse.utils.MyToast;
 import com.android.volley.VolleyError;
 
 import org.json.JSONException;

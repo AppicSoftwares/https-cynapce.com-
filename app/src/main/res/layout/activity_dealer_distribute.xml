@@ -7,13 +7,13 @@
     <!--tools:context="com.alcanzar.cynapse.activity.DealerDistributeActivity"-->
     <!--<include layout="@layout/header"-->
         <!--android:id="@+id/header"/>-->
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/header">
-    </android.support.v7.widget.RecyclerView>
-    <android.support.design.widget.FloatingActionButton
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

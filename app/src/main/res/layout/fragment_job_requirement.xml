@@ -3,7 +3,7 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -60,12 +60,12 @@
                     android:visibility="visible" />
             </RelativeLayout>
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView_jobs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/btnCreate"
-                android:layout_below="@id/search_rel_lay"></android.support.v7.widget.RecyclerView>
+                android:layout_below="@id/search_rel_lay"></androidx.recyclerview.widget.RecyclerView>
 
             <TextView
                 android:id="@+id/no_record_txt"
@@ -103,7 +103,7 @@
                 android:textColor="@color/color_white"
                 android:textSize="@dimen/btnTxt" />
 
-            <android.support.design.widget.FloatingActionButton
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fabFilter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                 android:layout_marginBottom="@dimen/_65sdp"
                 android:layout_marginEnd="@dimen/_15sdp" />
         </RelativeLayout>
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
 </LinearLayout>

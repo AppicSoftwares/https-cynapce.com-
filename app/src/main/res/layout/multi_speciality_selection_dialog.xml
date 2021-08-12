@@ -18,7 +18,7 @@
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:text="@string/target_audience_department"/>
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/search_input"
             android:layout_below="@+id/pref_loc_txt"
             android:layout_width="match_parent"
@@ -39,14 +39,14 @@
                 android:layout_height="wrap_content"
                 android:background="@color/transparent"/>
             <!--android:drawableEnd="@drawable/job_location"-->
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
         <View
             android:id="@+id/search_view"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/search_input"
             android:background="@color/view_color"/>
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/multi_city_sel_recycler"
             android:layout_width="match_parent"
             android:layout_below="@+id/search_view"

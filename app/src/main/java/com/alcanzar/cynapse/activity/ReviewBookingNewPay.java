@@ -2,56 +2,44 @@ package com.alcanzar.cynapse.activity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.alcanzar.cynapse.R;
-import com.alcanzar.cynapse.adapter.TicketsPackageAdapter;
 import com.alcanzar.cynapse.api.ConferenceBookApi;
 import com.alcanzar.cynapse.api.PostPaymentApi;
 import com.alcanzar.cynapse.api.PromoCodeReviewNotiApi;
-import com.alcanzar.cynapse.api.SeatAvailabilityApi;
-import com.alcanzar.cynapse.fragments.BookTicketFragmentNew;
 import com.alcanzar.cynapse.model.TicketsPackageModal;
 import com.alcanzar.cynapse.utils.AppCustomPreferenceClass;
 import com.alcanzar.cynapse.utils.MyToast;
 import com.alcanzar.cynapse.utils.ServiceUtility;
 import com.alcanzar.cynapse.utils.Util;
 import com.android.volley.VolleyError;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonAnyFormatVisitor;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import static com.alcanzar.cynapse.activity.ReviewBookingNew.reviewBookingNew;
-import static com.alcanzar.cynapse.appDatabase.DatabaseHelper.type_id;
 import static com.alcanzar.cynapse.fragments.BookTicketFragmentNew.allUsersList;
 import static java.lang.Integer.parseInt;
 
